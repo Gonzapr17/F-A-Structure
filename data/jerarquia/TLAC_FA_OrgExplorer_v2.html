@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TLAC F&A — Organization Structure</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=DM+Mono:wght@400;500&display=swap');
+
+:root {
+  --red:        #C8102E;
+  --red-soft:   #F9E8EB;
+  --red-mid:    #EEC0C8;
+  --navy:       #0D1B2A;
+  --navy-soft:  #E8EDF2;
+  --teal:       #0F7B8C;
+  --teal-soft:  #E0F4F7;
+  --gold:       #A0762A;
+  --gold-soft:  #FDF3E0;
+  --green:      #217A4B;
+  --green-soft: #E3F5EC;
+  --purple:     #5E40A0;
+  --orange:     #C05C10;
+  --pink:       #A0246C;
+  --blue:       #1B62B5;
+
+  --bg:         #F4F6F9;
+  --bg-card:    #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --bg-header:  #FFFFFF;
+  --border:     #D8DDE6;
+  --border-soft:#E8EDF4;
+
+  --text-1:     #0D1B2A;
+  --text-2:     #3A5068;
+  --text-3:     #7A90A4;
+  --text-4:     #AAB8C8;
+
+  --shadow-sm:  0 1px 3px rgba(13,27,42,0.06), 0 1px 2px rgba(13,27,42,0.04);
+  --shadow-md:  0 4px 16px rgba(13,27,42,0.08), 0 1px 4px rgba(13,27,42,0.05);
+  --shadow-lg:  0 12px 40px rgba(13,27,42,0.12);
+  --transition: all 0.2s cubic-bezier(0.4,0,0.2,1);
+
+  /* dept palette */
+  --dept-fa:    #C8102E;
+  --dept-pp:    #0F7B8C;
+  --dept-cost:  #A0762A;
+  --dept-bgt:   #5E40A0;
+  --dept-vc:    #C05C10;
+  --dept-try:   #217A4B;
+  --dept-acc:   #A0246C;
+  --dept-apar:  #1B62B5;
+  --dept-tax:   #3A5068;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text-1);min-height:100vh;overflow-x:hidden;}
+
+/* scrollbar */
+::-webkit-scrollbar{width:5px;height:5px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px;}
+
+/* ── HEADER ── */
+header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 32px;height:64px;
+  background:var(--bg-header);
+  border-bottom:1px solid var(--border);
+  box-shadow:var(--shadow-sm);
+  position:sticky;top:0;z-index:50;
+}
+.header-left{display:flex;align-items:center;gap:16px;}
+.toyota-logo{
+  width:40px;height:40px;border-radius:50%;
+  background:var(--red);display:flex;align-items:center;justify-content:center;
+  color:#fff;font-family:'Bebas Neue';font-size:14px;letter-spacing:1px;
+  box-shadow:0 2px 8px rgba(200,16,46,0.3);flex-shrink:0;
+}
+.header-brand h1{font-family:'Bebas Neue';font-size:22px;letter-spacing:2px;color:var(--text-1);}
+.header-brand p{font-size:11px;color:var(--text-3);letter-spacing:1.5px;text-transform:uppercase;}
+.header-right{display:flex;align-items:center;gap:10px;}
+.badge{font-family:'DM Mono';font-size:10px;padding:3px 10px;border-radius:4px;letter-spacing:0.5px;}
+.badge-red{background:var(--red-soft);color:var(--red);border:1px solid var(--red-mid);}
+.badge-navy{background:var(--navy-soft);color:var(--navy);border:1px solid var(--border);}
+
+/* ── LAYOUT ── */
+.app{display:grid;grid-template-columns:272px 1fr;height:calc(100vh - 64px);}
+
+/* ── SIDEBAR ── */
+.sidebar{
+  background:var(--bg-sidebar);border-right:1px solid var(--border);
+  overflow-y:auto;display:flex;flex-direction:column;gap:0;
+  scrollbar-width:thin;
+}
+.sidebar-inner{padding:16px 0 24px;}
+.s-section{margin-bottom:4px;}
+.s-label{
+  font-family:'DM Mono';font-size:9px;letter-spacing:2px;text-transform:uppercase;
+  color:var(--text-4);padding:12px 16px 6px;
+  display:flex;align-items:center;gap:8px;
+}
+.s-label::after{content:'';flex:1;height:1px;background:var(--border-soft);}
+.chips-wrap{padding:0 12px 8px;display:flex;flex-wrap:wrap;gap:5px;}
+
+.chip{
+  padding:4px 10px;border-radius:20px;cursor:pointer;
+  font-size:11px;font-weight:500;
+  border:1.5px solid var(--border);color:var(--text-2);
+  background:transparent;transition:var(--transition);user-select:none;
+}
+.chip:hover{border-color:var(--text-3);color:var(--text-1);background:var(--bg);}
+
+/* per-group active colors */
+.chip[data-group="org"].active-chip   {background:var(--red-soft);border-color:var(--red);color:var(--red);}
+.chip[data-group="gg"].active-chip    {background:var(--navy-soft);border-color:var(--navy);color:var(--navy);}
+.chip[data-group="loc"].active-chip   {background:var(--teal-soft);border-color:var(--teal);color:var(--teal);}
+.chip[data-group="dept"].active-chip  {background:var(--gold-soft);border-color:var(--gold);color:var(--gold);}
+.chip[data-group="level"].active-chip {background:var(--green-soft);border-color:var(--green);color:var(--green);}
+.chip[data-group="status"].active-chip{background:var(--navy-soft);border-color:var(--navy);color:var(--navy);}
+
+.chip.chip-all.active-chip{background:var(--text-1);border-color:var(--text-1);color:#fff;}
+
+.search-wrap{padding:12px 12px 4px;}
+.search-input{
+  width:100%;padding:7px 12px;border-radius:8px;
+  border:1.5px solid var(--border);background:var(--bg);
+  color:var(--text-1);font-size:12px;font-family:'DM Sans';
+  outline:none;transition:var(--transition);
+}
+.search-input:focus{border-color:var(--red);background:#fff;}
+.search-input::placeholder{color:var(--text-4);}
+
+.btn-reset{
+  margin:12px 12px 0;width:calc(100% - 24px);
+  padding:8px;border-radius:8px;
+  background:transparent;border:1.5px solid var(--border);
+  color:var(--text-3);font-size:11px;font-family:'DM Mono';
+  letter-spacing:1px;text-transform:uppercase;cursor:pointer;
+  transition:var(--transition);
+}
+.btn-reset:hover{border-color:var(--red);color:var(--red);}
+
+/* active summary tag */
+.filter-summary{
+  margin:6px 12px 0;padding:6px 10px;border-radius:6px;
+  background:var(--red-soft);border:1px solid var(--red-mid);
+  font-size:10px;color:var(--red);font-family:'DM Mono';
+  display:none;
+}
+.filter-summary.visible{display:block;}
+
+/* ── RIGHT PANE ── */
+.right-pane{display:flex;flex-direction:column;overflow:hidden;}
+
+/* ── TABS ── */
+.tabs-bar{
+  display:flex;gap:0;padding:0 28px;
+  border-bottom:1px solid var(--border);
+  background:#fff;flex-shrink:0;
+}
+.tab{
+  padding:14px 20px;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;
+  color:var(--text-3);cursor:pointer;border:none;background:transparent;
+  border-bottom:2.5px solid transparent;transition:var(--transition);font-family:'DM Mono';
+}
+.tab:hover{color:var(--text-2);}
+.tab.active{color:var(--red);border-bottom-color:var(--red);}
+.tc{
+  margin-left:6px;padding:1px 6px;border-radius:10px;
+  background:var(--red-soft);color:var(--red);font-size:10px;
+}
+
+/* ── CONTENT ── */
+.content{overflow-y:auto;padding:24px 28px;flex:1;scrollbar-width:thin;}
+
+/* ── KPI STRIP ── */
+.kpi-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:20px;}
+.kpi-card{
+  background:#fff;border:1px solid var(--border);border-radius:10px;
+  padding:14px 16px;position:relative;overflow:hidden;transition:var(--transition);
+}
+.kpi-card:hover{box-shadow:var(--shadow-md);transform:translateY(-1px);}
+.kpi-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;}
+.kpi-card:nth-child(1)::after{background:var(--red);}
+.kpi-card:nth-child(2)::after{background:var(--teal);}
+.kpi-card:nth-child(3)::after{background:var(--gold);}
+.kpi-card:nth-child(4)::after{background:var(--green);}
+.kpi-card:nth-child(5)::after{background:var(--purple);}
+.kpi-lbl{font-size:9px;letter-spacing:1.5px;color:var(--text-3);text-transform:uppercase;font-family:'DM Mono';margin-bottom:6px;}
+.kpi-val{font-family:'Bebas Neue';font-size:34px;line-height:1;color:var(--text-1);}
+.kpi-sub{font-size:10px;color:var(--text-3);margin-top:3px;}
+.kpi-bar{height:3px;background:var(--border-soft);border-radius:2px;margin-top:8px;overflow:hidden;}
+.kpi-bar-fill{height:100%;border-radius:2px;transition:width .6s ease;}
+.kpi-card:nth-child(1) .kpi-bar-fill{background:var(--red);}
+.kpi-card:nth-child(2) .kpi-bar-fill{background:var(--teal);}
+.kpi-card:nth-child(3) .kpi-bar-fill{background:var(--gold);}
+.kpi-card:nth-child(4) .kpi-bar-fill{background:var(--green);}
+.kpi-card:nth-child(5) .kpi-bar-fill{background:var(--purple);}
+
+/* ── ORG CHART ── */
+.org-wrapper{overflow-x:auto;padding-bottom:16px;}
+.org-tree{display:flex;flex-direction:column;align-items:center;min-width:max-content;}
+
+.org-node{display:flex;flex-direction:column;align-items:center;}
+.org-node-children{
+  display:flex;gap:12px;align-items:flex-start;justify-content:center;
+  position:relative;padding-top:28px;
+}
+.org-node-children::before{
+  content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:1px;height:28px;background:var(--border);
+}
+.org-node-children>.org-node{position:relative;}
+.org-node-children>.org-node::before{
+  content:'';position:absolute;top:0;left:50%;
+  width:calc(100% + 12px);height:1px;background:var(--border);
+  transform:translateX(-50%);
+}
+.org-node-children>.org-node:only-child::before{display:none;}
+
+.org-card{
+  width:168px;background:#fff;border:1.5px solid var(--border);
+  border-radius:10px;padding:12px;cursor:pointer;
+  transition:var(--transition);text-align:center;
+  box-shadow:var(--shadow-sm);
+}
+.org-card:hover{box-shadow:var(--shadow-md);transform:translateY(-2px);border-color:var(--text-3);}
+.org-card.selected{border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft),var(--shadow-md);}
+.org-card::before{content:'';display:block;height:3px;border-radius:3px 3px 0 0;margin:-12px -12px 8px;width:calc(100% + 24px);}
+.org-card[data-level="CFO"]::before{background:var(--red);}
+.org-card[data-level="General Manager"]::before{background:var(--teal);}
+.org-card[data-level="Manager"]::before{background:var(--gold);}
+.org-card[data-level="Assistant Manager"]::before{background:var(--green);}
+
+.oc-level{font-family:'DM Mono';font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-4);margin-bottom:5px;}
+.oc-name{font-size:11px;font-weight:600;line-height:1.35;color:var(--text-1);margin-bottom:6px;}
+.oc-tags{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;}
+.oc-tag{font-size:8px;padding:2px 6px;border-radius:3px;font-family:'DM Mono';}
+.tag-TLAC{background:var(--red-soft);color:var(--red);}
+.tag-TDB{background:var(--teal-soft);color:var(--teal);}
+.tag-TASA{background:var(--gold-soft);color:var(--gold);}
+.tag-loc{background:var(--navy-soft);color:var(--navy);}
+.tag-tmp{background:var(--red-soft);color:var(--red);border:1px solid var(--red-mid);}
+.oc-count{margin-top:8px;padding-top:7px;border-top:1px solid var(--border-soft);font-family:'Bebas Neue';font-size:18px;color:var(--text-3);}
+.oc-count small{font-family:'DM Mono';font-size:8px;display:block;color:var(--text-4);}
+
+.org-toggle{
+  width:18px;height:18px;border-radius:50%;
+  background:var(--bg);border:1.5px solid var(--border);
+  color:var(--text-3);font-size:10px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  margin:6px auto 0;transition:var(--transition);user-select:none;
+  font-family:'DM Mono';
+}
+.org-toggle:hover{background:var(--border);color:var(--text-1);}
+
+.analyst-grid{
+  display:flex;flex-wrap:wrap;gap:6px;justify-content:center;
+  max-width:760px;padding-top:22px;position:relative;
+}
+.analyst-grid::before{
+  content:'';position:absolute;top:0;left:50%;
+  transform:translateX(-50%);width:1px;height:22px;background:var(--border);
+}
+.analyst-pill{
+  padding:5px 11px;border-radius:20px;font-size:10px;font-weight:500;
+  border:1.5px solid var(--border);background:#fff;color:var(--text-2);
+  transition:var(--transition);cursor:default;
+}
+.analyst-pill:hover{border-color:var(--text-3);color:var(--text-1);box-shadow:var(--shadow-sm);}
+.analyst-pill.temporary{border-color:var(--red-mid);color:var(--red);font-style:italic;background:var(--red-soft);}
+
+/* ── TABLE ── */
+.table-wrap{border:1px solid var(--border);border-radius:10px;overflow:hidden;box-shadow:var(--shadow-sm);}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+thead tr{background:var(--bg);}
+th{
+  padding:11px 14px;text-align:left;
+  font-family:'DM Mono';font-size:9px;letter-spacing:1.5px;text-transform:uppercase;
+  color:var(--text-3);border-bottom:1px solid var(--border);
+  cursor:pointer;user-select:none;white-space:nowrap;
+}
+th:hover{color:var(--text-1);}
+th.sorted{color:var(--red);}
+tbody tr{border-bottom:1px solid var(--border-soft);cursor:pointer;transition:var(--transition);}
+tbody tr:hover{background:var(--red-soft);}
+tbody tr:last-child{border-bottom:none;}
+td{padding:9px 14px;color:var(--text-2);vertical-align:middle;}
+td:first-child{font-family:'DM Mono';font-size:10px;color:var(--text-3);}
+.td-name{color:var(--text-1);font-weight:500;}
+
+.lvl-badge{padding:3px 7px;border-radius:4px;font-size:9px;font-family:'DM Mono';white-space:nowrap;}
+.lvl-CFO  {background:var(--red-soft);color:var(--red);}
+.lvl-GM   {background:var(--teal-soft);color:var(--teal);}
+.lvl-MGR  {background:var(--gold-soft);color:var(--gold);}
+.lvl-AM   {background:var(--green-soft);color:var(--green);}
+.lvl-AS   {background:var(--navy-soft);color:var(--navy);}
+.lvl-A    {background:var(--bg);color:var(--text-2);}
+.lvl-AJ   {background:var(--bg);color:var(--text-3);}
+.lvl-ADM  {background:var(--bg);color:var(--text-4);}
+
+/* ── BREAKDOWN ── */
+.bd-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.bd-card{
+  background:#fff;border:1px solid var(--border);border-radius:10px;
+  padding:20px;box-shadow:var(--shadow-sm);
+}
+.bd-card h3{font-family:'DM Mono';font-size:9px;letter-spacing:2px;color:var(--text-3);text-transform:uppercase;margin-bottom:16px;}
+.bd-card.full{grid-column:1/-1;}
+
+/* bar chart */
+.bar-chart{display:flex;flex-direction:column;gap:9px;}
+.bar-row{display:flex;align-items:center;gap:8px;}
+.bar-lbl{font-size:11px;color:var(--text-2);width:130px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bar-track{flex:1;height:8px;background:var(--border-soft);border-radius:4px;overflow:hidden;position:relative;}
+.bar-fill{height:100%;border-radius:4px;transition:width .7s cubic-bezier(.4,0,.2,1);}
+.bar-val{font-family:'DM Mono';font-size:10px;color:var(--text-3);width:28px;text-align:right;flex-shrink:0;}
+
+/* donut */
+.donut-wrap{display:flex;align-items:center;gap:20px;}
+.donut-legend{flex:1;display:flex;flex-direction:column;gap:7px;}
+.legend-row{display:flex;align-items:center;gap:8px;}
+.legend-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+.legend-lbl{font-size:11px;color:var(--text-2);flex:1;}
+.legend-val{font-family:'DM Mono';font-size:11px;color:var(--text-1);font-weight:500;}
+.legend-pct{font-family:'DM Mono';font-size:10px;color:var(--text-3);width:36px;text-align:right;}
+
+/* relativized table */
+.rel-table{width:100%;border-collapse:collapse;font-size:11px;}
+.rel-table th{
+  padding:8px 12px;font-family:'DM Mono';font-size:8px;letter-spacing:1.5px;
+  text-transform:uppercase;color:var(--text-3);border-bottom:1px solid var(--border);
+  text-align:left;background:var(--bg);
+}
+.rel-table th:not(:first-child){text-align:right;}
+.rel-table td{padding:8px 12px;border-bottom:1px solid var(--border-soft);color:var(--text-2);vertical-align:middle;}
+.rel-table td:first-child{color:var(--text-1);font-weight:500;}
+.rel-table td:not(:first-child){text-align:right;font-family:'DM Mono';font-size:10px;}
+.rel-table tbody tr:hover{background:var(--bg);}
+.mini-bar{display:inline-block;height:5px;border-radius:3px;vertical-align:middle;margin-left:5px;min-width:2px;}
+
+/* ── DETAIL PANEL ── */
+.detail-panel{
+  position:fixed;right:-400px;top:64px;bottom:0;width:380px;
+  background:#fff;border-left:1px solid var(--border);
+  padding:24px;overflow-y:auto;transition:right .3s cubic-bezier(.4,0,.2,1);
+  z-index:100;box-shadow:var(--shadow-lg);
+  scrollbar-width:thin;
+}
+.detail-panel.open{right:0;}
+.dp-close{float:right;background:none;border:none;color:var(--text-3);font-size:18px;cursor:pointer;padding:0 4px;transition:var(--transition);}
+.dp-close:hover{color:var(--red);}
+.dp-dept{font-family:'DM Mono';font-size:9px;letter-spacing:2px;color:var(--text-3);text-transform:uppercase;margin-bottom:4px;}
+.dp-title{font-family:'Bebas Neue';font-size:26px;letter-spacing:1px;line-height:1.1;margin-bottom:14px;color:var(--text-1);}
+.dp-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px;}
+.dp-stat{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:11px;}
+.dp-stat-lbl{font-size:9px;color:var(--text-3);letter-spacing:1.5px;text-transform:uppercase;font-family:'DM Mono';}
+.dp-stat-val{font-family:'Bebas Neue';font-size:24px;margin-top:3px;color:var(--text-1);}
+.dp-sec{font-family:'DM Mono';font-size:9px;letter-spacing:2px;color:var(--text-3);text-transform:uppercase;margin:14px 0 7px;padding-bottom:5px;border-bottom:1px solid var(--border);}
+.dp-list{list-style:none;display:flex;flex-direction:column;gap:3px;}
+.dp-list li{
+  font-size:11px;color:var(--text-2);padding:6px 10px;
+  background:var(--bg);border-radius:5px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.dp-list li span{font-family:'DM Mono';font-size:9px;color:var(--text-3);}
+
+/* empty */
+.empty{text-align:center;padding:60px 20px;color:var(--text-3);}
+.empty p{font-size:13px;margin-top:8px;}
+
+/* collapsed */
+.collapsed>.org-node-children,.collapsed>.analyst-grid{display:none;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="toyota-logo">TMC</div>
+    <div class="header-brand">
+      <h1>TLAC Finance &amp; Accounting</h1>
+      <p>Regional Organizational Structure · Argentina &amp; Brazil</p>
+    </div>
+  </div>
+  <div class="header-right">
+    <span class="badge badge-red">🔒 Protected</span>
+    <span class="badge badge-navy" id="active-badge">163 positions</span>
+  </div>
+</header>
+
+<div class="app">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <div class="search-wrap">
+        <input type="text" class="search-input" id="search" placeholder="Search name, code or dept…">
+      </div>
+
+      <div class="filter-summary" id="filter-summary"></div>
+
+      <div class="s-section">
+        <div class="s-label">Organization</div>
+        <div class="chips-wrap" id="grp-org">
+          <span class="chip chip-all active-chip" data-group="org" data-value="__all__">All</span>
+          <span class="chip" data-group="org" data-value="TLAC">TLAC</span>
+          <span class="chip" data-group="org" data-value="TDB">TDB</span>
+          <span class="chip" data-group="org" data-value="TASA">TASA</span>
+        </div>
+      </div>
+
+      <div class="s-section">
+        <div class="s-label">General Management</div>
+        <div class="chips-wrap" id="grp-gg">
+          <span class="chip chip-all active-chip" data-group="gg" data-value="__all__">All</span>
+          <span class="chip" data-group="gg" data-value="Planning">Planning</span>
+          <span class="chip" data-group="gg" data-value="Operations">Operations</span>
+          <span class="chip" data-group="gg" data-value="F&A Regional">F&amp;A Regional</span>
+        </div>
+      </div>
+
+      <div class="s-section">
+        <div class="s-label">Location</div>
+        <div class="chips-wrap" id="grp-loc">
+          <span class="chip chip-all active-chip" data-group="loc" data-value="__all__">All</span>
+          <span class="chip" data-group="loc" data-value="Argentina">Argentina</span>
+          <span class="chip" data-group="loc" data-value="Brazil">Brazil</span>
+        </div>
+      </div>
+
+      <div class="s-section">
+        <div class="s-label">Department <span style="font-size:8px;color:var(--text-4)">(multi-select)</span></div>
+        <div class="chips-wrap" id="grp-dept">
+          <span class="chip chip-all active-chip" data-group="dept" data-value="__all__">All</span>
+          <span class="chip" data-group="dept" data-value="F&A Regional">F&amp;A Regional</span>
+          <span class="chip" data-group="dept" data-value="Profit Planning">Profit Planning</span>
+          <span class="chip" data-group="dept" data-value="Cost">Cost</span>
+          <span class="chip" data-group="dept" data-value="Budget">Budget</span>
+          <span class="chip" data-group="dept" data-value="Value Chain">Value Chain</span>
+          <span class="chip" data-group="dept" data-value="Treasury">Treasury</span>
+          <span class="chip" data-group="dept" data-value="Accounting">Accounting</span>
+          <span class="chip" data-group="dept" data-value="AP & AR">AP &amp; AR</span>
+          <span class="chip" data-group="dept" data-value="TAX">TAX</span>
+        </div>
+      </div>
+
+      <div class="s-section">
+        <div class="s-label">Hierarchical Level <span style="font-size:8px;color:var(--text-4)">(multi-select)</span></div>
+        <div class="chips-wrap" id="grp-level">
+          <span class="chip chip-all active-chip" data-group="level" data-value="__all__">All</span>
+          <span class="chip" data-group="level" data-value="CFO">CFO</span>
+          <span class="chip" data-group="level" data-value="General Manager">Gen. Mgr</span>
+          <span class="chip" data-group="level" data-value="Manager">Manager</span>
+          <span class="chip" data-group="level" data-value="Assistant Manager">Coordinator</span>
+          <span class="chip" data-group="level" data-value="Analyst Senior">Sr. Analyst</span>
+          <span class="chip" data-group="level" data-value="Analyst">Analyst</span>
+          <span class="chip" data-group="level" data-value="Analyst Jr">Analyst Jr</span>
+          <span class="chip" data-group="level" data-value="Administrative">Admin</span>
+        </div>
+      </div>
+
+      <div class="s-section">
+        <div class="s-label">Status</div>
+        <div class="chips-wrap" id="grp-status">
+          <span class="chip chip-all active-chip" data-group="status" data-value="__all__">All</span>
+          <span class="chip" data-group="status" data-value="Permanent">Permanent</span>
+          <span class="chip" data-group="status" data-value="Temporary">Temporary</span>
+        </div>
+      </div>
+
+      <button class="btn-reset" onclick="resetFilters()">↺ Reset all filters</button>
+    </div>
+  </aside>
+
+  <!-- RIGHT -->
+  <div class="right-pane">
+    <div class="tabs-bar">
+      <button class="tab active" onclick="switchTab('org',this)">Org Chart <span class="tc" id="tc-org">—</span></button>
+      <button class="tab" onclick="switchTab('table',this)">Data Table <span class="tc" id="tc-table">—</span></button>
+      <button class="tab" onclick="switchTab('breakdown',this)">Breakdown <span class="tc" id="tc-bd">—</span></button>
+    </div>
+    <div class="content">
+      <div id="view-org">
+        <div class="kpi-strip" id="kpi-strip"></div>
+        <div class="org-wrapper" id="org-wrapper"></div>
+      </div>
+      <div id="view-table" style="display:none">
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th onclick="sortTable(0)">Code</th>
+              <th onclick="sortTable(1)">Org</th>
+              <th onclick="sortTable(2)">Location</th>
+              <th onclick="sortTable(3)">Position Name</th>
+              <th onclick="sortTable(4)">Reports To</th>
+              <th onclick="sortTable(5)">Level</th>
+              <th onclick="sortTable(6)">Scope</th>
+              <th onclick="sortTable(7)">Department</th>
+              <th onclick="sortTable(8)">Status</th>
+            </tr></thead>
+            <tbody id="tbl-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div id="view-breakdown" style="display:none">
+        <div class="bd-grid" id="bd-grid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DETAIL PANEL -->
+<div class="detail-panel" id="detail-panel">
+  <button class="dp-close" onclick="closeDetail()">✕</button>
+  <div id="dp-content"></div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────
+const RAW=[
+["TLAC-CFO","TLAC","Argentina","Regional CFO - Finance Director","Regional CEO / President TASA","CFO","Regional","F&A Regional","Permanent"],
+["TLAC-GM-PLN","TLAC","Argentina","General Manager of Planning","Regional CFO - Finance Director","General Manager","Regional","F&A Regional","Permanent"],
+["TLAC-GM-OPS","TLAC","Brazil","General Manager of Operations","Regional CFO - Finance Director","General Manager","Regional","F&A Regional","Permanent"],
+["TLAC-MGR-CST","TLAC","Argentina","Cost Manager","General Manager of Planning","Manager","Regional","Cost","Permanent"],
+["TLAC-MGR-PPL","TLAC","Argentina","Profit Planning Manager","General Manager of Planning","Manager","Regional","Profit Planning","Permanent"],
+["TLAC-MGR-BGT","TLAC","Brazil","Budget Manager","General Manager of Planning","Manager","Regional","Budget","Permanent"],
+["TLAC-MGR-VLC","TLAC","Argentina","Value Chain Manager","General Manager of Planning","Manager","Regional","Value Chain","Permanent"],
+["TLAC-MGR-TRY","TLAC","Argentina","Treasury Manager","General Manager of Operations","Manager","Regional","Treasury","Permanent"],
+["TLAC-MGR-ACC","TLAC","Argentina","Accounting Manager","General Manager of Operations","Manager","Regional","Accounting","Permanent"],
+["TLAC-MGR-APR","TLAC","Argentina","AP & AR Manager","General Manager of Operations","Manager","Regional","AP & AR","Permanent"],
+["TLAC-MGR-TAXTDB","TDB","Brazil","TAX Manager (TDB)","General Manager of Operations","Manager","Local - Brazil","TAX","Permanent"],
+["TLAC-MGR-TAXTASA","TASA","Argentina","TAX Manager (Argentina)","Regional CFO - Finance Director","Manager","Local - Argentina","TAX","Permanent"],
+["TDB-CST-CO","TDB","Brazil","Cost Coordinator (TDB)","Cost Manager","Assistant Manager","Local - Brazil","Cost","Permanent"],
+["TDB-CST-AS1","TDB","Brazil","Cost Senior Analyst (TDB) 1","Cost Coordinator (TDB)","Analyst Senior","Local - Brazil","Cost","Permanent"],
+["TDB-CST-AS2","TDB","Brazil","Cost Senior Analyst (TDB) 2","Cost Coordinator (TDB)","Analyst Senior","Local - Brazil","Cost","Permanent"],
+["TDB-CST-AS3","TDB","Brazil","Cost Senior Analyst (TDB) 3","Cost Coordinator (TDB)","Analyst Senior","Local - Brazil","Cost","Permanent"],
+["TDB-CST-AP1","TDB","Brazil","Cost Analyst (TDB)","Cost Coordinator (TDB)","Analyst","Local - Brazil","Cost","Permanent"],
+["TASA-CST-CO","TASA","Argentina","Cost Coordinator (TASA)","Cost Manager","Assistant Manager","Local - Argentina","Cost","Permanent"],
+["TASA-CST-AS1","TASA","Argentina","Cost Senior Analyst (TASA) 1","Cost Coordinator (TASA)","Analyst Senior","Local - Argentina","Cost","Permanent"],
+["TASA-CST-AS2","TASA","Argentina","Cost Senior Analyst (TASA) 2","Cost Coordinator (TASA)","Analyst Senior","Local - Argentina","Cost","Permanent"],
+["TASA-CST-AS3","TASA","Argentina","Cost Senior Analyst (TASA) 3","Cost Coordinator (TASA)","Analyst Senior","Local - Argentina","Cost","Permanent"],
+["TASA-CST-AP1","TASA","Argentina","Cost Analyst (TASA)","Cost Coordinator (TASA)","Analyst","Local - Argentina","Cost","Permanent"],
+["TLAC-CST-CO","TLAC","Argentina","Cost Planning Coordinator (TLAC)","Cost Manager","Assistant Manager","Regional","Cost","Permanent"],
+["TLAC-CST-AS1","TLAC","Argentina","Cost Planning Senior Analyst (TLAC) 1","Cost Planning Coordinator (TLAC)","Analyst Senior","Regional","Cost","Permanent"],
+["TLAC-CST-AS2","TLAC","Argentina","Cost Planning Senior Analyst (TLAC) 2","Cost Planning Coordinator (TLAC)","Analyst Senior","Regional","Cost","Permanent"],
+["TLAC-CST-AS3","TLAC","Argentina","Cost Planning Senior Analyst (TLAC) 3","Cost Planning Coordinator (TLAC)","Analyst Senior","Regional","Cost","Permanent"],
+["TASA-CST-ADM1","TASA","Argentina","Autopartismo Administrative (TASA) 1","Cost Manager","Administrative","Local - Argentina","Cost","Temporary"],
+["TASA-CST-ADM2","TASA","Argentina","Autopartismo Administrative (TASA) 2","Cost Manager","Administrative","Local - Argentina","Cost","Temporary"],
+["TASA-CST-ADM3","TASA","Argentina","Autopartismo Administrative (TASA) 3","Cost Manager","Administrative","Local - Argentina","Cost","Temporary"],
+["TDB-PPL-CO","TDB","Brazil","Profit Planning Coordinator (TDB)","Profit Planning Manager","Assistant Manager","Local - Brazil","Profit Planning","Permanent"],
+["TDB-PPL-AS1","TDB","Brazil","Profit Planning Senior Analyst (TDB) 1","Profit Planning Coordinator (TDB)","Analyst Senior","Local - Brazil","Profit Planning","Permanent"],
+["TDB-PPL-AS2","TDB","Brazil","Profit Planning Senior Analyst (TDB) 2","Profit Planning Coordinator (TDB)","Analyst Senior","Local - Brazil","Profit Planning","Permanent"],
+["TDB-PPL-AS3","TDB","Brazil","Profit Planning Senior Analyst (TDB) 3","Profit Planning Coordinator (TDB)","Analyst Senior","Local - Brazil","Profit Planning","Permanent"],
+["TASA-PPL-CO","TASA","Argentina","Profit Planning Coordinator (TASA)","Profit Planning Manager","Assistant Manager","Local - Argentina","Profit Planning","Permanent"],
+["TASA-PPL-AS1","TASA","Argentina","Profit Planning Senior Analyst (TASA) 1","Profit Planning Coordinator (TASA)","Analyst Senior","Local - Argentina","Profit Planning","Permanent"],
+["TASA-PPL-AS2","TASA","Argentina","Profit Planning Senior Analyst (TASA) 2","Profit Planning Coordinator (TASA)","Analyst Senior","Local - Argentina","Profit Planning","Permanent"],
+["TASA-PPL-AS3","TASA","Argentina","Profit Planning Senior Analyst (TASA) 3","Profit Planning Coordinator (TASA)","Analyst Senior","Local - Argentina","Profit Planning","Permanent"],
+["TDB-BGT-AS1","TDB","Brazil","Budget Senior Analyst (TDB) 1","Budget Manager","Analyst Senior","Local - Brazil","Budget","Permanent"],
+["TDB-BGT-AS2","TDB","Brazil","Budget Senior Analyst (TDB) 2","Budget Manager","Analyst Senior","Local - Brazil","Budget","Permanent"],
+["TDB-BGT-AP1","TDB","Brazil","Budget Analyst (TDB)","Budget Manager","Analyst","Local - Brazil","Budget","Permanent"],
+["TDB-BGT-AJ1","TDB","Brazil","Budget Analyst Jr (TDB)","Budget Manager","Analyst Jr","Local - Brazil","Budget","Permanent"],
+["TASA-BGT-CO","TASA","Argentina","Budget Coordinator (TASA)","Budget Manager","Assistant Manager","Local - Argentina","Budget","Permanent"],
+["TASA-BGT-AS1","TASA","Argentina","Budget Senior Analyst (TASA) 1","Budget Coordinator (TASA)","Analyst Senior","Local - Argentina","Budget","Permanent"],
+["TASA-BGT-AS2","TASA","Argentina","Budget Senior Analyst (TASA) 2","Budget Coordinator (TASA)","Analyst Senior","Local - Argentina","Budget","Permanent"],
+["TASA-BGT-AP1","TASA","Argentina","Budget Analyst (TASA)","Budget Coordinator (TASA)","Analyst","Local - Argentina","Budget","Permanent"],
+["TASA-BGT-AJ1","TASA","Argentina","Budget Analyst Jr (TASA)","Budget Coordinator (TASA)","Analyst Jr","Local - Argentina","Budget","Permanent"],
+["TDB-VLC-AP1","TDB","Brazil","Value Chain Analyst (TDB)","Value Chain Manager","Analyst","Local - Brazil","Value Chain","Permanent"],
+["TASA-VLC-AP1","TASA","Argentina","Value Chain Analyst (TASA)","Value Chain Manager","Analyst","Local - Argentina","Value Chain","Permanent"],
+["TLAC-VLC-AS1","TLAC","Argentina","SAP Senior Analyst (TLAC) 1","Value Chain Manager","Analyst Senior","Regional","Value Chain","Temporary"],
+["TLAC-VLC-AS2","TLAC","Argentina","SAP Senior Analyst (TLAC) 2","Value Chain Manager","Analyst Senior","Regional","Value Chain","Temporary"],
+["TDB-TRY-CO","TDB","Brazil","Treasury Coordinator (TDB)","Treasury Manager","Assistant Manager","Local - Brazil","Treasury","Permanent"],
+["TDB-TRY-AS1","TDB","Brazil","Treasury Senior Analyst (TDB) 1","Treasury Coordinator (TDB)","Analyst Senior","Local - Brazil","Treasury","Permanent"],
+["TDB-TRY-AS2","TDB","Brazil","Treasury Senior Analyst (TDB) 2","Treasury Coordinator (TDB)","Analyst Senior","Local - Brazil","Treasury","Permanent"],
+["TDB-TRY-AS3","TDB","Brazil","Treasury Senior Analyst (TDB) 3","Treasury Coordinator (TDB)","Analyst Senior","Local - Brazil","Treasury","Permanent"],
+["TDB-TRY-AP1","TDB","Brazil","Treasury Analyst (TDB)","Treasury Coordinator (TDB)","Analyst","Local - Brazil","Treasury","Permanent"],
+["TASA-TRY-CO","TASA","Argentina","Treasury Coordinator (TASA)","Treasury Manager","Assistant Manager","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AS1","TASA","Argentina","Treasury Senior Analyst (TASA) 1","Treasury Coordinator (TASA)","Analyst Senior","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AS2","TASA","Argentina","Treasury Senior Analyst (TASA) 2","Treasury Coordinator (TASA)","Analyst Senior","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AS3","TASA","Argentina","Treasury Senior Analyst (TASA) 3","Treasury Coordinator (TASA)","Analyst Senior","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AS4","TASA","Argentina","Treasury Senior Analyst (TASA) 4","Treasury Coordinator (TASA)","Analyst Senior","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AP1","TASA","Argentina","Treasury Analyst (TASA) 1","Treasury Coordinator (TASA)","Analyst","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AP2","TASA","Argentina","Treasury Analyst (TASA) 2","Treasury Coordinator (TASA)","Analyst","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AJ1","TASA","Argentina","Treasury Analyst Jr (TASA) 1","Treasury Coordinator (TASA)","Analyst Jr","Local - Argentina","Treasury","Permanent"],
+["TASA-TRY-AJ2","TASA","Argentina","Treasury Analyst Jr (TASA) 2","Treasury Coordinator (TASA)","Analyst Jr","Local - Argentina","Treasury","Permanent"],
+["TDB-ACC-CO","TDB","Brazil","Accounting Coordinator (TDB)","Accounting Manager","Assistant Manager","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS1","TDB","Brazil","Accounting Senior Analyst (TDB) 1","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS2","TDB","Brazil","Accounting Senior Analyst (TDB) 2","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS3","TDB","Brazil","Accounting Senior Analyst (TDB) 3","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS4","TDB","Brazil","Accounting Senior Analyst (TDB) 4","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS5","TDB","Brazil","Accounting Senior Analyst (TDB) 5","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS6","TDB","Brazil","Accounting Senior Analyst (TDB) 6","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS7","TDB","Brazil","Accounting Senior Analyst (TDB) 7","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AS8","TDB","Brazil","Accounting Senior Analyst (TDB) 8","Accounting Coordinator (TDB)","Analyst Senior","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AP1","TDB","Brazil","Accounting Analyst (TDB) 1","Accounting Coordinator (TDB)","Analyst","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AP2","TDB","Brazil","Accounting Analyst (TDB) 2","Accounting Coordinator (TDB)","Analyst","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AP3","TDB","Brazil","Accounting Analyst (TDB) 3","Accounting Coordinator (TDB)","Analyst","Local - Brazil","Accounting","Permanent"],
+["TDB-ACC-AP4","TDB","Brazil","Accounting Analyst (TDB) 4","Accounting Coordinator (TDB)","Analyst","Local - Brazil","Accounting","Permanent"],
+["TASA-ACC-CO","TASA","Argentina","Accounting Coordinator (TASA)","Accounting Manager","Assistant Manager","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AS1","TASA","Argentina","Accounting Senior Analyst (TASA) 1","Accounting Coordinator (TASA)","Analyst Senior","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AS2","TASA","Argentina","Accounting Senior Analyst (TASA) 2","Accounting Coordinator (TASA)","Analyst Senior","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AS3","TASA","Argentina","Accounting Senior Analyst (TASA) 3","Accounting Coordinator (TASA)","Analyst Senior","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AS4","TASA","Argentina","Accounting Senior Analyst (TASA) 4","Accounting Coordinator (TASA)","Analyst Senior","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AS5","TASA","Argentina","Accounting Senior Analyst (TASA) 5","Accounting Coordinator (TASA)","Analyst Senior","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AP1","TASA","Argentina","Accounting Analyst (TASA) 1","Accounting Coordinator (TASA)","Analyst","Local - Argentina","Accounting","Permanent"],
+["TASA-ACC-AP2","TASA","Argentina","Accounting Analyst (TASA) 2","Accounting Coordinator (TASA)","Analyst","Local - Argentina","Accounting","Permanent"],
+["TDB-AP-CO","TDB","Brazil","AP Coordinator (TDB)","AP & AR Manager","Assistant Manager","Local - Brazil","AP & AR","Permanent"],
+["TDB-AP-AS1","TDB","Brazil","AP Senior Analyst (TDB)","AP Coordinator (TDB)","Analyst Senior","Local - Brazil","AP & AR","Permanent"],
+["TDB-AP-AP1","TDB","Brazil","AP Analyst (TDB)","AP Coordinator (TDB)","Analyst","Local - Brazil","AP & AR","Permanent"],
+["TDB-AP-AJ1","TDB","Brazil","AP Analyst Jr (TDB)","AP Coordinator (TDB)","Analyst Jr","Local - Brazil","AP & AR","Permanent"],
+["TASA-AP-CO","TASA","Argentina","AP Coordinator (TASA)","AP & AR Manager","Assistant Manager","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AS1","TASA","Argentina","AP Senior Analyst (TASA) 1","AP Coordinator (TASA)","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AS2","TASA","Argentina","AP Senior Analyst (TASA) 2","AP Coordinator (TASA)","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AS3","TASA","Argentina","AP Senior Analyst (TASA) 3","AP Coordinator (TASA)","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AP1","TASA","Argentina","AP Analyst (TASA) 1","AP Coordinator (TASA)","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AP2","TASA","Argentina","AP Analyst (TASA) 2","AP Coordinator (TASA)","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AP3","TASA","Argentina","AP Analyst (TASA) 3","AP Coordinator (TASA)","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AJ1","TASA","Argentina","AP Analyst Jr (TASA) 1","AP Coordinator (TASA)","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AJ2","TASA","Argentina","AP Analyst Jr (TASA) 2","AP Coordinator (TASA)","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TASA-AP-AJ3","TASA","Argentina","AP Analyst Jr (TASA) 3","AP Coordinator (TASA)","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TDB-AR-AS1","TDB","Brazil","AR Senior Analyst (TDB) 1","AP & AR Manager","Analyst Senior","Local - Brazil","AP & AR","Permanent"],
+["TDB-AR-AS2","TDB","Brazil","AR Senior Analyst (TDB) 2","AP & AR Manager","Analyst Senior","Local - Brazil","AP & AR","Permanent"],
+["TDB-AR-AP1","TDB","Brazil","AR Analyst (TDB) 1","AP & AR Manager","Analyst","Local - Brazil","AP & AR","Permanent"],
+["TDB-AR-AP2","TDB","Brazil","AR Analyst (TDB) 2","AP & AR Manager","Analyst","Local - Brazil","AP & AR","Permanent"],
+["TDB-AR-AJ1","TDB","Brazil","AR Analyst Jr (TDB)","AP & AR Manager","Analyst Jr","Local - Brazil","AP & AR","Permanent"],
+["TASA-AR-AS1","TASA","Argentina","AR Senior Analyst (TASA) 1","AP & AR Manager","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-AR-AS2","TASA","Argentina","AR Senior Analyst (TASA) 2","AP & AR Manager","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-AR-AP1","TASA","Argentina","AR Analyst (TASA) 1","AP & AR Manager","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-AR-AP2","TASA","Argentina","AR Analyst (TASA) 2","AP & AR Manager","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-AR-AJ1","TASA","Argentina","AR Analyst Jr (TASA) 1","AP & AR Manager","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TASA-AR-AJ2","TASA","Argentina","AR Analyst Jr (TASA) 2","AP & AR Manager","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AS1","TASA","Argentina","Kinto Senior Analyst (TASA) 1","AP & AR Manager","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AS2","TASA","Argentina","Kinto Senior Analyst (TASA) 2","AP & AR Manager","Analyst Senior","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AP1","TASA","Argentina","Kinto Analyst (TASA) 1","AP & AR Manager","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AP2","TASA","Argentina","Kinto Analyst (TASA) 2","AP & AR Manager","Analyst","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AJ1","TASA","Argentina","Kinto Analyst Jr (TASA) 1","AP & AR Manager","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TASA-KNT-AJ2","TASA","Argentina","Kinto Analyst Jr (TASA) 2","AP & AR Manager","Analyst Jr","Local - Argentina","AP & AR","Permanent"],
+["TLAC-APR-AS1","TLAC","Argentina","Connected Senior Analyst (TLAC) 1","AP & AR Manager","Analyst Senior","Regional","AP & AR","Permanent"],
+["TLAC-APR-AS2","TLAC","Argentina","Connected Senior Analyst (TLAC) 2","AP & AR Manager","Analyst Senior","Regional","AP & AR","Permanent"],
+["TLAC-APR-AJ1","TLAC","Argentina","Connected Analyst Jr (TLAC)","AP & AR Manager","Analyst Jr","Regional","AP & AR","Permanent"],
+["TDB-TAX-DT-CO","TDB","Brazil","Direct Taxes Coordinator (TDB)","TAX Manager (TDB)","Assistant Manager","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-DT-AS1","TDB","Brazil","Direct Taxes Senior Analyst (TDB) 1","Direct Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-DT-AS2","TDB","Brazil","Direct Taxes Senior Analyst (TDB) 2","Direct Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-DT-AS3","TDB","Brazil","Direct Taxes Senior Analyst (TDB) 3","Direct Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-DT-AP1","TDB","Brazil","Direct Taxes Analyst (TDB) 1","Direct Taxes Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-DT-AP2","TDB","Brazil","Direct Taxes Analyst (TDB) 2","Direct Taxes Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-CO","TDB","Brazil","Indirect Taxes Coordinator (TDB)","TAX Manager (TDB)","Assistant Manager","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AS1","TDB","Brazil","Indirect Taxes Senior Analyst (TDB) 1","Indirect Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AS2","TDB","Brazil","Indirect Taxes Senior Analyst (TDB) 2","Indirect Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AS3","TDB","Brazil","Indirect Taxes Senior Analyst (TDB) 3","Indirect Taxes Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AP1","TDB","Brazil","Indirect Taxes Analyst (TDB) 1","Indirect Taxes Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AP2","TDB","Brazil","Indirect Taxes Analyst (TDB) 2","Indirect Taxes Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AP3","TDB","Brazil","Indirect Taxes Analyst (TDB) 3","Indirect Taxes Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-IT-AJ1","TDB","Brazil","Indirect Taxes Analyst Jr (TDB)","Indirect Taxes Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-CO","TDB","Brazil","Receiving Coordinator (TDB)","TAX Manager (TDB)","Assistant Manager","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AS1","TDB","Brazil","Receiving Senior Analyst (TDB) 1","Receiving Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AS2","TDB","Brazil","Receiving Senior Analyst (TDB) 2","Receiving Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AS3","TDB","Brazil","Receiving Senior Analyst (TDB) 3","Receiving Coordinator (TDB)","Analyst Senior","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AP1","TDB","Brazil","Receiving Analyst (TDB) 1","Receiving Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AP2","TDB","Brazil","Receiving Analyst (TDB) 2","Receiving Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AP3","TDB","Brazil","Receiving Analyst (TDB) 3","Receiving Coordinator (TDB)","Analyst","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ1","TDB","Brazil","Receiving Analyst Jr (TDB) 1","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ2","TDB","Brazil","Receiving Analyst Jr (TDB) 2","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ3","TDB","Brazil","Receiving Analyst Jr (TDB) 3","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ4","TDB","Brazil","Receiving Analyst Jr (TDB) 4","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ5","TDB","Brazil","Receiving Analyst Jr (TDB) 5","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ6","TDB","Brazil","Receiving Analyst Jr (TDB) 6","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ7","TDB","Brazil","Receiving Analyst Jr (TDB) 7","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ8","TDB","Brazil","Receiving Analyst Jr (TDB) 8","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ9","TDB","Brazil","Receiving Analyst Jr (TDB) 9","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ10","TDB","Brazil","Receiving Analyst Jr (TDB) 10","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-AJ11","TDB","Brazil","Receiving Analyst Jr (TDB) 11","Receiving Coordinator (TDB)","Analyst Jr","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-ADM1","TDB","Brazil","Receiving Administrative (TDB) 1","Receiving Coordinator (TDB)","Administrative","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-ADM2","TDB","Brazil","Receiving Administrative (TDB) 2","Receiving Coordinator (TDB)","Administrative","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-ADM3","TDB","Brazil","Receiving Administrative (TDB) 3","Receiving Coordinator (TDB)","Administrative","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-RC-ADM4","TDB","Brazil","Receiving Administrative (TDB) 4","Receiving Coordinator (TDB)","Administrative","Local - Brazil","TAX","Permanent"],
+["TDB-TAX-NT-CO","TDB","Brazil","Notifications Coordinator (TDB)","TAX Manager (TDB)","Assistant Manager","Local - Brazil","TAX","Permanent"],
+["TASA-TAX-AS1","TASA","Argentina","TAX Senior Analyst (TASA) 1","TAX Manager (Argentina)","Analyst Senior","Local - Argentina","TAX","Permanent"],
+["TASA-TAX-AS2","TASA","Argentina","TAX Senior Analyst (TASA) 2","TAX Manager (Argentina)","Analyst Senior","Local - Argentina","TAX","Permanent"],
+["TASA-TAX-AS3","TASA","Argentina","TAX Senior Analyst (TASA) 3","TAX Manager (Argentina)","Analyst Senior","Local - Argentina","TAX","Permanent"],
+["TASA-TAX-AP1","TASA","Argentina","TAX Analyst (TASA)","TAX Manager (Argentina)","Analyst","Local - Argentina","TAX","Permanent"],
+["TASA-TAX-AJ1","TASA","Argentina","TAX Analyst Jr (TASA)","TAX Manager (Argentina)","Analyst Jr","Local - Argentina","TAX","Permanent"],
+["TASA-INS-AS1","TASA","Argentina","Insurance Senior Analyst (TASA)","TAX Manager (Argentina)","Analyst Senior","Local - Argentina","TAX","Permanent"],
+["TASA-INS-AP1","TASA","Argentina","Insurance Analyst (TASA)","TAX Manager (Argentina)","Analyst","Local - Argentina","TAX","Permanent"]
+];
+
+const DATA = RAW.map(r=>({
+  code:r[0], org:r[1], loc:r[2], name:r[3], reportsTo:r[4],
+  level:r[5], scope:r[6], dept:r[7], status:r[8]
+}));
+
+// ─ General Management mapping ─
+// Planning: Cost, Profit Planning, Budget, Value Chain + their F&A Regional heads
+// Operations: Treasury, Accounting, AP&AR, TAX(TDB)
+// F&A Regional: CFO, GMs, TAX Argentina (reports directly to CFO)
+const GG_MAP = {
+  "CFO":            "F&A Regional",
+  "General Manager":"F&A Regional",
+};
+const DEPT_GG = {
+  "F&A Regional":   "F&A Regional",
+  "Cost":           "Planning",
+  "Profit Planning":"Planning",
+  "Budget":         "Planning",
+  "Value Chain":    "Planning",
+  "Treasury":       "Operations",
+  "Accounting":     "Operations",
+  "AP & AR":        "Operations",
+  "TAX":            "Operations",
+};
+// TAX Argentina exception: reports to CFO → F&A Regional
+function getGG(d) {
+  if(d.level==="CFO" || d.level==="General Manager") return "F&A Regional";
+  if(d.dept==="TAX" && d.loc==="Argentina") return "F&A Regional";
+  return DEPT_GG[d.dept] || "F&A Regional";
+}
+DATA.forEach(d => { d.gg = getGG(d); });
+
+// ─────────────────────────────────────────────
+// FILTER STATE (multi-select for dept & level)
+// ─────────────────────────────────────────────
+let F = { org:new Set(['__all__']), gg:new Set(['__all__']), loc:new Set(['__all__']),
+          dept:new Set(['__all__']), level:new Set(['__all__']), status:new Set(['__all__']) };
+let search = '';
+let sortCol=-1, sortAsc=true, currentTab='org';
+let collapsed = new Set();
+
+const MULTI_GROUPS = new Set(['dept','level']);  // allow multi, others are single
+
+function getFiltered() {
+  return DATA.filter(d => {
+    if(!F.org.has('__all__') && !F.org.has(d.org)) return false;
+    if(!F.gg.has('__all__')  && !F.gg.has(d.gg))   return false;
+    if(!F.loc.has('__all__') && !F.loc.has(d.loc))  return false;
+    if(!F.dept.has('__all__') && !F.dept.has(d.dept)) return false;
+    if(!F.level.has('__all__') && !F.level.has(d.level)) return false;
+    if(!F.status.has('__all__') && !F.status.has(d.status)) return false;
+    if(search){
+      const q=search.toLowerCase();
+      if(!d.name.toLowerCase().includes(q)&&!d.code.toLowerCase().includes(q)&&!d.dept.toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function render() {
+  const f = getFiltered();
+  const n = f.length;
+  document.getElementById('active-badge').textContent = n+' positions';
+  ['org','table','bd'].forEach(id=>{document.getElementById('tc-'+id).textContent=n;});
+  renderKPI(f);
+  updateFilterSummary();
+  if(currentTab==='org') renderOrg(f);
+  else if(currentTab==='table') renderTable(f);
+  else renderBreakdown(f);
+}
+
+// ─────────────────────────────────────────────
+// KPI
+// ─────────────────────────────────────────────
+function renderKPI(f) {
+  const n=f.length, ar=f.filter(d=>d.loc==='Argentina').length;
+  const br=f.filter(d=>d.loc==='Brazil').length;
+  const tmp=f.filter(d=>d.status==='Temporary').length;
+  const mgmt=f.filter(d=>['CFO','General Manager','Manager','Assistant Manager'].includes(d.level)).length;
+  const ic=n?Math.round(mgmt/n*100):0;
+  document.getElementById('kpi-strip').innerHTML=`
+    <div class="kpi-card"><div class="kpi-lbl">Total Positions</div><div class="kpi-val">${n}</div><div class="kpi-sub">active in selection</div><div class="kpi-bar"><div class="kpi-bar-fill" style="width:100%"></div></div></div>
+    <div class="kpi-card"><div class="kpi-lbl">Argentina</div><div class="kpi-val">${ar}</div><div class="kpi-sub">${n?Math.round(ar/n*100):0}% of total</div><div class="kpi-bar"><div class="kpi-bar-fill" style="width:${n?ar/n*100:0}%"></div></div></div>
+    <div class="kpi-card"><div class="kpi-lbl">Brazil</div><div class="kpi-val">${br}</div><div class="kpi-sub">${n?Math.round(br/n*100):0}% of total</div><div class="kpi-bar"><div class="kpi-bar-fill" style="width:${n?br/n*100:0}%"></div></div></div>
+    <div class="kpi-card"><div class="kpi-lbl">Mgmt Layer</div><div class="kpi-val">${mgmt}</div><div class="kpi-sub">${ic}% of selection</div><div class="kpi-bar"><div class="kpi-bar-fill" style="width:${ic}%"></div></div></div>
+    <div class="kpi-card"><div class="kpi-lbl">Temporary</div><div class="kpi-val">${tmp}</div><div class="kpi-sub">${n?Math.round(tmp/n*100):0}% of total</div><div class="kpi-bar"><div class="kpi-bar-fill" style="width:${n?tmp/n*100:0}%"></div></div></div>
+  `;
+}
+
+// ─────────────────────────────────────────────
+// ORG CHART
+// ─────────────────────────────────────────────
+const IS_LEAD = l=>['CFO','General Manager','Manager','Assistant Manager'].includes(l);
+
+function renderOrg(f) {
+  const codes = new Set(f.map(d=>d.code));
+
+  function children(parentName, depth) {
+    if(depth>8) return '';
+    const ch = DATA.filter(d=>d.reportsTo===parentName && codes.has(d.code));
+    if(!ch.length) return '';
+    const leaders = ch.filter(d=>IS_LEAD(d.level));
+    const analysts = ch.filter(d=>!IS_LEAD(d.level));
+    let html='';
+    if(leaders.length){
+      html+=`<div class="org-node-children">`;
+      for(const c of leaders){
+        const sub = DATA.filter(d=>d.reportsTo===c.name && codes.has(d.code)).length;
+        const col = collapsed.has(c.code);
+        html+=`<div class="org-node ${col?'collapsed':''}">`;
+        html+=`<div class="org-card" data-level="${c.level}" onclick="showDetail('${c.code}')">
+          <div class="oc-level">${c.level}</div>
+          <div class="oc-name">${c.name}</div>
+          <div class="oc-tags">
+            <span class="oc-tag tag-${c.org}">${c.org}</span>
+            <span class="oc-tag tag-loc">${c.loc==='Argentina'?'AR':'BR'}</span>
+            ${c.status==='Temporary'?'<span class="oc-tag tag-tmp">TEMP</span>':''}
+          </div>
+          ${sub>0?`<div class="oc-count">${sub}<small>direct reports</small></div>`:''}
+        </div>`;
+        if(sub>0) html+=`<div class="org-toggle" onclick="event.stopPropagation();toggleNode('${c.code}')">${col?'+':'−'}</div>`;
+        html+=children(c.name, depth+1);
+        html+=`</div>`;
+      }
+      html+=`</div>`;
+    }
+    if(analysts.length){
+      html+=`<div class="analyst-grid">`;
+      for(const a of analysts){
+        html+=`<div class="analyst-pill ${a.status==='Temporary'?'temporary':''}" title="${a.code}\n${a.level}">${a.name}</div>`;
+      }
+      html+=`</div>`;
+    }
+    return html;
+  }
+
+  const root = f.find(d=>d.level==='CFO');
+  if(!root){ document.getElementById('org-wrapper').innerHTML='<div class="empty"><div style="font-size:36px">🔍</div><p>No positions match the current filters.</p></div>'; return; }
+
+  const sub0 = DATA.filter(d=>d.reportsTo===root.name && codes.has(d.code)).length;
+  let html=`<div class="org-tree"><div class="org-node">
+    <div class="org-card" data-level="${root.level}" onclick="showDetail('${root.code}')">
+      <div class="oc-level">${root.level}</div>
+      <div class="oc-name">${root.name}</div>
+      <div class="oc-tags"><span class="oc-tag tag-${root.org}">${root.org}</span><span class="oc-tag tag-loc">AR</span></div>
+      <div class="oc-count">${sub0}<small>direct reports</small></div>
+    </div>
+    ${children(root.name,1)}
+  </div></div>`;
+  document.getElementById('org-wrapper').innerHTML=html;
+}
+
+function toggleNode(code){ collapsed.has(code)?collapsed.delete(code):collapsed.add(code); render(); }
+
+// ─────────────────────────────────────────────
+// TABLE
+// ─────────────────────────────────────────────
+const LC={'CFO':'CFO','General Manager':'GM','Manager':'MGR','Assistant Manager':'AM','Analyst Senior':'AS','Analyst':'A','Analyst Jr':'AJ','Administrative':'ADM'};
+function renderTable(f){
+  let rows=[...f];
+  const keys=['code','org','loc','name','reportsTo','level','scope','dept','status'];
+  if(sortCol>=0) rows.sort((a,b)=>{
+    const av=a[keys[sortCol]]||'',bv=b[keys[sortCol]]||'';
+    return sortAsc?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  document.getElementById('tbl-body').innerHTML=rows.map(d=>`
+    <tr onclick="showDetail('${d.code}')">
+      <td>${d.code}</td>
+      <td><span class="oc-tag tag-${d.org}">${d.org}</span></td>
+      <td>${d.loc}</td>
+      <td class="td-name">${d.name}</td>
+      <td style="color:var(--text-3);font-size:11px">${d.reportsTo}</td>
+      <td><span class="lvl-badge lvl-${LC[d.level]||'A'}">${d.level}</span></td>
+      <td style="font-size:11px">${d.scope}</td>
+      <td>${d.dept}</td>
+      <td style="font-family:'DM Mono';font-size:10px;color:${d.status==='Temporary'?'var(--red)':'var(--green)'}">${d.status}</td>
+    </tr>`).join('');
+}
+function sortTable(col){ sortCol===col?sortAsc=!sortAsc:(sortCol=col,sortAsc=true); renderTable(getFiltered()); }
+
+// ─────────────────────────────────────────────
+// BREAKDOWN
+// ─────────────────────────────────────────────
+const DEPT_COLOR={
+  'F&A Regional':'var(--dept-fa)','Profit Planning':'var(--dept-pp)','Cost':'var(--dept-cost)',
+  'Budget':'var(--dept-bgt)','Value Chain':'var(--dept-vc)','Treasury':'var(--dept-try)',
+  'Accounting':'var(--dept-acc)','AP & AR':'var(--dept-apar)','TAX':'var(--dept-tax)'
+};
+const LEVEL_ORDER=['CFO','General Manager','Manager','Assistant Manager','Analyst Senior','Analyst','Analyst Jr','Administrative'];
+
+function donut(segments, cx=60,cy=60,r=50,ir=30){
+  let a=-90,paths='';
+  for(const {v,pct,c} of segments){
+    if(!v) continue;
+    const ang=pct/100*360;
+    const sr=a*Math.PI/180, er=(a+ang)*Math.PI/180;
+    const x1=cx+r*Math.cos(sr),y1=cy+r*Math.sin(sr),x2=cx+r*Math.cos(er),y2=cy+r*Math.sin(er);
+    const ix1=cx+ir*Math.cos(sr),iy1=cy+ir*Math.sin(sr),ix2=cx+ir*Math.cos(er),iy2=cy+ir*Math.sin(er);
+    const lg=ang>180?1:0;
+    paths+=`<path d="M${ix1},${iy1} L${x1},${y1} A${r},${r} 0 ${lg},1 ${x2},${y2} L${ix2},${iy2} A${ir},${ir} 0 ${lg},0 ${ix1},${iy1}" fill="${c}" opacity="0.85"/>`;
+    a+=ang;
+  }
+  return paths;
+}
+
+function renderBreakdown(f){
+  const n=f.length;
+  if(!n){ document.getElementById('bd-grid').innerHTML='<div class="empty"><p>No data for current filters.</p></div>'; return; }
+
+  // ── by dept ──
+  const byDept={}; f.forEach(d=>{ byDept[d.dept]=(byDept[d.dept]||0)+1; });
+  const deptMax=Math.max(...Object.values(byDept));
+  const deptBars=Object.entries(byDept).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`
+    <div class="bar-row">
+      <div class="bar-lbl" title="${k}">${k}</div>
+      <div class="bar-track"><div class="bar-fill" style="background:${DEPT_COLOR[k]||'#888'};width:${v/deptMax*100}%"></div></div>
+      <div class="bar-val">${v}</div>
+    </div>`).join('');
+
+  // ── by level ──
+  const byLevel={}; f.forEach(d=>{ byLevel[d.level]=(byLevel[d.level]||0)+1; });
+  const lvlMax=Math.max(...Object.values(byLevel),1);
+  const levelBars=LEVEL_ORDER.filter(l=>byLevel[l]).map(l=>`
+    <div class="bar-row">
+      <div class="bar-lbl">${l}</div>
+      <div class="bar-track"><div class="bar-fill" style="background:var(--navy);opacity:0.5;width:${byLevel[l]/lvlMax*100}%"></div></div>
+      <div class="bar-val">${byLevel[l]}</div>
+    </div>`).join('');
+
+  // ── org donut ──
+  const orgSegs=[
+    {k:'TLAC',c:'var(--red)'},{k:'TDB',c:'var(--teal)'},{k:'TASA',c:'var(--gold)'}
+  ].map(s=>({...s,v:f.filter(d=>d.org===s.k).length,pct:0}));
+  orgSegs.forEach(s=>{ s.pct=n?s.v/n*100:0; });
+  const orgPaths=donut(orgSegs);
+  const orgLegend=orgSegs.filter(s=>s.v).map(s=>`
+    <div class="legend-row"><div class="legend-dot" style="background:${s.c}"></div>
+    <div class="legend-lbl">${s.k}</div><div class="legend-val">${s.v}</div>
+    <div class="legend-pct">${Math.round(s.pct)}%</div></div>`).join('');
+
+  // ── location donut ──
+  const locSegs=[{k:'Argentina',c:'var(--gold)'},{k:'Brazil',c:'var(--teal)'}]
+    .map(s=>({...s,v:f.filter(d=>d.loc===s.k).length,pct:0}));
+  locSegs.forEach(s=>{ s.pct=n?s.v/n*100:0; });
+  const locPaths=donut(locSegs);
+  const locLegend=locSegs.filter(s=>s.v).map(s=>`
+    <div class="legend-row"><div class="legend-dot" style="background:${s.c}"></div>
+    <div class="legend-lbl">${s.k}</div><div class="legend-val">${s.v}</div>
+    <div class="legend-pct">${Math.round(s.pct)}%</div></div>`).join('');
+
+  // ── RELATIVIZED TABLE ──
+  // Benchmarks: dept, GG (Gerencia General), total org (all 163)
+  const TOTAL_ORG = DATA.length;
+
+  // Group dept counts by GG (total dataset)
+  const ggTotals={}; DATA.forEach(d=>{ ggTotals[d.gg]=(ggTotals[d.gg]||0)+1; });
+  // Dept totals in full dataset
+  const deptTotals={}; DATA.forEach(d=>{ deptTotals[d.dept]=(deptTotals[d.dept]||0)+1; });
+
+  // For each dept in the current selection, compute:
+  //   selection count | dept total | GG total | org total
+  const depts = Object.keys(byDept).sort((a,b)=>byDept[b]-byDept[a]);
+  const relRows = depts.map(dept=>{
+    const sel=byDept[dept];
+    const dTotal=deptTotals[dept]||1;
+    // which GG does this dept belong to?
+    const gg = DEPT_GG[dept]||'F&A Regional';
+    const ggTot=ggTotals[gg]||1;
+    const pDept=Math.round(sel/dTotal*100);
+    const pGG=Math.round(sel/ggTot*100);
+    const pOrg=Math.round(sel/TOTAL_ORG*100);
+    const barMaxW=80; // px for mini bars
+    return `<tr>
+      <td>${dept}</td>
+      <td>${sel}/${dTotal}<span class="mini-bar" style="background:${DEPT_COLOR[dept]||'#888'};width:${pDept/100*barMaxW}px"></span></td>
+      <td>${pDept}%</td>
+      <td>${sel}/${ggTot}<span class="mini-bar" style="background:var(--navy);opacity:0.4;width:${pGG/100*barMaxW}px"></span></td>
+      <td>${pGG}%</td>
+      <td>${sel}/${TOTAL_ORG}<span class="mini-bar" style="background:var(--teal);opacity:0.5;width:${pOrg/100*barMaxW}px"></span></td>
+      <td>${pOrg}%</td>
+    </tr>`;
+  }).join('');
+
+  document.getElementById('bd-grid').innerHTML=`
+    <div class="bd-card"><h3>Headcount by Department</h3><div class="bar-chart">${deptBars}</div></div>
+    <div class="bd-card"><h3>Headcount by Hierarchical Level</h3><div class="bar-chart">${levelBars}</div></div>
+    <div class="bd-card"><h3>Distribution by Organization</h3>
+      <div class="donut-wrap">
+        <svg width="120" height="120" viewBox="0 0 120 120"><g>${orgPaths}</g>
+          <text x="60" y="56" text-anchor="middle" fill="var(--text-1)" font-size="22" font-family="Bebas Neue">${n}</text>
+          <text x="60" y="70" text-anchor="middle" fill="var(--text-3)" font-size="8" font-family="DM Mono">TOTAL</text>
+        </svg>
+        <div class="donut-legend">${orgLegend}</div>
+      </div>
+    </div>
+    <div class="bd-card"><h3>Distribution by Location</h3>
+      <div class="donut-wrap">
+        <svg width="120" height="120" viewBox="0 0 120 120"><g>${locPaths}</g>
+          <text x="60" y="56" text-anchor="middle" fill="var(--text-1)" font-size="22" font-family="Bebas Neue">${n}</text>
+          <text x="60" y="70" text-anchor="middle" fill="var(--text-3)" font-size="8" font-family="DM Mono">TOTAL</text>
+        </svg>
+        <div class="donut-legend">${locLegend}</div>
+      </div>
+    </div>
+    <div class="bd-card full"><h3>Headcount Relativized — Selection vs. Department · vs. General Management · vs. Total Organization</h3>
+      <table class="rel-table">
+        <thead><tr>
+          <th>Department</th>
+          <th colspan="2">vs. Own Dept.</th>
+          <th colspan="2">vs. Gen. Management</th>
+          <th colspan="2">vs. Total Org. (163)</th>
+        </tr></thead>
+        <tbody>${relRows}</tbody>
+      </table>
+      <p style="font-size:10px;color:var(--text-4);margin-top:10px;font-family:'DM Mono'">Ratios computed against full dataset (163 positions). Selection reflects applied filters.</p>
+    </div>
+  `;
+}
+
+// ─────────────────────────────────────────────
+// DETAIL PANEL
+// ─────────────────────────────────────────────
+function countTeam(name){
+  let c=0; const q=[name];
+  while(q.length){ const n=q.shift(); DATA.filter(d=>d.reportsTo===n).forEach(ch=>{ c++; q.push(ch.name); }); }
+  return c;
+}
+
+function showDetail(code){
+  const d=DATA.find(x=>x.code===code); if(!d) return;
+  const directs=DATA.filter(x=>x.reportsTo===d.name);
+  const team=countTeam(d.name);
+  const deptTotal=DATA.filter(x=>x.dept===d.dept).length;
+  const ggTotal=DATA.filter(x=>x.gg===d.gg).length;
+
+  document.getElementById('dp-content').innerHTML=`
+    <div class="dp-dept">${d.dept} · ${d.scope} · ${d.gg} GG</div>
+    <div class="dp-title">${d.name}</div>
+    <div class="dp-stat-grid">
+      <div class="dp-stat"><div class="dp-stat-lbl">Code</div><div class="dp-stat-val" style="font-size:14px;font-family:'DM Mono';margin-top:4px">${d.code}</div></div>
+      <div class="dp-stat"><div class="dp-stat-lbl">Organization</div><div class="dp-stat-val" style="color:${d.org==='TLAC'?'var(--red)':d.org==='TDB'?'var(--teal)':'var(--gold)'}">${d.org}</div></div>
+      <div class="dp-stat"><div class="dp-stat-lbl">Direct Reports</div><div class="dp-stat-val">${directs.length}</div></div>
+      <div class="dp-stat"><div class="dp-stat-lbl">Total Team</div><div class="dp-stat-val">${team}</div></div>
+      <div class="dp-stat"><div class="dp-stat-lbl">Location</div><div class="dp-stat-val" style="font-size:18px">${d.loc}</div></div>
+      <div class="dp-stat"><div class="dp-stat-lbl">Status</div><div class="dp-stat-val" style="font-size:18px;color:${d.status==='Temporary'?'var(--red)':'var(--green)'}">${d.status}</div></div>
+    </div>
+    <div class="dp-sec">Reports to</div>
+    <p style="font-size:12px;color:var(--text-2)"><strong style="color:var(--text-1)">${d.reportsTo}</strong></p>
+    <div class="dp-sec">Context — Dept: ${deptTotal} | GG ${d.gg}: ${ggTotal} | Total: ${DATA.length}</div>
+    ${['dept','gg','org'].map((ref,i)=>{
+      const tot=i===0?deptTotal:i===1?ggTotal:DATA.length;
+      const lbl=i===0?'Dept':i===1?'Gen. Mgmt':'Total Org';
+      const subselCnt=i===0?DATA.filter(x=>x.dept===d.dept).length:i===1?DATA.filter(x=>x.gg===d.gg).length:DATA.length;
+      const pct=Math.round(subselCnt/tot*100);
+      return `<div style="margin-top:8px">
+        <div style="font-size:10px;color:var(--text-3);font-family:'DM Mono';margin-bottom:4px">% within ${lbl}</div>
+        <div class="bar-track" style="height:6px">
+          <div class="bar-fill" style="background:var(--red);width:${pct}%"></div>
+        </div>
+        <div style="font-size:10px;color:var(--text-3);font-family:'DM Mono';margin-top:3px">${subselCnt}/${tot} = ${pct}%</div>
+      </div>`;
+    }).join('')}
+    ${directs.length?`
+    <div class="dp-sec">Direct reports (${directs.length})</div>
+    <ul class="dp-list">
+      ${directs.slice(0,12).map(x=>`<li>${x.name}<span>${x.level}</span></li>`).join('')}
+      ${directs.length>12?`<li style="color:var(--text-3)">+${directs.length-12} more…</li>`:''}
+    </ul>`:''}
+  `;
+  document.getElementById('detail-panel').classList.add('open');
+}
+function closeDetail(){ document.getElementById('detail-panel').classList.remove('open'); }
+
+// ─────────────────────────────────────────────
+// CHIP FILTER LOGIC
+// ─────────────────────────────────────────────
+document.querySelectorAll('.chip').forEach(chip=>{
+  chip.addEventListener('click',()=>{
+    const g=chip.dataset.group, v=chip.dataset.value;
+    const isAll=(v==='__all__');
+    const isMulti=MULTI_GROUPS.has(g);
+
+    if(isAll){
+      // reset group
+      F[g]=new Set(['__all__']);
+      document.querySelectorAll(`.chip[data-group="${g}"]`).forEach(c=>{
+        c.classList.toggle('active-chip', c.dataset.value==='__all__');
+      });
+    } else {
+      if(isMulti){
+        // toggle this value, remove __all__
+        F[g].delete('__all__');
+        if(F[g].has(v)){ F[g].delete(v); }
+        else { F[g].add(v); }
+        // if nothing selected, revert to all
+        if(F[g].size===0) F[g].add('__all__');
+        // update chips
+        document.querySelectorAll(`.chip[data-group="${g}"]`).forEach(c=>{
+          if(c.dataset.value==='__all__') c.classList.toggle('active-chip', F[g].has('__all__'));
+          else c.classList.toggle('active-chip', F[g].has(c.dataset.value));
+        });
+      } else {
+        // single select
+        F[g]=new Set([v]);
+        document.querySelectorAll(`.chip[data-group="${g}"]`).forEach(c=>{
+          c.classList.toggle('active-chip', c.dataset.value===v);
+        });
+      }
+    }
+    collapsed.clear();
+    render();
+  });
+});
+
+document.getElementById('search').addEventListener('input',e=>{ search=e.target.value; render(); });
+
+function resetFilters(){
+  ['org','gg','loc','dept','level','status'].forEach(g=>{
+    F[g]=new Set(['__all__']);
+    document.querySelectorAll(`.chip[data-group="${g}"]`).forEach(c=>{
+      c.classList.toggle('active-chip', c.dataset.value==='__all__');
+    });
+  });
+  search=''; document.getElementById('search').value='';
+  collapsed.clear(); render();
+}
+
+function updateFilterSummary(){
+  const parts=[];
+  if(!F.org.has('__all__'))    parts.push('Org: '+[...F.org].join(', '));
+  if(!F.gg.has('__all__'))     parts.push('GG: '+[...F.gg].join(', '));
+  if(!F.loc.has('__all__'))    parts.push('Loc: '+[...F.loc].join(', '));
+  if(!F.dept.has('__all__'))   parts.push('Dept: '+[...F.dept].join(', '));
+  if(!F.level.has('__all__'))  parts.push('Level: '+[...F.level].join(', '));
+  if(!F.status.has('__all__')) parts.push('Status: '+[...F.status].join(', '));
+  if(search) parts.push('Search: "'+search+'"');
+  const el=document.getElementById('filter-summary');
+  if(parts.length){ el.textContent='Active: '+parts.join(' · '); el.classList.add('visible'); }
+  else { el.classList.remove('visible'); }
+}
+
+function switchTab(tab,btn){
+  currentTab=tab;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  btn.classList.add('active');
+  ['org','table','breakdown'].forEach(v=>{
+    document.getElementById('view-'+v).style.display=v===tab?'block':'none';
+  });
+  render();
+}
+
+// ── INIT ──
+render();
+</script>
+</body>
+</html>
