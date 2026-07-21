@@ -1,0 +1,2924 @@
+{
+  "complexity_formula": "0.6*diversidad_normalizada(procesos) + 0.4*dispersion_normalizada(seniority), bucketizado por terciles",
+  "by_node": {
+    "TLAC-CFO": {
+      "name": "Regional CFO - Finance Director",
+      "node_type": "Dirección",
+      "department": "F&A Regional",
+      "organization": "TLAC",
+      "parent_code": null,
+      "children_codes": [
+        "TLAC-GM-PLN",
+        "TLAC-GM-OPS",
+        "TLAC-MGR-TAXTASA"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "AP & AR",
+          "Accounting",
+          "Profit Planning"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "Accounting/Account Integrity Assurance",
+          "Additional Services Control & Billing",
+          "Aging Report Preparation & Collections Forecast",
+          "Annual Legal Financial Statements Preparation",
+          "Bank Reconciliation & Loans Follow-up",
+          "Budget vs. Actual / Profitability Variance Analysis",
+          "Budgeting & Alignment with Profit Goals",
+          "Connected Controller",
+          "Connected Services Billing (Local & Regional)",
+          "Connected Systems Development & Testing",
+          "Continuous Process Improvement",
+          "Credit & Business Risk Assessment",
+          "Cross-functional Collaboration for Monthly Close",
+          "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "Dividend / IOE Payment Calculation",
+          "Financial Analysis of Profit Margins",
+          "Financial Forecasting",
+          "Financial Risk Management (Profit Planning)",
+          "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "Finished Goods Inventory Taking & Booking",
+          "Fixed Assets / Vehicles Impairment Testing",
+          "Fixed Assets Inventory Taking & Disposal Management",
+          "Government Bloco K Inventory Reporting (Brazil)",
+          "Inflation Adjustment of Non-Monetary Assets",
+          "Internal / External Audit Support",
+          "Inventory in Transit / Importation Tracking",
+          "Invoicing Dashboard Control & Credit Notes",
+          "KPI Development & Monitoring (Profitability)",
+          "Kinto Business Performance Analysis",
+          "Kinto Dealer Invoice Approval & Share Operations Management",
+          "Kinto Fine Management & Commission Settlement",
+          "Kinto Investment, Pricing & Residual Value Management",
+          "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "Kinto One Customer Support",
+          "Management Reporting & Dashboards",
+          "Monthly Accounting Package to TMC",
+          "Monthly Balance Sheet Account Reconciliations",
+          "Monthly Closing Reporting via Conets",
+          "Monthly Financial Closing Process Oversight",
+          "Monthly Tax Credit Reversal",
+          "Non-Operating Results Determination & Budget Follow-up",
+          "Overdue Kinto Share Accounts Monitoring",
+          "Payment Proposal Preparation & Review",
+          "Product/Service Profitability Assessment",
+          "Profitability Analysis (Revenue/Cost/Margin)",
+          "Receipt/Invoice & Collections Reconciliation",
+          "Receipts & Tax Certificate Upload",
+          "SOX Control Matrix & Internal Procedures",
+          "Scenario Planning",
+          "Supplier & Internal User Support (AP queries)",
+          "TPA / Lexus / Insurance Collections Follow-up",
+          "TPA Units Accounting & Intercompany Control",
+          "USD Position Forecast & Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 55,
+        "seniority_dispersion": 0.848,
+        "score": 0.939,
+        "bucket": "Alta"
+      },
+      "principales_responsabilidades": [
+        "SOX Control Matrix & Internal Procedures",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+        "Monthly Balance Sheet Account Reconciliations",
+        "Monthly Closing Reporting via Conets",
+        "Monthly Accounting Package to TMC",
+        "Annual Legal Financial Statements Preparation"
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 162,
+      "seniority_distribution": {
+        "Analyst Jr": 27,
+        "Analyst": 35,
+        "Analyst Senior": 66,
+        "Administrative": 7
+      },
+      "staff_count": 135,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-CFO",
+          "name": "Regional CFO - Finance Director",
+          "node_type": "Dirección"
+        },
+        "children": [
+          {
+            "code": "TLAC-GM-PLN",
+            "name": "General Manager of Planning",
+            "node_type": "Gerencia General",
+            "is_org_node": true,
+            "hierarchical_level": "General Manager"
+          },
+          {
+            "code": "TLAC-GM-OPS",
+            "name": "General Manager of Operations",
+            "node_type": "Gerencia General",
+            "is_org_node": true,
+            "hierarchical_level": "General Manager"
+          },
+          {
+            "code": "TLAC-MGR-TAXTASA",
+            "name": "TAX Manager (Argentina)",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-GM-PLN": {
+      "name": "General Manager of Planning",
+      "node_type": "Gerencia General",
+      "department": "F&A Regional",
+      "organization": "TLAC",
+      "parent_code": "TLAC-CFO",
+      "children_codes": [
+        "TLAC-MGR-CST",
+        "TLAC-MGR-PPL",
+        "TLAC-MGR-BGT",
+        "TLAC-MGR-VLC"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Profit Planning"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "Budget vs. Actual / Profitability Variance Analysis",
+          "Budgeting & Alignment with Profit Goals",
+          "Continuous Process Improvement",
+          "Cross-functional Collaboration for Monthly Close",
+          "Financial Analysis of Profit Margins",
+          "Financial Forecasting",
+          "Financial Risk Management (Profit Planning)",
+          "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "KPI Development & Monitoring (Profitability)",
+          "Management Reporting & Dashboards",
+          "Monthly Financial Closing Process Oversight",
+          "Product/Service Profitability Assessment",
+          "Profitability Analysis (Revenue/Cost/Margin)",
+          "Scenario Planning"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 14,
+        "seniority_dispersion": 0.711,
+        "score": 0.437,
+        "bucket": "Media"
+      },
+      "principales_responsabilidades": [
+        "Budget vs. Actual / Profitability Variance Analysis",
+        "Continuous Process Improvement",
+        "Monthly Financial Closing Process Oversight",
+        "Financial Statement Preparation & P&L Analysis by Business Unit",
+        "Cross-functional Collaboration for Monthly Close",
+        "Financial Analysis of Profit Margins"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Rentabilidad",
+          "procesos": 4,
+          "share_pct": 28.6
+        }
+      ],
+      "nomina_dependiente_total": 42,
+      "seniority_distribution": {
+        "Analyst Jr": 2,
+        "Analyst": 6,
+        "Analyst Senior": 21,
+        "Administrative": 3
+      },
+      "staff_count": 32,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-GM-PLN",
+          "name": "General Manager of Planning",
+          "node_type": "Gerencia General"
+        },
+        "children": [
+          {
+            "code": "TLAC-MGR-CST",
+            "name": "Cost Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-PPL",
+            "name": "Profit Planning Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-BGT",
+            "name": "Budget Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-VLC",
+            "name": "Value Chain Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-GM-OPS": {
+      "name": "General Manager of Operations",
+      "node_type": "Gerencia General",
+      "department": "F&A Regional",
+      "organization": "TLAC",
+      "parent_code": "TLAC-CFO",
+      "children_codes": [
+        "TLAC-MGR-TRY",
+        "TLAC-MGR-ACC",
+        "TLAC-MGR-APR",
+        "TLAC-MGR-TAXTDB"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "AP & AR",
+          "Accounting"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "Accounting/Account Integrity Assurance",
+          "Additional Services Control & Billing",
+          "Aging Report Preparation & Collections Forecast",
+          "Annual Legal Financial Statements Preparation",
+          "Bank Reconciliation & Loans Follow-up",
+          "Connected Controller",
+          "Connected Services Billing (Local & Regional)",
+          "Connected Systems Development & Testing",
+          "Credit & Business Risk Assessment",
+          "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "Dividend / IOE Payment Calculation",
+          "Finished Goods Inventory Taking & Booking",
+          "Fixed Assets / Vehicles Impairment Testing",
+          "Fixed Assets Inventory Taking & Disposal Management",
+          "Government Bloco K Inventory Reporting (Brazil)",
+          "Inflation Adjustment of Non-Monetary Assets",
+          "Internal / External Audit Support",
+          "Inventory in Transit / Importation Tracking",
+          "Invoicing Dashboard Control & Credit Notes",
+          "Kinto Business Performance Analysis",
+          "Kinto Dealer Invoice Approval & Share Operations Management",
+          "Kinto Fine Management & Commission Settlement",
+          "Kinto Investment, Pricing & Residual Value Management",
+          "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "Kinto One Customer Support",
+          "Monthly Accounting Package to TMC",
+          "Monthly Balance Sheet Account Reconciliations",
+          "Monthly Closing Reporting via Conets",
+          "Monthly Tax Credit Reversal",
+          "Non-Operating Results Determination & Budget Follow-up",
+          "Overdue Kinto Share Accounts Monitoring",
+          "Payment Proposal Preparation & Review",
+          "Receipt/Invoice & Collections Reconciliation",
+          "Receipts & Tax Certificate Upload",
+          "SOX Control Matrix & Internal Procedures",
+          "Supplier & Internal User Support (AP queries)",
+          "TPA / Lexus / Insurance Collections Follow-up",
+          "TPA Units Accounting & Intercompany Control",
+          "USD Position Forecast & Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 41,
+        "seniority_dispersion": 0.865,
+        "score": 0.793,
+        "bucket": "Alta"
+      },
+      "principales_responsabilidades": [
+        "SOX Control Matrix & Internal Procedures",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+        "Monthly Balance Sheet Account Reconciliations",
+        "Monthly Closing Reporting via Conets",
+        "Monthly Accounting Package to TMC",
+        "Annual Legal Financial Statements Preparation"
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 110,
+      "seniority_distribution": {
+        "Analyst Jr": 24,
+        "Analyst": 27,
+        "Analyst Senior": 41,
+        "Administrative": 4
+      },
+      "staff_count": 96,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-GM-OPS",
+          "name": "General Manager of Operations",
+          "node_type": "Gerencia General"
+        },
+        "children": [
+          {
+            "code": "TLAC-MGR-TRY",
+            "name": "Treasury Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-ACC",
+            "name": "Accounting Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-APR",
+            "name": "AP & AR Manager",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          },
+          {
+            "code": "TLAC-MGR-TAXTDB",
+            "name": "TAX Manager (TDB)",
+            "node_type": "Gerencia",
+            "is_org_node": true,
+            "hierarchical_level": "Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-CST": {
+      "name": "Cost Manager",
+      "node_type": "Gerencia",
+      "department": "Cost",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-PLN",
+      "children_codes": [
+        "TDB-CST-CO",
+        "TASA-CST-CO",
+        "TLAC-CST-CO",
+        "TASA-CST-ADM1",
+        "TASA-CST-ADM2",
+        "TASA-CST-ADM3"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.644,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 17,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 2,
+        "Analyst Senior": 9,
+        "Administrative": 3
+      },
+      "staff_count": 14,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-CST",
+          "name": "Cost Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-CST-CO",
+            "name": "Cost Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-CST-CO",
+            "name": "Cost Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TLAC-CST-CO",
+            "name": "Cost Planning Coordinator (TLAC)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-CST-ADM1",
+            "name": "Autopartismo Administrative (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          },
+          {
+            "code": "TASA-CST-ADM2",
+            "name": "Autopartismo Administrative (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          },
+          {
+            "code": "TASA-CST-ADM3",
+            "name": "Autopartismo Administrative (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-PPL": {
+      "name": "Profit Planning Manager",
+      "node_type": "Gerencia",
+      "department": "Profit Planning",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-PLN",
+      "children_codes": [
+        "TDB-PPL-CO",
+        "TASA-PPL-CO"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Profit Planning"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "Budget vs. Actual / Profitability Variance Analysis",
+          "Budgeting & Alignment with Profit Goals",
+          "Continuous Process Improvement",
+          "Cross-functional Collaboration for Monthly Close",
+          "Financial Analysis of Profit Margins",
+          "Financial Forecasting",
+          "Financial Risk Management (Profit Planning)",
+          "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "KPI Development & Monitoring (Profitability)",
+          "Management Reporting & Dashboards",
+          "Monthly Financial Closing Process Oversight",
+          "Product/Service Profitability Assessment",
+          "Profitability Analysis (Revenue/Cost/Margin)",
+          "Scenario Planning"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 14,
+        "seniority_dispersion": 0.0,
+        "score": 0.153,
+        "bucket": "Baja"
+      },
+      "principales_responsabilidades": [
+        "Budget vs. Actual / Profitability Variance Analysis",
+        "Continuous Process Improvement",
+        "Monthly Financial Closing Process Oversight",
+        "Financial Statement Preparation & P&L Analysis by Business Unit",
+        "Cross-functional Collaboration for Monthly Close",
+        "Financial Analysis of Profit Margins"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Rentabilidad",
+          "procesos": 4,
+          "share_pct": 28.6
+        }
+      ],
+      "nomina_dependiente_total": 8,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 0,
+        "Analyst Senior": 6,
+        "Administrative": 0
+      },
+      "staff_count": 6,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-PPL",
+          "name": "Profit Planning Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-PPL-CO",
+            "name": "Profit Planning Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-PPL-CO",
+            "name": "Profit Planning Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-BGT": {
+      "name": "Budget Manager",
+      "node_type": "Gerencia",
+      "department": "Budget",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-PLN",
+      "children_codes": [
+        "TDB-BGT-AS1",
+        "TDB-BGT-AS2",
+        "TDB-BGT-AP1",
+        "TDB-BGT-AJ1",
+        "TASA-BGT-CO"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.75,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 9,
+      "seniority_distribution": {
+        "Analyst Jr": 2,
+        "Analyst": 2,
+        "Analyst Senior": 4,
+        "Administrative": 0
+      },
+      "staff_count": 8,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-BGT",
+          "name": "Budget Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-BGT-AS1",
+            "name": "Budget Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-BGT-AS2",
+            "name": "Budget Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-BGT-AP1",
+            "name": "Budget Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-BGT-AJ1",
+            "name": "Budget Analyst Jr (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-BGT-CO",
+            "name": "Budget Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-VLC": {
+      "name": "Value Chain Manager",
+      "node_type": "Gerencia",
+      "department": "Value Chain",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-PLN",
+      "children_codes": [
+        "TDB-VLC-AP1",
+        "TASA-VLC-AP1",
+        "TLAC-VLC-AS1",
+        "TLAC-VLC-AS2"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.5,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 4,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 2,
+        "Analyst Senior": 2,
+        "Administrative": 0
+      },
+      "staff_count": 4,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-VLC",
+          "name": "Value Chain Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-VLC-AP1",
+            "name": "Value Chain Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-VLC-AP1",
+            "name": "Value Chain Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TLAC-VLC-AS1",
+            "name": "SAP Senior Analyst (TLAC) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TLAC-VLC-AS2",
+            "name": "SAP Senior Analyst (TLAC) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-TRY": {
+      "name": "Treasury Manager",
+      "node_type": "Gerencia",
+      "department": "Treasury",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-OPS",
+      "children_codes": [
+        "TDB-TRY-CO",
+        "TASA-TRY-CO"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.692,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 14,
+      "seniority_distribution": {
+        "Analyst Jr": 2,
+        "Analyst": 3,
+        "Analyst Senior": 7,
+        "Administrative": 0
+      },
+      "staff_count": 12,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-TRY",
+          "name": "Treasury Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-TRY-CO",
+            "name": "Treasury Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-TRY-CO",
+            "name": "Treasury Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-ACC": {
+      "name": "Accounting Manager",
+      "node_type": "Gerencia",
+      "department": "Accounting",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-OPS",
+      "children_codes": [
+        "TDB-ACC-CO",
+        "TASA-ACC-CO"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Accounting"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "Annual Legal Financial Statements Preparation",
+          "Bank Reconciliation & Loans Follow-up",
+          "Dividend / IOE Payment Calculation",
+          "Finished Goods Inventory Taking & Booking",
+          "Fixed Assets / Vehicles Impairment Testing",
+          "Fixed Assets Inventory Taking & Disposal Management",
+          "Government Bloco K Inventory Reporting (Brazil)",
+          "Inflation Adjustment of Non-Monetary Assets",
+          "Inventory in Transit / Importation Tracking",
+          "Invoicing Dashboard Control & Credit Notes",
+          "Monthly Accounting Package to TMC",
+          "Monthly Balance Sheet Account Reconciliations",
+          "Monthly Closing Reporting via Conets",
+          "Monthly Tax Credit Reversal",
+          "Non-Operating Results Determination & Budget Follow-up",
+          "SOX Control Matrix & Internal Procedures",
+          "TPA Units Accounting & Intercompany Control",
+          "USD Position Forecast & Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 19,
+        "seniority_dispersion": 0.45,
+        "score": 0.387,
+        "bucket": "Baja"
+      },
+      "principales_responsabilidades": [
+        "SOX Control Matrix & Internal Procedures",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+        "Monthly Balance Sheet Account Reconciliations",
+        "Monthly Closing Reporting via Conets",
+        "Monthly Accounting Package to TMC",
+        "Annual Legal Financial Statements Preparation"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Fixed Assets / Inventario",
+          "procesos": 5,
+          "share_pct": 26.3
+        }
+      ],
+      "nomina_dependiente_total": 21,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 6,
+        "Analyst Senior": 13,
+        "Administrative": 0
+      },
+      "staff_count": 19,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-ACC",
+          "name": "Accounting Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-ACC-CO",
+            "name": "Accounting Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-ACC-CO",
+            "name": "Accounting Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-APR": {
+      "name": "AP & AR Manager",
+      "node_type": "Gerencia",
+      "department": "AP & AR",
+      "organization": "TLAC",
+      "parent_code": "TLAC-GM-OPS",
+      "children_codes": [
+        "TDB-AP-CO",
+        "TASA-AP-CO",
+        "TDB-AR-AS1",
+        "TDB-AR-AS2",
+        "TDB-AR-AP1",
+        "TDB-AR-AP2",
+        "TDB-AR-AJ1",
+        "TASA-AR-AS1",
+        "TASA-AR-AS2",
+        "TASA-AR-AP1",
+        "TASA-AR-AP2",
+        "TASA-AR-AJ1",
+        "TASA-AR-AJ2",
+        "TASA-KNT-AS1",
+        "TASA-KNT-AS2",
+        "TASA-KNT-AP1",
+        "TASA-KNT-AP2",
+        "TASA-KNT-AJ1",
+        "TASA-KNT-AJ2",
+        "TLAC-APR-AS1",
+        "TLAC-APR-AS2",
+        "TLAC-APR-AJ1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "AP & AR"
+        ],
+        "granularity": "nodo",
+        "procesos": [
+          "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "Accounting/Account Integrity Assurance",
+          "Additional Services Control & Billing",
+          "Aging Report Preparation & Collections Forecast",
+          "Connected Controller",
+          "Connected Services Billing (Local & Regional)",
+          "Connected Systems Development & Testing",
+          "Credit & Business Risk Assessment",
+          "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "Internal / External Audit Support",
+          "Kinto Business Performance Analysis",
+          "Kinto Dealer Invoice Approval & Share Operations Management",
+          "Kinto Fine Management & Commission Settlement",
+          "Kinto Investment, Pricing & Residual Value Management",
+          "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "Kinto One Customer Support",
+          "Overdue Kinto Share Accounts Monitoring",
+          "Payment Proposal Preparation & Review",
+          "Receipt/Invoice & Collections Reconciliation",
+          "Receipts & Tax Certificate Upload",
+          "Supplier & Internal User Support (AP queries)",
+          "TPA / Lexus / Insurance Collections Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 22,
+        "seniority_dispersion": 0.79,
+        "score": 0.556,
+        "bucket": "Media"
+      },
+      "principales_responsabilidades": [
+        "Aging Report Preparation & Collections Forecast",
+        "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+        "Receipt/Invoice & Collections Reconciliation",
+        "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+        "Payment Proposal Preparation & Review",
+        "Accounting/Account Integrity Assurance"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Cobranzas / Clientes",
+          "procesos": 7,
+          "share_pct": 31.8
+        },
+        {
+          "dimension": "Kinto",
+          "procesos": 7,
+          "share_pct": 31.8
+        }
+      ],
+      "nomina_dependiente_total": 34,
+      "seniority_distribution": {
+        "Analyst Jr": 10,
+        "Analyst": 10,
+        "Analyst Senior": 12,
+        "Administrative": 0
+      },
+      "staff_count": 32,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-APR",
+          "name": "AP & AR Manager",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-AP-CO",
+            "name": "AP Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TASA-AP-CO",
+            "name": "AP Coordinator (TASA)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TDB-AR-AS1",
+            "name": "AR Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-AR-AS2",
+            "name": "AR Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-AR-AP1",
+            "name": "AR Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-AR-AP2",
+            "name": "AR Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-AR-AJ1",
+            "name": "AR Analyst Jr (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-AR-AS1",
+            "name": "AR Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-AR-AS2",
+            "name": "AR Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-AR-AP1",
+            "name": "AR Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-AR-AP2",
+            "name": "AR Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-AR-AJ1",
+            "name": "AR Analyst Jr (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-AR-AJ2",
+            "name": "AR Analyst Jr (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-KNT-AS1",
+            "name": "Kinto Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-KNT-AS2",
+            "name": "Kinto Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-KNT-AP1",
+            "name": "Kinto Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-KNT-AP2",
+            "name": "Kinto Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-KNT-AJ1",
+            "name": "Kinto Analyst Jr (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-KNT-AJ2",
+            "name": "Kinto Analyst Jr (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TLAC-APR-AS1",
+            "name": "Connected Senior Analyst (TLAC) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TLAC-APR-AS2",
+            "name": "Connected Senior Analyst (TLAC) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TLAC-APR-AJ1",
+            "name": "Connected Analyst Jr (TLAC)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-TAXTDB": {
+      "name": "TAX Manager (TDB)",
+      "node_type": "Gerencia",
+      "department": "TAX",
+      "organization": "TDB",
+      "parent_code": "TLAC-GM-OPS",
+      "children_codes": [
+        "TDB-TAX-DT-CO",
+        "TDB-TAX-IT-CO",
+        "TDB-TAX-RC-CO",
+        "TDB-TAX-NT-CO"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.953,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 37,
+      "seniority_distribution": {
+        "Analyst Jr": 12,
+        "Analyst": 8,
+        "Analyst Senior": 9,
+        "Administrative": 4
+      },
+      "staff_count": 33,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-TAXTDB",
+          "name": "TAX Manager (TDB)",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TDB-TAX-DT-CO",
+            "name": "Direct Taxes Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TDB-TAX-IT-CO",
+            "name": "Indirect Taxes Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TDB-TAX-RC-CO",
+            "name": "Receiving Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          },
+          {
+            "code": "TDB-TAX-NT-CO",
+            "name": "Notifications Coordinator (TDB)",
+            "node_type": "Jefatura",
+            "is_org_node": true,
+            "hierarchical_level": "Assistant Manager"
+          }
+        ]
+      }
+    },
+    "TLAC-MGR-TAXTASA": {
+      "name": "TAX Manager (Argentina)",
+      "node_type": "Gerencia",
+      "department": "TAX",
+      "organization": "TASA",
+      "parent_code": "TLAC-CFO",
+      "children_codes": [
+        "TASA-TAX-AS1",
+        "TASA-TAX-AS2",
+        "TASA-TAX-AS3",
+        "TASA-TAX-AP1",
+        "TASA-TAX-AJ1",
+        "TASA-INS-AS1",
+        "TASA-INS-AP1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "nodo",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.689,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 7,
+      "seniority_distribution": {
+        "Analyst Jr": 1,
+        "Analyst": 2,
+        "Analyst Senior": 4,
+        "Administrative": 0
+      },
+      "staff_count": 7,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-MGR-TAXTASA",
+          "name": "TAX Manager (Argentina)",
+          "node_type": "Gerencia"
+        },
+        "children": [
+          {
+            "code": "TASA-TAX-AS1",
+            "name": "TAX Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TAX-AS2",
+            "name": "TAX Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TAX-AS3",
+            "name": "TAX Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TAX-AP1",
+            "name": "TAX Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-TAX-AJ1",
+            "name": "TAX Analyst Jr (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-INS-AS1",
+            "name": "Insurance Senior Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-INS-AP1",
+            "name": "Insurance Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TDB-CST-CO": {
+      "name": "Cost Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "Cost",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-CST",
+      "children_codes": [
+        "TDB-CST-AS1",
+        "TDB-CST-AS2",
+        "TDB-CST-AS3",
+        "TDB-CST-AP1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.406,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 4,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 1,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 4,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-CST-CO",
+          "name": "Cost Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-CST-AS1",
+            "name": "Cost Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-CST-AS2",
+            "name": "Cost Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-CST-AS3",
+            "name": "Cost Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-CST-AP1",
+            "name": "Cost Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TASA-CST-CO": {
+      "name": "Cost Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "Cost",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-CST",
+      "children_codes": [
+        "TASA-CST-AS1",
+        "TASA-CST-AS2",
+        "TASA-CST-AS3",
+        "TASA-CST-AP1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.406,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 4,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 1,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 4,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-CST-CO",
+          "name": "Cost Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-CST-AS1",
+            "name": "Cost Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-CST-AS2",
+            "name": "Cost Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-CST-AS3",
+            "name": "Cost Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-CST-AP1",
+            "name": "Cost Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TLAC-CST-CO": {
+      "name": "Cost Planning Coordinator (TLAC)",
+      "node_type": "Jefatura",
+      "department": "Cost",
+      "organization": "TLAC",
+      "parent_code": "TLAC-MGR-CST",
+      "children_codes": [
+        "TLAC-CST-AS1",
+        "TLAC-CST-AS2",
+        "TLAC-CST-AS3"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.0,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 3,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 0,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 3,
+      "organigrama_local": {
+        "self": {
+          "code": "TLAC-CST-CO",
+          "name": "Cost Planning Coordinator (TLAC)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TLAC-CST-AS1",
+            "name": "Cost Planning Senior Analyst (TLAC) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TLAC-CST-AS2",
+            "name": "Cost Planning Senior Analyst (TLAC) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TLAC-CST-AS3",
+            "name": "Cost Planning Senior Analyst (TLAC) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          }
+        ]
+      }
+    },
+    "TDB-PPL-CO": {
+      "name": "Profit Planning Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "Profit Planning",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-PPL",
+      "children_codes": [
+        "TDB-PPL-AS1",
+        "TDB-PPL-AS2",
+        "TDB-PPL-AS3"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Profit Planning"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "Budget vs. Actual / Profitability Variance Analysis",
+          "Budgeting & Alignment with Profit Goals",
+          "Continuous Process Improvement",
+          "Cross-functional Collaboration for Monthly Close",
+          "Financial Analysis of Profit Margins",
+          "Financial Forecasting",
+          "Financial Risk Management (Profit Planning)",
+          "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "KPI Development & Monitoring (Profitability)",
+          "Management Reporting & Dashboards",
+          "Monthly Financial Closing Process Oversight",
+          "Product/Service Profitability Assessment",
+          "Profitability Analysis (Revenue/Cost/Margin)",
+          "Scenario Planning"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 14,
+        "seniority_dispersion": 0.0,
+        "score": 0.153,
+        "bucket": "Baja"
+      },
+      "principales_responsabilidades": [
+        "Budget vs. Actual / Profitability Variance Analysis",
+        "Continuous Process Improvement",
+        "Monthly Financial Closing Process Oversight",
+        "Financial Statement Preparation & P&L Analysis by Business Unit",
+        "Cross-functional Collaboration for Monthly Close",
+        "Financial Analysis of Profit Margins"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Rentabilidad",
+          "procesos": 4,
+          "share_pct": 28.6
+        }
+      ],
+      "nomina_dependiente_total": 3,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 0,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 3,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-PPL-CO",
+          "name": "Profit Planning Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-PPL-AS1",
+            "name": "Profit Planning Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-PPL-AS2",
+            "name": "Profit Planning Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-PPL-AS3",
+            "name": "Profit Planning Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          }
+        ]
+      }
+    },
+    "TASA-PPL-CO": {
+      "name": "Profit Planning Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "Profit Planning",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-PPL",
+      "children_codes": [
+        "TASA-PPL-AS1",
+        "TASA-PPL-AS2",
+        "TASA-PPL-AS3"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Profit Planning"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "Budget vs. Actual / Profitability Variance Analysis",
+          "Budgeting & Alignment with Profit Goals",
+          "Continuous Process Improvement",
+          "Cross-functional Collaboration for Monthly Close",
+          "Financial Analysis of Profit Margins",
+          "Financial Forecasting",
+          "Financial Risk Management (Profit Planning)",
+          "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "KPI Development & Monitoring (Profitability)",
+          "Management Reporting & Dashboards",
+          "Monthly Financial Closing Process Oversight",
+          "Product/Service Profitability Assessment",
+          "Profitability Analysis (Revenue/Cost/Margin)",
+          "Scenario Planning"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 14,
+        "seniority_dispersion": 0.0,
+        "score": 0.153,
+        "bucket": "Baja"
+      },
+      "principales_responsabilidades": [
+        "Budget vs. Actual / Profitability Variance Analysis",
+        "Continuous Process Improvement",
+        "Monthly Financial Closing Process Oversight",
+        "Financial Statement Preparation & P&L Analysis by Business Unit",
+        "Cross-functional Collaboration for Monthly Close",
+        "Financial Analysis of Profit Margins"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Rentabilidad",
+          "procesos": 4,
+          "share_pct": 28.6
+        }
+      ],
+      "nomina_dependiente_total": 3,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 0,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 3,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-PPL-CO",
+          "name": "Profit Planning Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-PPL-AS1",
+            "name": "Profit Planning Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-PPL-AS2",
+            "name": "Profit Planning Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-PPL-AS3",
+            "name": "Profit Planning Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          }
+        ]
+      }
+    },
+    "TASA-BGT-CO": {
+      "name": "Budget Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "Budget",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-BGT",
+      "children_codes": [
+        "TASA-BGT-AS1",
+        "TASA-BGT-AS2",
+        "TASA-BGT-AP1",
+        "TASA-BGT-AJ1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.75,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 4,
+      "seniority_distribution": {
+        "Analyst Jr": 1,
+        "Analyst": 1,
+        "Analyst Senior": 2,
+        "Administrative": 0
+      },
+      "staff_count": 4,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-BGT-CO",
+          "name": "Budget Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-BGT-AS1",
+            "name": "Budget Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-BGT-AS2",
+            "name": "Budget Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-BGT-AP1",
+            "name": "Budget Analyst (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-BGT-AJ1",
+            "name": "Budget Analyst Jr (TASA)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TDB-TRY-CO": {
+      "name": "Treasury Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "Treasury",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-TRY",
+      "children_codes": [
+        "TDB-TRY-AS1",
+        "TDB-TRY-AS2",
+        "TDB-TRY-AS3",
+        "TDB-TRY-AP1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.406,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 4,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 1,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 4,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-TRY-CO",
+          "name": "Treasury Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-TRY-AS1",
+            "name": "Treasury Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TRY-AS2",
+            "name": "Treasury Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TRY-AS3",
+            "name": "Treasury Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TRY-AP1",
+            "name": "Treasury Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TASA-TRY-CO": {
+      "name": "Treasury Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "Treasury",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-TRY",
+      "children_codes": [
+        "TASA-TRY-AS1",
+        "TASA-TRY-AS2",
+        "TASA-TRY-AS3",
+        "TASA-TRY-AS4",
+        "TASA-TRY-AP1",
+        "TASA-TRY-AP2",
+        "TASA-TRY-AJ1",
+        "TASA-TRY-AJ2"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.75,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 8,
+      "seniority_distribution": {
+        "Analyst Jr": 2,
+        "Analyst": 2,
+        "Analyst Senior": 4,
+        "Administrative": 0
+      },
+      "staff_count": 8,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-TRY-CO",
+          "name": "Treasury Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-TRY-AS1",
+            "name": "Treasury Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TRY-AS2",
+            "name": "Treasury Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TRY-AS3",
+            "name": "Treasury Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TRY-AS4",
+            "name": "Treasury Senior Analyst (TASA) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-TRY-AP1",
+            "name": "Treasury Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-TRY-AP2",
+            "name": "Treasury Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-TRY-AJ1",
+            "name": "Treasury Analyst Jr (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-TRY-AJ2",
+            "name": "Treasury Analyst Jr (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TDB-ACC-CO": {
+      "name": "Accounting Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "Accounting",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-ACC",
+      "children_codes": [
+        "TDB-ACC-AS1",
+        "TDB-ACC-AS2",
+        "TDB-ACC-AS3",
+        "TDB-ACC-AS4",
+        "TDB-ACC-AS5",
+        "TDB-ACC-AS6",
+        "TDB-ACC-AS7",
+        "TDB-ACC-AS8",
+        "TDB-ACC-AP1",
+        "TDB-ACC-AP2",
+        "TDB-ACC-AP3",
+        "TDB-ACC-AP4"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Accounting"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "Annual Legal Financial Statements Preparation",
+          "Bank Reconciliation & Loans Follow-up",
+          "Dividend / IOE Payment Calculation",
+          "Finished Goods Inventory Taking & Booking",
+          "Fixed Assets / Vehicles Impairment Testing",
+          "Fixed Assets Inventory Taking & Disposal Management",
+          "Government Bloco K Inventory Reporting (Brazil)",
+          "Inflation Adjustment of Non-Monetary Assets",
+          "Inventory in Transit / Importation Tracking",
+          "Invoicing Dashboard Control & Credit Notes",
+          "Monthly Accounting Package to TMC",
+          "Monthly Balance Sheet Account Reconciliations",
+          "Monthly Closing Reporting via Conets",
+          "Monthly Tax Credit Reversal",
+          "Non-Operating Results Determination & Budget Follow-up",
+          "SOX Control Matrix & Internal Procedures",
+          "TPA Units Accounting & Intercompany Control",
+          "USD Position Forecast & Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 19,
+        "seniority_dispersion": 0.459,
+        "score": 0.391,
+        "bucket": "Media"
+      },
+      "principales_responsabilidades": [
+        "SOX Control Matrix & Internal Procedures",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+        "Monthly Balance Sheet Account Reconciliations",
+        "Monthly Closing Reporting via Conets",
+        "Monthly Accounting Package to TMC",
+        "Annual Legal Financial Statements Preparation"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Fixed Assets / Inventario",
+          "procesos": 5,
+          "share_pct": 26.3
+        }
+      ],
+      "nomina_dependiente_total": 12,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 4,
+        "Analyst Senior": 8,
+        "Administrative": 0
+      },
+      "staff_count": 12,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-ACC-CO",
+          "name": "Accounting Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-ACC-AS1",
+            "name": "Accounting Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS2",
+            "name": "Accounting Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS3",
+            "name": "Accounting Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS4",
+            "name": "Accounting Senior Analyst (TDB) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS5",
+            "name": "Accounting Senior Analyst (TDB) 5",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS6",
+            "name": "Accounting Senior Analyst (TDB) 6",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS7",
+            "name": "Accounting Senior Analyst (TDB) 7",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AS8",
+            "name": "Accounting Senior Analyst (TDB) 8",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-ACC-AP1",
+            "name": "Accounting Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-ACC-AP2",
+            "name": "Accounting Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-ACC-AP3",
+            "name": "Accounting Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-ACC-AP4",
+            "name": "Accounting Analyst (TDB) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TASA-ACC-CO": {
+      "name": "Accounting Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "Accounting",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-ACC",
+      "children_codes": [
+        "TASA-ACC-AS1",
+        "TASA-ACC-AS2",
+        "TASA-ACC-AS3",
+        "TASA-ACC-AS4",
+        "TASA-ACC-AS5",
+        "TASA-ACC-AP1",
+        "TASA-ACC-AP2"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "Accounting"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "Annual Legal Financial Statements Preparation",
+          "Bank Reconciliation & Loans Follow-up",
+          "Dividend / IOE Payment Calculation",
+          "Finished Goods Inventory Taking & Booking",
+          "Fixed Assets / Vehicles Impairment Testing",
+          "Fixed Assets Inventory Taking & Disposal Management",
+          "Government Bloco K Inventory Reporting (Brazil)",
+          "Inflation Adjustment of Non-Monetary Assets",
+          "Inventory in Transit / Importation Tracking",
+          "Invoicing Dashboard Control & Credit Notes",
+          "Monthly Accounting Package to TMC",
+          "Monthly Balance Sheet Account Reconciliations",
+          "Monthly Closing Reporting via Conets",
+          "Monthly Tax Credit Reversal",
+          "Non-Operating Results Determination & Budget Follow-up",
+          "SOX Control Matrix & Internal Procedures",
+          "TPA Units Accounting & Intercompany Control",
+          "USD Position Forecast & Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 19,
+        "seniority_dispersion": 0.432,
+        "score": 0.38,
+        "bucket": "Baja"
+      },
+      "principales_responsabilidades": [
+        "SOX Control Matrix & Internal Procedures",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+        "Monthly Balance Sheet Account Reconciliations",
+        "Monthly Closing Reporting via Conets",
+        "Monthly Accounting Package to TMC",
+        "Annual Legal Financial Statements Preparation"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Fixed Assets / Inventario",
+          "procesos": 5,
+          "share_pct": 26.3
+        }
+      ],
+      "nomina_dependiente_total": 7,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 2,
+        "Analyst Senior": 5,
+        "Administrative": 0
+      },
+      "staff_count": 7,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-ACC-CO",
+          "name": "Accounting Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-ACC-AS1",
+            "name": "Accounting Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-ACC-AS2",
+            "name": "Accounting Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-ACC-AS3",
+            "name": "Accounting Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-ACC-AS4",
+            "name": "Accounting Senior Analyst (TASA) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-ACC-AS5",
+            "name": "Accounting Senior Analyst (TASA) 5",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-ACC-AP1",
+            "name": "Accounting Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-ACC-AP2",
+            "name": "Accounting Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TDB-AP-CO": {
+      "name": "AP Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "AP & AR",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-APR",
+      "children_codes": [
+        "TDB-AP-AS1",
+        "TDB-AP-AP1",
+        "TDB-AP-AJ1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "AP & AR"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "Accounting/Account Integrity Assurance",
+          "Additional Services Control & Billing",
+          "Aging Report Preparation & Collections Forecast",
+          "Connected Controller",
+          "Connected Services Billing (Local & Regional)",
+          "Connected Systems Development & Testing",
+          "Credit & Business Risk Assessment",
+          "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "Internal / External Audit Support",
+          "Kinto Business Performance Analysis",
+          "Kinto Dealer Invoice Approval & Share Operations Management",
+          "Kinto Fine Management & Commission Settlement",
+          "Kinto Investment, Pricing & Residual Value Management",
+          "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "Kinto One Customer Support",
+          "Overdue Kinto Share Accounts Monitoring",
+          "Payment Proposal Preparation & Review",
+          "Receipt/Invoice & Collections Reconciliation",
+          "Receipts & Tax Certificate Upload",
+          "Supplier & Internal User Support (AP queries)",
+          "TPA / Lexus / Insurance Collections Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 22,
+        "seniority_dispersion": 0.792,
+        "score": 0.557,
+        "bucket": "Media"
+      },
+      "principales_responsabilidades": [
+        "Aging Report Preparation & Collections Forecast",
+        "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+        "Receipt/Invoice & Collections Reconciliation",
+        "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+        "Payment Proposal Preparation & Review",
+        "Accounting/Account Integrity Assurance"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Cobranzas / Clientes",
+          "procesos": 7,
+          "share_pct": 31.8
+        },
+        {
+          "dimension": "Kinto",
+          "procesos": 7,
+          "share_pct": 31.8
+        }
+      ],
+      "nomina_dependiente_total": 3,
+      "seniority_distribution": {
+        "Analyst Jr": 1,
+        "Analyst": 1,
+        "Analyst Senior": 1,
+        "Administrative": 0
+      },
+      "staff_count": 3,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-AP-CO",
+          "name": "AP Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-AP-AS1",
+            "name": "AP Senior Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-AP-AP1",
+            "name": "AP Analyst (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-AP-AJ1",
+            "name": "AP Analyst Jr (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TASA-AP-CO": {
+      "name": "AP Coordinator (TASA)",
+      "node_type": "Jefatura",
+      "department": "AP & AR",
+      "organization": "TASA",
+      "parent_code": "TLAC-MGR-APR",
+      "children_codes": [
+        "TASA-AP-AS1",
+        "TASA-AP-AS2",
+        "TASA-AP-AS3",
+        "TASA-AP-AP1",
+        "TASA-AP-AP2",
+        "TASA-AP-AP3",
+        "TASA-AP-AJ1",
+        "TASA-AP-AJ2",
+        "TASA-AP-AJ3"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [
+          "AP & AR"
+        ],
+        "granularity": "gerencia",
+        "procesos": [
+          "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "Accounting/Account Integrity Assurance",
+          "Additional Services Control & Billing",
+          "Aging Report Preparation & Collections Forecast",
+          "Connected Controller",
+          "Connected Services Billing (Local & Regional)",
+          "Connected Systems Development & Testing",
+          "Credit & Business Risk Assessment",
+          "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "Internal / External Audit Support",
+          "Kinto Business Performance Analysis",
+          "Kinto Dealer Invoice Approval & Share Operations Management",
+          "Kinto Fine Management & Commission Settlement",
+          "Kinto Investment, Pricing & Residual Value Management",
+          "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "Kinto One Customer Support",
+          "Overdue Kinto Share Accounts Monitoring",
+          "Payment Proposal Preparation & Review",
+          "Receipt/Invoice & Collections Reconciliation",
+          "Receipts & Tax Certificate Upload",
+          "Supplier & Internal User Support (AP queries)",
+          "TPA / Lexus / Insurance Collections Follow-up"
+        ],
+        "note": null
+      },
+      "complejidad": {
+        "process_diversity": 22,
+        "seniority_dispersion": 0.792,
+        "score": 0.557,
+        "bucket": "Media"
+      },
+      "principales_responsabilidades": [
+        "Aging Report Preparation & Collections Forecast",
+        "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+        "Receipt/Invoice & Collections Reconciliation",
+        "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+        "Payment Proposal Preparation & Review",
+        "Accounting/Account Integrity Assurance"
+      ],
+      "dimensiones_destacadas": [
+        {
+          "dimension": "Cobranzas / Clientes",
+          "procesos": 7,
+          "share_pct": 31.8
+        },
+        {
+          "dimension": "Kinto",
+          "procesos": 7,
+          "share_pct": 31.8
+        }
+      ],
+      "nomina_dependiente_total": 9,
+      "seniority_distribution": {
+        "Analyst Jr": 3,
+        "Analyst": 3,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 9,
+      "organigrama_local": {
+        "self": {
+          "code": "TASA-AP-CO",
+          "name": "AP Coordinator (TASA)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TASA-AP-AS1",
+            "name": "AP Senior Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-AP-AS2",
+            "name": "AP Senior Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-AP-AS3",
+            "name": "AP Senior Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TASA-AP-AP1",
+            "name": "AP Analyst (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-AP-AP2",
+            "name": "AP Analyst (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-AP-AP3",
+            "name": "AP Analyst (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TASA-AP-AJ1",
+            "name": "AP Analyst Jr (TASA) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-AP-AJ2",
+            "name": "AP Analyst Jr (TASA) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TASA-AP-AJ3",
+            "name": "AP Analyst Jr (TASA) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TDB-TAX-DT-CO": {
+      "name": "Direct Taxes Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "TAX",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-TAXTDB",
+      "children_codes": [
+        "TDB-TAX-DT-AS1",
+        "TDB-TAX-DT-AS2",
+        "TDB-TAX-DT-AS3",
+        "TDB-TAX-DT-AP1",
+        "TDB-TAX-DT-AP2"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.485,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 5,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 2,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 5,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-TAX-DT-CO",
+          "name": "Direct Taxes Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-TAX-DT-AS1",
+            "name": "Direct Taxes Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-DT-AS2",
+            "name": "Direct Taxes Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-DT-AS3",
+            "name": "Direct Taxes Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-DT-AP1",
+            "name": "Direct Taxes Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-DT-AP2",
+            "name": "Direct Taxes Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          }
+        ]
+      }
+    },
+    "TDB-TAX-IT-CO": {
+      "name": "Indirect Taxes Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "TAX",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-TAXTDB",
+      "children_codes": [
+        "TDB-TAX-IT-AS1",
+        "TDB-TAX-IT-AS2",
+        "TDB-TAX-IT-AS3",
+        "TDB-TAX-IT-AP1",
+        "TDB-TAX-IT-AP2",
+        "TDB-TAX-IT-AP3",
+        "TDB-TAX-IT-AJ1"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.724,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 7,
+      "seniority_distribution": {
+        "Analyst Jr": 1,
+        "Analyst": 3,
+        "Analyst Senior": 3,
+        "Administrative": 0
+      },
+      "staff_count": 7,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-TAX-IT-CO",
+          "name": "Indirect Taxes Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-TAX-IT-AS1",
+            "name": "Indirect Taxes Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-IT-AS2",
+            "name": "Indirect Taxes Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-IT-AS3",
+            "name": "Indirect Taxes Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-IT-AP1",
+            "name": "Indirect Taxes Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-IT-AP2",
+            "name": "Indirect Taxes Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-IT-AP3",
+            "name": "Indirect Taxes Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-IT-AJ1",
+            "name": "Indirect Taxes Analyst Jr (TDB)",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          }
+        ]
+      }
+    },
+    "TDB-TAX-RC-CO": {
+      "name": "Receiving Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "TAX",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-TAXTDB",
+      "children_codes": [
+        "TDB-TAX-RC-AS1",
+        "TDB-TAX-RC-AS2",
+        "TDB-TAX-RC-AS3",
+        "TDB-TAX-RC-AP1",
+        "TDB-TAX-RC-AP2",
+        "TDB-TAX-RC-AP3",
+        "TDB-TAX-RC-AJ1",
+        "TDB-TAX-RC-AJ2",
+        "TDB-TAX-RC-AJ3",
+        "TDB-TAX-RC-AJ4",
+        "TDB-TAX-RC-AJ5",
+        "TDB-TAX-RC-AJ6",
+        "TDB-TAX-RC-AJ7",
+        "TDB-TAX-RC-AJ8",
+        "TDB-TAX-RC-AJ9",
+        "TDB-TAX-RC-AJ10",
+        "TDB-TAX-RC-AJ11",
+        "TDB-TAX-RC-ADM1",
+        "TDB-TAX-RC-ADM2",
+        "TDB-TAX-RC-ADM3",
+        "TDB-TAX-RC-ADM4"
+      ],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.873,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 21,
+      "seniority_distribution": {
+        "Analyst Jr": 11,
+        "Analyst": 3,
+        "Analyst Senior": 3,
+        "Administrative": 4
+      },
+      "staff_count": 21,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-TAX-RC-CO",
+          "name": "Receiving Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": [
+          {
+            "code": "TDB-TAX-RC-AS1",
+            "name": "Receiving Senior Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-RC-AS2",
+            "name": "Receiving Senior Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-RC-AS3",
+            "name": "Receiving Senior Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Senior"
+          },
+          {
+            "code": "TDB-TAX-RC-AP1",
+            "name": "Receiving Analyst (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-RC-AP2",
+            "name": "Receiving Analyst (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-RC-AP3",
+            "name": "Receiving Analyst (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ1",
+            "name": "Receiving Analyst Jr (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ2",
+            "name": "Receiving Analyst Jr (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ3",
+            "name": "Receiving Analyst Jr (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ4",
+            "name": "Receiving Analyst Jr (TDB) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ5",
+            "name": "Receiving Analyst Jr (TDB) 5",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ6",
+            "name": "Receiving Analyst Jr (TDB) 6",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ7",
+            "name": "Receiving Analyst Jr (TDB) 7",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ8",
+            "name": "Receiving Analyst Jr (TDB) 8",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ9",
+            "name": "Receiving Analyst Jr (TDB) 9",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ10",
+            "name": "Receiving Analyst Jr (TDB) 10",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-AJ11",
+            "name": "Receiving Analyst Jr (TDB) 11",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Analyst Jr"
+          },
+          {
+            "code": "TDB-TAX-RC-ADM1",
+            "name": "Receiving Administrative (TDB) 1",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          },
+          {
+            "code": "TDB-TAX-RC-ADM2",
+            "name": "Receiving Administrative (TDB) 2",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          },
+          {
+            "code": "TDB-TAX-RC-ADM3",
+            "name": "Receiving Administrative (TDB) 3",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          },
+          {
+            "code": "TDB-TAX-RC-ADM4",
+            "name": "Receiving Administrative (TDB) 4",
+            "node_type": null,
+            "is_org_node": false,
+            "hierarchical_level": "Administrative"
+          }
+        ]
+      }
+    },
+    "TDB-TAX-NT-CO": {
+      "name": "Notifications Coordinator (TDB)",
+      "node_type": "Jefatura",
+      "department": "TAX",
+      "organization": "TDB",
+      "parent_code": "TLAC-MGR-TAXTDB",
+      "children_codes": [],
+      "areas_procesos_dependientes": {
+        "gerencias_fuente": [],
+        "granularity": "gerencia",
+        "procesos": [],
+        "note": "Sin procesos parseados todavía para esta gerencia (no hay PDFs de posición relevados)."
+      },
+      "complejidad": {
+        "process_diversity": null,
+        "seniority_dispersion": 0.0,
+        "score": null,
+        "bucket": "Sin datos suficientes"
+      },
+      "principales_responsabilidades": [
+        "Sin datos de puestos parseados todavía para esta gerencia."
+      ],
+      "dimensiones_destacadas": [],
+      "nomina_dependiente_total": 0,
+      "seniority_distribution": {
+        "Analyst Jr": 0,
+        "Analyst": 0,
+        "Analyst Senior": 0,
+        "Administrative": 0
+      },
+      "staff_count": 0,
+      "organigrama_local": {
+        "self": {
+          "code": "TDB-TAX-NT-CO",
+          "name": "Notifications Coordinator (TDB)",
+          "node_type": "Jefatura"
+        },
+        "children": []
+      }
+    }
+  }
+}
