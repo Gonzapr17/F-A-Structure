@@ -1,0 +1,1032 @@
+{
+  "positions": [
+    {
+      "position_id": "Jr Analyst Accounts Payable",
+      "source_file": "Profile — Jr Analyst Accounts Payable.pdf",
+      "role_function": "Jr Analyst Accounts Payable",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Junior Analyst",
+      "tasks_and_processes": [
+        "Analysis and Accounting of Dealer Documents",
+        "Analysis and Posting of Service Documents",
+        "Support for Suppliers and Internal Users"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Executes tasks under continuous supervision. Requires frequent validation before moving forward and reports incidents to their manager.",
+        "Process complexity": "Routine, well-defined processes with standardized steps and low variability. Errors are detected and corrected quickly.",
+        "Decision-making": "Operational decisions limited to clear procedures. Consults before acting when faced with unforeseen situations.",
+        "Technical knowledge": "Basic knowledge of area processes. Applies tools and systems with guidance. Consolidating the technical foundations of the role.",
+        "Stakeholder management": "Interaction mainly with the immediate team. Communicates task results following established channels and formats.",
+        "Reporting level": "Reports to Coordinator or Senior Analyst within the team. Output feeds into another process before reaching management.",
+        "Error impact": "Errors with limited impact on the immediate process, correctable in the short term without significant consequences for the area or internal client.",
+        "Tools and technology": "Basic use of standard area tools (Excel, SAP, reporting systems). Requires support for advanced functions."
+      }
+    },
+    {
+      "position_id": "Jr Analyst Accounts Receivable",
+      "source_file": "Profile — Jr Analyst Accounts Receivable.pdf",
+      "role_function": "Jr Analyst Accounts Receivable",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Junior Analyst",
+      "tasks_and_processes": [
+        "TPA / Lexus / Insurance Collections Follow-up",
+        "Upload of Receipts and Tax Certificate",
+        "Support in Aging Report Preparation"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Executes tasks under continuous supervision. Requires frequent validation before moving forward and reports incidents to their manager.",
+        "Process complexity": "Routine, well-defined processes with standardized steps and low variability. Errors are detected and corrected quickly.",
+        "Decision-making": "Operational decisions limited to clear procedures. Consults before acting when faced with unforeseen situations.",
+        "Technical knowledge": "Basic knowledge of area processes. Applies tools and systems with guidance. Consolidating the technical foundations of the role.",
+        "Stakeholder management": "Interaction mainly with the immediate team. Communicates task results following established channels and formats.",
+        "Reporting level": "Reports to Coordinator or Senior Analyst within the team. Output feeds into another process before reaching management.",
+        "Error impact": "Errors with limited impact on the immediate process, correctable in the short term without significant consequences for the area or internal client.",
+        "Tools and technology": "Basic use of standard area tools (Excel, SAP, reporting systems). Requires support for advanced functions."
+      }
+    },
+    {
+      "position_id": "Jr Analyst Kinto Administration - 1",
+      "source_file": "Profile — Jr Analyst Kinto Administration - 1.pdf",
+      "role_function": "Jr Analyst Kinto Administration - 1",
+      "department": "Kinto",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Junior Analyst",
+      "tasks_and_processes": [
+        "Dealer Invoice Approval",
+        "Kinto Share Operations Management",
+        "Additional Services Control"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Executes tasks under continuous supervision. Requires frequent validation before moving forward and reports incidents to their manager.",
+        "Process complexity": "Routine, well-defined processes with standardized steps and low variability. Errors are detected and corrected quickly.",
+        "Decision-making": "Operational decisions limited to clear procedures. Consults before acting when faced with unforeseen situations.",
+        "Technical knowledge": "Basic knowledge of area processes. Applies tools and systems with guidance. Consolidating the technical foundations of the role.",
+        "Stakeholder management": "Interaction mainly with the immediate team. Communicates task results following established channels and formats.",
+        "Reporting level": "Reports to Coordinator or Senior Analyst within the team. Output feeds into another process before reaching management.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Basic use of standard area tools (Excel, SAP, reporting systems). Requires support for advanced functions."
+      }
+    },
+    {
+      "position_id": "Jr Analyst Kinto Administration - 2",
+      "source_file": "Profile — Jr Analyst Kinto Administration - 2.pdf",
+      "role_function": "Jr Analyst Kinto Administration - 2",
+      "department": "Kinto",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Junior Analyst",
+      "tasks_and_processes": [
+        "Kinto Fine Management",
+        "Commission Settlement",
+        "Monitoring and Follow-up of Overdue Kinto Share Accounts"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Executes tasks under continuous supervision. Requires frequent validation before moving forward and reports incidents to their manager.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Operational decisions limited to clear procedures. Consults before acting when faced with unforeseen situations.",
+        "Technical knowledge": "Basic knowledge of area processes. Applies tools and systems with guidance. Consolidating the technical foundations of the role.",
+        "Stakeholder management": "Interaction mainly with the immediate team. Communicates task results following established channels and formats.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Basic use of standard area tools (Excel, SAP, reporting systems). Requires support for advanced functions."
+      }
+    },
+    {
+      "position_id": "Pl Analyst Account Payable",
+      "source_file": "Profile — Pl Analyst Account Payable.pdf",
+      "role_function": "Pl Analyst Account Payable",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Analysis and Posting of Auto Parts Suppliers' Documents",
+        "Analysis and Posting of Non-PO Invoices",
+        "Payment Proposal Preparation"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Interaction mainly with the immediate team. Communicates task results following established channels and formats.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Pl Analyst Account Receivable - Expo & Others",
+      "source_file": "Profile — Pl Analyst Account Receivable - Expo & Others.pdf",
+      "role_function": "Pl Analyst Account Receivable - Expo & Others",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Customer Portfolio Management and Follow-up",
+        "Monitoring and Management of Due Dates",
+        "Receipt and Invoice Reconciliation"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Routine, well-defined processes with standardized steps and low variability. Errors are detected and corrected quickly.",
+        "Decision-making": "Operational decisions limited to clear procedures. Consults before acting when faced with unforeseen situations.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Basic use of standard area tools (Excel, SAP, reporting systems). Requires support for advanced functions."
+      }
+    },
+    {
+      "position_id": "Pl Analyst Account Receivable - Web business",
+      "source_file": "Profile — Pl Analyst Account Receivable - Web business.pdf",
+      "role_function": "Pl Analyst Account Receivable - Web business",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Invoice and Credit Card Collection Reconciliation",
+        "Responsible for Ensuring Account Integrity",
+        "Debt Recovery Follow-up"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with limited impact on the immediate process, correctable in the short term without significant consequences for the area or internal client.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Pl Analyst Connected",
+      "source_file": "Profile — Pl Analyst Connected.pdf",
+      "role_function": "Pl Analyst Connected",
+      "department": "Kinto",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Local Billing for Connected Services",
+        "Regional Billing for Connected Services",
+        "Development and Testing of Management Systems",
+        "Responsible for the Integrity of Accounting Information",
+        "Connected Controller"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Pl Analyst Kinto Administration",
+      "source_file": "Profile — Pl Analyst Kinto Administration.pdf",
+      "role_function": "Pl Analyst Kinto Administration",
+      "department": "Kinto",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Kinto One Billing and Control",
+        "Revenue and Expense Account Analysis",
+        "Control and Billing of Additional Services",
+        "Kinto One Customer Support"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with impact on the area or related processes. May generate rework, delays or inconsistencies requiring coordination to resolve.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Sr Analyst Accounts Payable",
+      "source_file": "Profile — Sr Analyst Accounts Payable.pdf",
+      "role_function": "Sr Analyst Accounts Payable",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Analysis and Accounting of Auto Parts Suppliers",
+        "Analysis and Accounting of Foreign Suppliers",
+        "Review of Payment Proposals",
+        "Preparation and Presentation of Aging Reports",
+        "Support for Internal and External Audits"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Sr Analyst Kinto Administration",
+      "source_file": "Profile — Sr Analyst Kinto Administration.pdf",
+      "role_function": "Sr Analyst Kinto Administration",
+      "department": "Kinto",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Preparation and Monitoring of Investments",
+        "Business Performance Analysis",
+        "Pricing Control and Analysis",
+        "Residual Value Control and Monitoring",
+        "Business Risk Assessment"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Sr Analyst Receivable - Dealers",
+      "source_file": "Profile — Sr Analyst Receivable - Dealers.pdf",
+      "role_function": "Sr Analyst Receivable - Dealers",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Dealer Portfolio Management and Follow-up",
+        "Due Date Monitoring and Management",
+        "Receipt and Invoice Reconciliation",
+        "Aging Report and Collections Forecast"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Sr Analyst Receivable - Kinto One & Services",
+      "source_file": "Profile — Sr Analyst Receivable - Kinto One & Services.pdf",
+      "role_function": "Sr Analyst Receivable - Kinto One & Services",
+      "department": "AP & AR",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Customer Portfolio Management and Follow-up",
+        "Due Date Monitoring and Management",
+        "Receipt and Invoice Reconciliation",
+        "Aging Report",
+        "Credit Risk Analysis"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "TASA Accounting Invoicing analyst (CG)",
+      "source_file": "Profile — TASA Accounting Invoicing analyst (CG).pdf",
+      "role_function": "TASA Accounting invoicing analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media",
+        "Follow up and controlling of Invoicing Dashboard -Invoice Monthly Closing and Reporting -Analysis, control and making of Credit Notes"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+      "source_file": "Profile — TASA Accounting Stock & Fixed assets analyst (EV).pdf",
+      "role_function": "TASA Accounting reporting analyst",
+      "department": "Accounting",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Perform Fixed asset impairment test & Vehicles impairment test",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media",
+        "Coordinate Fixed assets inventory taking / analyse inventory diferencies / Approve fixed assets disposals (scrap, action, stolen, etc) / Approve fixed assets transference"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+      "source_file": "Profile — TASA Accounting Stock & Fixed assets analyst (MC).pdf",
+      "role_function": "TASA Accounting reporting analyst",
+      "department": "Accounting",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Perform Fixed asset impairment test & Vehicles impairment test",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media",
+        "Coordinate Fixed assets inventory taking / analyse inventory diferencies / Approve fixed assets disposals (scrap, action, stolen, etc) / Approve fixed assets transference",
+        "Adjust by inflation non monetary assets in AR$",
+        "Perfom Finished good (vehicules, spare parts, materials)inventory taking / Analyse inventory diferencies and book them if necessary"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting Stock analyst (AN)",
+      "source_file": "Profile — TASA Accounting Stock analyst (AN).pdf",
+      "role_function": "TASA Accounting reporting analyst",
+      "department": "Accounting",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Perform Fixed asset impairment test & Vehicles impairment test",
+        "Perfom Finished good (vehicules, spare parts, materials)inventory taking & Analyse inventory diferencies and book them if necessary",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting bank reconciliatin analyst (BT)",
+      "source_file": "Profile — TASA Accounting bank reconciliatin analyst (BT).pdf",
+      "role_function": "TASA Accounting Bank reconcillation analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media",
+        "Perform monthly bank account reconliciation, reporting and follow up of pending points / Loans valuation"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting reporting analyst  (NG)",
+      "source_file": "Profile — TASA Accounting reporting analyst  (NG).pdf",
+      "role_function": "TASA Accounting reporting analyst",
+      "department": "Accounting",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Determine Non Operating results for budget & follow up",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TASA Accounting reporting analyst 1 (VT)",
+      "source_file": "Profile — TASA Accounting reporting analyst 1 (VT).pdf",
+      "role_function": "TASA Accounting reporting analyst",
+      "department": "Accounting",
+      "organization": "TASA General Management Operations",
+      "organization_company": "TASA",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix and perfomr/update interal procedures",
+        "Adjust by inflation non monetary assets in AR$",
+        "Determine Non Operating results for budget & follow up",
+        "Determine USD position forecast & follow up",
+        "TPA operation accounting booking -> Units, valuation and expousure of Units Liabilities - Penaltties and contingencies control -Intercompany control",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Calculate dividend payment to TMC"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Bank reconcillation analyst",
+      "source_file": "Profile — TDB Accounting Bank reconcillation analyst.pdf",
+      "role_function": "TDB Accounting Bank reconcillation analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Perform/update SOX control matrix & perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media",
+        "Perform monthly bank account reconliciation, reporting and follow up of pending points / Loans valuation",
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Fixed assets analyst (PFZ)",
+      "source_file": "Profile — TDB Accounting Fixed assets analyst (PFZ).pdf",
+      "role_function": "TDB Accounting Fixed assets analyst (PFZ)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for PFZ))",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Perform/update SOX control matrix - Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Fixed assets analyst (SOR I)",
+      "source_file": "Profile — TDB Accounting Fixed assets analyst (SOR I).pdf",
+      "role_function": "TDB Accounting Fixed assets analyst (SOR I)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perform Fixed asset impairment test",
+        "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for SOR I)",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Perform/update SOX control matrix - Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Fixed assets analyst (SORII)",
+      "source_file": "Profile — TDB Accounting Fixed assets analyst (SORII).pdf",
+      "role_function": "TDB Accounting Fixed assets analyst (SORII)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perform Fixed asset impairment test",
+        "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for SOR II)",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Perform/update SOX control matrix - Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Fixed assets analyst (reporting)",
+      "source_file": "Profile — TDB Accounting Fixed assets analyst (reporting).pdf",
+      "role_function": "TDB Accounting Fixed assets analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perform Fixed asset impairment test",
+        "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Perform/update SOX control matrix - Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Reporting 1 analyst",
+      "source_file": "Profile — TDB Accounting Reporting 1 analyst.pdf",
+      "role_function": "TDB Accounting Reporting analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix - Perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Determine Non Operating results for budget & follow up",
+        "Determine USD position forecast & follow up by actual USD Position",
+        "Calculate dividend and IOE (excl.TDB) payment"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Reporting 2 analyst",
+      "source_file": "Profile — TDB Accounting Reporting 2 analyst.pdf",
+      "role_function": "TDB Accounting Reporting analyst",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Prepare full package of annual legal Financial Statements",
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix - Perfomr/update interal procedures",
+        "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Stock analyst (Importation)",
+      "source_file": "Profile — TDB Accounting Stock analyst (Importation).pdf",
+      "role_function": "TDB Accounting Stock analyst (Importation)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Analyst",
+      "tasks_and_processes": [
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix / Perfomr/update interal procedures",
+        "Inventories importation in progress"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Stock analyst (PFZ)",
+      "source_file": "Profile — TDB Accounting Stock analyst (PFZ).pdf",
+      "role_function": "TDB Accounting Stock analyst (PFZ)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary",
+        "Reversal of the Tax credit of the month",
+        "Perform/update SOX control matrix / Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Stock analyst (SOR I)",
+      "source_file": "Profile — TDB Accounting Stock analyst (SOR I).pdf",
+      "role_function": "TDB Accounting Stock analyst (SOR I)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary",
+        "Reversal of the Tax credit of the month",
+        "Perform/update SOX control matrix / Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Stock analyst (SOR II)",
+      "source_file": "Profile — TDB Accounting Stock analyst (SOR II).pdf",
+      "role_function": "TDB Accounting Stock analyst (SOR II)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary",
+        "Reversal of the Tax credit of the month",
+        "Perform/update SOX control matrix / Perfomr/update internal procedures"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports directly to the Coordinator or Area Manager. Output is visible to the leadership team and reviewed by the responsible manager.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "TDB Accounting Stock analyst (reporting)",
+      "source_file": "Profile — TDB Accounting Stock analyst (reporting).pdf",
+      "role_function": "TDB Accounting Stock analyst (reporting)",
+      "department": "Accounting",
+      "organization": "TDB General Management Operations",
+      "organization_company": "TDB",
+      "organization_area": "Operations",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Report by Conets each accounting closing figures",
+        "Prepare monthly accounting package to TMC",
+        "Perform/update SOX control matrix / Perfomr/update interal procedures",
+        "Perform Vehicles impairment test",
+        "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media",
+        "Perfom Finished good (vehicules, spara parts, materials)inventory taking - To analyse inventory diferencies and book them if necessary",
+        "Information for the inventory movement to Goverment Bloco K (TDB)",
+        "Reversal of the Tax credit of the month"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Monthly close analyst (TASA)",
+      "source_file": "Profit Planning — Monthly close analyst (TASA).pdf",
+      "role_function": "Monthly close analyst",
+      "department": "Profit Planning",
+      "organization": "TASA General Management Planning",
+      "organization_company": "TASA",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Closing Process Oversight: Lead and manage the monthly financial closing process, ensure that deadlines are met and maintain high accuracy infinancialreporting.",
+        "Financial Statement Preparation: Prepare and analyze income statement and profit and lost by business unit to provide a comprehensive overview oftheorganization's financial position.",
+        "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders.",
+        "Process Improvement: Continuously assess and enhance the monthly close process, implementing efficiencies and best practices to streamline operations.",
+        "Cross-functional Collaboration: Work closely with finance, accounting, and other relevant departments to obtain necessary information and resolveissuesrelated to the monthly close."
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Monthly close analyst (TDB)",
+      "source_file": "Profit Planning — Monthly close analyst (TDB).pdf",
+      "role_function": "Monthly close analyst",
+      "department": "Profit Planning",
+      "organization": "TDB General Management Planning",
+      "organization_company": "TDB",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Closing Process Oversight: Lead and manage the monthly financial closing process, ensure that deadlines are met and maintain high accuracyinfinancialreporting",
+        "Financial Statement Preparation: Prepare and analyze income statement and profit and lost by business unit to provide a comprehensive overviewoftheorganization's financial position",
+        "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders.",
+        "Process Improvement: Continuously assess and enhance the monthly close process, implementing efficiencies and best practices to streamline operations.",
+        "Cross-functional Collaboration: Work closely with finance, accounting, and other relevant departments to obtain necessary information andresolveissuesrelated to the monthly close"
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Regular interaction with Finance counterparts and stakeholders in Argentina and/or Brazil. Coordinates information, aligns criteria and maintains effective working relationships beyond the immediate team.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Profit Planning Analyst (TASA)",
+      "source_file": "Profit planning — Profit Planning Analyst (TASA).pdf",
+      "role_function": "Profit Planning Analyst",
+      "department": "Profit Planning",
+      "organization": "TASA General Management Planning",
+      "organization_company": "TASA",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Financial Analysis: Deeply analysis of financial statements to identify key factors that affect profit margins.",
+        "Forecasting: Collaborate with cross-functional teams to develop accurate financial forecasts, considering market trends, economic indicators, andinternalvariables.",
+        "Budgeting: Work closely with department heads to establish and manage budgets, ensuring alignment with overall profit goals and organizationalobjectives.",
+        "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders.",
+        "Scenario Planning: Evaluate potential scenarios and their impact on profitability, providing insights to support strategic decision-making.",
+        "Risk Management: Evaluate financial risks associated with profit planning activities, proposing mitigation strategies to keep the organization'sfinancialhealth.",
+        "Reporting: Generate regular reports and dashboards to communicate financial performance and key indicators to management, enabling informed decision- making."
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Profit Planning Analyst (TDB)",
+      "source_file": "Profit planning — Profit Planning Analyst (TDB).pdf",
+      "role_function": "Profit Planning Analyst",
+      "department": "Profit Planning",
+      "organization": "TDB General Management Planning",
+      "organization_company": "TDB",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Financial Analysis: Deeply analysis of financial statements to identify key factors that affect profit margins.",
+        "Forecasting: Collaborate with cross-functional teams to develop accurate financial forecasts, considering market trends, economic indicators,andinternalvariables.",
+        "Budgeting: Work closely with department heads to establish and manage budgets, ensuring alignment with overall profit goals and organizationalobjectives.",
+        "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders.",
+        "Scenario Planning: Evaluate potential scenarios and their impact on profitability, providing insights to support strategic decision-making.",
+        "Risk Management: Evaluate financial risks associated with profit planning activities, proposing mitigation strategies to keep theorganization'sfinancialhealth.",
+        "Reporting: Generate regular reports and dashboards to communicate financial performance and key indicators to management, enabling informed decision- making."
+      ],
+      "dimensions": {
+        "Operational autonomy": "Works autonomously with low supervision. Designs and executes their own processes, anticipates deviations and proposes countermeasures without routine consultation.",
+        "Process complexity": "Multi-variable, high-complexity processes. Designs solutions beyond existing standards, leads improvement initiatives and trains others in new methodologies. Manages ambiguity with autonomy.",
+        "Decision-making": "Decisions with cross-functional or strategic impact. Applies Toyota Business Practice (TBP) to structure analysis, anticipates consequences in other areas and generates recommendations influencing team or management decisions.",
+        "Technical knowledge": "Solid command of area tools and processes. Stays current in their field, proactively seeks new knowledge and applies it with autonomy.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced command of area tools. Uses complex functionalities, automates repetitive tasks and proposes improvements in existing system usage."
+      }
+    },
+    {
+      "position_id": "Profitability controller (TASA)",
+      "source_file": "Profit planning — Profitability controller (TASA).pdf",
+      "role_function": "Profitability controller",
+      "department": "Profit Planning",
+      "organization": "TASA General Management Planning",
+      "organization_company": "TASA",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Profitability Analysis: Conduct detailed analyses of revenue streams, cost structures, and profit margins to identify areas for improvement and optimization.",
+        "Key Performance Indicators (KPIs): Develop, monitor, and report on key profitability indicators, providing insights into the financial health of variousbusinessunits.",
+        "Product/Service Profitability: Assess and compare the profitability of different products or services, offering recommendations for adjustmentsorenhancements to maximize returns.",
+        "Variance Analysis: Analyze and interpret variances in profitability metrics, investigating the root causes and providing actionable insights to management.",
+        "Continuous Improvement: Identify opportunities for process improvement and efficiency gains, contributing to the ongoing enhancement ofprofitabilitycontrol mechanisms."
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    },
+    {
+      "position_id": "Profitability controller (TDB)",
+      "source_file": "Profit planning — Profitability controller (TDB).pdf",
+      "role_function": "Profitability controller",
+      "department": "Profit Planning",
+      "organization": "TDB General Management Planning",
+      "organization_company": "TDB",
+      "organization_area": "Planning",
+      "seniority_level": "Senior Analyst",
+      "tasks_and_processes": [
+        "Profitability Analysis: Conduct detailed analyses of revenue streams, cost structures, and profit margins to identify areas for improvement and optimization.",
+        "Key Performance Indicators (KPIs): Develop, monitor, and report on key profitability indicators, providing insights into the financial health ofvariousbusinessunits.",
+        "Product/Service Profitability: Assess and compare the profitability of different products or services, offering recommendations foradjustmentsorenhancements to maximize returns.",
+        "Variance Analysis: Analyze and interpret variances in profitability metrics, investigating the root causes and providing actionable insights to management.",
+        "Continuous Improvement: Identify opportunities for process improvement and efficiency gains, contributing to the ongoing enhancement ofprofitabilitycontrolmechanisms."
+      ],
+      "dimensions": {
+        "Operational autonomy": "Operates with periodic supervision. Makes decisions within their process using own judgment, escalating complex or out-of-protocol situations.",
+        "Process complexity": "Processes with moderate variability requiring interpretation and judgment. Questions how things are done, identifies improvement opportunities (Kaizen) and proposes adjustments to the team. Handles multiple tasks with interdependencies.",
+        "Decision-making": "Decisions based on fact and data analysis (PDCA). Evaluates alternatives, identifies root causes using structured methodology and resolves problems with own judgment within their area of responsibility.",
+        "Technical knowledge": "Deep technical expertise, recognized within the team. Shares knowledge, develops capabilities in others and leads adoption of new practices or methodologies.",
+        "Stakeholder management": "Management of high-relevance stakeholders: Managers, Directors, regional counterparts. Builds relationships autonomously, negotiates positions and represents the area in decision-making forums.",
+        "Reporting level": "Reports to Management or General Management. Output is presented to senior leadership (GM, Director, CEO) with impact on strategic decisions.",
+        "Error impact": "Errors with financial, reputational or strategic impact. May affect reports to headquarters, business commitments or senior management decision-making.",
+        "Tools and technology": "Advanced proficiency with DX/AI orientation. Leads or drives the adoption of digital tools or artificial intelligence to make processes more efficient, aligned with the TLAC ONE TOYOTA initiative."
+      }
+    }
+  ]
+}
