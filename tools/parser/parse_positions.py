@@ -147,6 +147,7 @@ def parse_pdf(path):
         "organization": organization,
         "organization_company": org_company,
         "organization_area": org_area,
+        "headcount": 1,  # cada PDF representa una posición/nómina individual
         "seniority_level": level,
         "tasks_and_processes": tasks,
         "dimensions": dimensions,
