@@ -1,0 +1,647 @@
+{
+  "by_gerencia": {
+    "Accounting": {
+      "source_doc": "data/vision-gerentes/Accounting.pdf",
+      "note": null,
+      "summary": {
+        "aligned": 19,
+        "solo_bottom_up": 0,
+        "solo_top_down": 1
+      },
+      "aligned": [
+        {
+          "process": "SOX Control Matrix & Internal Procedures",
+          "bottom_up_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To perform/update SOX control matrix - To perfomr/update interal procedures\" (JOB DESCRIPTION DETAIL, SOX controls)"
+        },
+        {
+          "process": "Monthly Balance Sheet Account Reconciliations",
+          "bottom_up_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst"
+          ],
+          "top_down_evidence": "\"To make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)\" (Accounts valuation)"
+        },
+        {
+          "process": "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "bottom_up_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To prepare accounting information w/interal & external requeriment (INDEC), for Company reports (Sustaintability), for press media\""
+        },
+        {
+          "process": "Bank Reconciliation & Loans Follow-up",
+          "bottom_up_positions": [
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TDB Accounting Bank reconcillation analyst"
+          ],
+          "top_down_evidence": "\"To perform monthly bank account reconliciation, reporting and follow up of pending points / Loans valuation\""
+        },
+        {
+          "process": "Annual Legal Financial Statements Preparation",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst"
+          ],
+          "top_down_evidence": "\"Prepare full package of annual legal Financial Statements\" (Annual Financial Statements)"
+        },
+        {
+          "process": "Monthly Closing Reporting via Conets",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To report by Conets each accounting closing figures\" (TMC reports figures)"
+        },
+        {
+          "process": "Monthly Accounting Package to TMC",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To prepare monthly accounting package to TMC\" (TMC reports figures)"
+        },
+        {
+          "process": "Fixed Assets / Vehicles Impairment Testing",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To perform Fixed asset impairment test - To perform Vehicles impairment test\" (Impairment valuation test)"
+        },
+        {
+          "process": "Fixed Assets Inventory Taking & Disposal Management",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To coordinate Fixed assets inventory taking - To analyse inventory diferencies - To approve fixed assets disposals... transference\" (Fixed assets inventory management)"
+        },
+        {
+          "process": "Inflation Adjustment of Non-Monetary Assets",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting reporting analyst 1 (VT)"
+          ],
+          "top_down_evidence": "\"To adjust by inflation non monetary assets in AR$\" (Inflation accouting in AR$, excl. TASA)"
+        },
+        {
+          "process": "Finished Goods Inventory Taking & Booking",
+          "bottom_up_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"To perfom Finished good (vehicules, spare parts, materials) inventory taking - To analyse inventory diferencies and book them if necessary\""
+        },
+        {
+          "process": "Non-Operating Results Determination & Budget Follow-up",
+          "bottom_up_positions": [
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "top_down_evidence": "\"To determine Non Operating results (actual & budget/fcst/MTBP planning) - To control Actual Non Operating results\""
+        },
+        {
+          "process": "USD Position Forecast & Follow-up",
+          "bottom_up_positions": [
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "top_down_evidence": "\"To determine USD position forecast - To control Actual Balance sheet USD position\""
+        },
+        {
+          "process": "TPA Units Accounting & Intercompany Control",
+          "bottom_up_positions": [
+            "TASA Accounting reporting analyst 1 (VT)"
+          ],
+          "top_down_evidence": "\"Units, valuation and expousure of Units Liabilities - Penalties and contingencies control - Intercompany control\" (TPA consortium, excl. TASA)"
+        },
+        {
+          "process": "Dividend / IOE Payment Calculation",
+          "bottom_up_positions": [
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "top_down_evidence": "\"To calculate dividend and IOE (excl.TDB) payment\""
+        },
+        {
+          "process": "Invoicing Dashboard Control & Credit Notes",
+          "bottom_up_positions": [
+            "TASA Accounting Invoicing analyst (CG)"
+          ],
+          "top_down_evidence": "\"Follow up and controlling of Invoicing Dashboard - Invoice Monthly Closing and Reporting - Analysis, control and making of Credit Notes\" (Invoicing, excl. TASA)"
+        },
+        {
+          "process": "Inventory in Transit / Importation Tracking",
+          "bottom_up_positions": [
+            "TDB Accounting Stock analyst (Importation)"
+          ],
+          "top_down_evidence": "\"Importation in progress (TDB)\" (Finished good inventories, TDB)"
+        },
+        {
+          "process": "Monthly Tax Credit Reversal",
+          "bottom_up_positions": [
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"Reversal of the Tax credit of the month\" (Finished good inventories, TDB)"
+        },
+        {
+          "process": "Government Bloco K Inventory Reporting (Brazil)",
+          "bottom_up_positions": [
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "top_down_evidence": "\"Information for the inventory moviment to Goverment Bloco K (TDB)\""
+        }
+      ],
+      "solo_bottom_up": [],
+      "solo_top_down": [
+        {
+          "process": "Rota 2030 Government Benefit Approval Reporting (Brazil)",
+          "top_down_evidence": "\"Information to goverment related to benefit approval - Rota 2030 (TDB)\" (Finished good inventories, TDB)",
+          "reconciled_wording": "Preparar y presentar la información requerida por el gobierno brasileño para la aprobación de beneficios del programa Rota 2030 (TDB). El gerente lo espera dentro del alcance de Accounting/Stock TDB, pero ninguna descripción de puesto relevada lo declara explícitamente hoy — a validar si ya lo cubre alguno de los analistas de Stock TDB (PFZ/SOR I/SOR II/reporting) o si falta asignarlo formalmente."
+        }
+      ]
+    },
+    "AP & AR": {
+      "source_doc": "data/vision-gerentes/AP, AR & Kinto.pdf",
+      "note": "El organigrama de este documento muestra headcount (AP TDB(4), AR TDB(5), Kinto Adm TASA(6), Con TDB(2), etc.) mayor al de los 13 PDFs de posición disponibles. Varias brechas 'solo top-down' reflejan probablemente posiciones aún no recolectadas (ej. Coordinadores de AP/AR, roles adicionales de Kinto/Connected) y no necesariamente procesos huérfanos.",
+      "summary": {
+        "aligned": 16,
+        "solo_bottom_up": 6,
+        "solo_top_down": 11
+      },
+      "aligned": [
+        {
+          "process": "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "bottom_up_positions": [
+            "Jr Analyst Accounts Payable",
+            "Pl Analyst Account Payable",
+            "Sr Analyst Accounts Payable"
+          ],
+          "top_down_evidence": "\"Local supplier's invoice processing\", \"Dealers invoice process\", \"Foreign payments\", \"Main suppliers local payments\", \"Non-regular supplier's invoices control\" (AP org chart / JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Payment Proposal Preparation & Review",
+          "bottom_up_positions": [
+            "Pl Analyst Account Payable",
+            "Sr Analyst Accounts Payable"
+          ],
+          "top_down_evidence": "\"Outsystem payment approval follow up\" (AP org chart)"
+        },
+        {
+          "process": "TPA / Lexus / Insurance Collections Follow-up",
+          "bottom_up_positions": [
+            "Jr Analyst Accounts Receivable"
+          ],
+          "top_down_evidence": "\"Others sales: scrap / consortium / insurance\", \"TCFA receips\" (AR org chart) — cobertura parcial/aproximada"
+        },
+        {
+          "process": "Aging Report Preparation & Collections Forecast",
+          "bottom_up_positions": [
+            "Jr Analyst Accounts Receivable",
+            "Sr Analyst Accounts Payable",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "top_down_evidence": "\"Monthly closing process / Aging report\" (AP y AR), \"Overdue report / Aging report\" (Senior AP, JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "bottom_up_positions": [
+            "Pl Analyst Account Receivable - Expo & Others",
+            "Pl Analyst Account Receivable - Web business",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "top_down_evidence": "\"Collection management & control: Dealers\", \"Overdue follow up\", \"Dealers accounts\" (AR org chart / JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Receipt/Invoice & Collections Reconciliation",
+          "bottom_up_positions": [
+            "Pl Analyst Account Receivable - Expo & Others",
+            "Pl Analyst Account Receivable - Web business",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "top_down_evidence": "\"Accounts reconciliation\" (Plain, JOB DESCRIPTION DETAIL - Account Receivables)"
+        },
+        {
+          "process": "Credit & Business Risk Assessment",
+          "bottom_up_positions": [
+            "Sr Analyst Kinto Administration",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "top_down_evidence": "\"Nosis análisis – credit approval\", \"Spare parts credit analysis & approval\", \"Verification SERASA/AFIP\" (AR/AP org chart)"
+        },
+        {
+          "process": "Additional Services Control & Billing",
+          "bottom_up_positions": [
+            "Jr Analyst Kinto Administration - 1",
+            "Pl Analyst Kinto Administration"
+          ],
+          "top_down_evidence": "\"Additional services invoicing\" (Kinto, JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Kinto Fine Management & Commission Settlement",
+          "bottom_up_positions": [
+            "Jr Analyst Kinto Administration - 2"
+          ],
+          "top_down_evidence": "\"Traffic tickets controls, payment and collection\", \"Dealers commissions\" (Kinto, JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Overdue Kinto Share Accounts Monitoring",
+          "bottom_up_positions": [
+            "Jr Analyst Kinto Administration - 2"
+          ],
+          "top_down_evidence": "\"Kinto collection management\" (AR org chart) — cobertura aproximada"
+        },
+        {
+          "process": "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "bottom_up_positions": [
+            "Pl Analyst Kinto Administration"
+          ],
+          "top_down_evidence": "\"Invoicing process\", \"Prebilling revision\" (Kinto org chart)"
+        },
+        {
+          "process": "Kinto One Customer Support",
+          "bottom_up_positions": [
+            "Pl Analyst Kinto Administration"
+          ],
+          "top_down_evidence": "\"Call center claims revision\" (Kinto, JOB DESCRIPTION DETAIL)"
+        },
+        {
+          "process": "Kinto Investment, Pricing & Residual Value Management",
+          "bottom_up_positions": [
+            "Sr Analyst Kinto Administration"
+          ],
+          "top_down_evidence": "\"Sales price controller\", \"Investment controller\" (Kinto org chart)"
+        },
+        {
+          "process": "Kinto Business Performance Analysis",
+          "bottom_up_positions": [
+            "Sr Analyst Kinto Administration"
+          ],
+          "top_down_evidence": "\"P&L analysis & reporting\", \"Business KPI\" (Kinto org chart)"
+        },
+        {
+          "process": "Connected Services Billing (Local & Regional)",
+          "bottom_up_positions": [
+            "Pl Analyst Connected"
+          ],
+          "top_down_evidence": "\"Invoicing process\", \"Prebilling revision\" (Connected org chart)"
+        },
+        {
+          "process": "Connected Controller",
+          "bottom_up_positions": [
+            "Pl Analyst Connected"
+          ],
+          "top_down_evidence": "\"Controller: Connected Kinto op. / Banco Toyota / TFCA / Insurance (Mitsui/La Caja)\" (Connected org chart)"
+        }
+      ],
+      "solo_bottom_up": [
+        {
+          "process": "Supplier & Internal User Support (AP queries)",
+          "bottom_up_positions": [
+            "Jr Analyst Accounts Payable"
+          ],
+          "reconciled_wording": "El gerente no nombra soporte a proveedores/usuarios internos como proceso propio del área AP; aparece únicamente en el puesto Jr Analyst Accounts Payable. Redacción propuesta para incorporar en la visión de sector: 'Atención y soporte de consultas a proveedores y usuarios internos sobre el estado de sus documentos/pagos, como parte del flujo operativo de AP Junior.'"
+        },
+        {
+          "process": "Internal / External Audit Support",
+          "bottom_up_positions": [
+            "Sr Analyst Accounts Payable"
+          ],
+          "reconciled_wording": "Ningún bullet del documento del gerente menciona soporte a auditorías; sólo lo declara Sr Analyst Accounts Payable. Redacción propuesta: 'Dar soporte a auditorías internas y externas sobre el proceso de Cuentas a Pagar (documentación, conciliaciones y propuestas de pago), a cargo del Senior Analyst de AP.'"
+        },
+        {
+          "process": "Receipts & Tax Certificate Upload",
+          "bottom_up_positions": [
+            "Jr Analyst Accounts Receivable"
+          ],
+          "reconciled_wording": "No está en la visión de sector; sólo lo declara Jr Analyst Accounts Receivable. Redacción propuesta: 'Carga de comprobantes de cobro y certificados de retención impositiva en el sistema, como tarea de base del analista Junior de AR.'"
+        },
+        {
+          "process": "Accounting/Account Integrity Assurance",
+          "bottom_up_positions": [
+            "Pl Analyst Account Receivable - Web business",
+            "Pl Analyst Connected"
+          ],
+          "reconciled_wording": "No aparece como proceso nombrado por el gerente (aunque puede estar implícito en el control general de cobranzas). Redacción propuesta: 'Asegurar la integridad de la información contable de cobranzas y de Connected, formalizando esta responsabilidad en la definición de sector de AR Web Business y Connected.'"
+        },
+        {
+          "process": "Kinto Dealer Invoice Approval & Share Operations Management",
+          "bottom_up_positions": [
+            "Jr Analyst Kinto Administration - 1"
+          ],
+          "reconciled_wording": "El área de Kinto en la visión del gerente se describe en términos de pricing/inversión/facturación, sin mencionar aprobación de facturas de concesionarios ni gestión de operaciones de Kinto Share. Redacción propuesta: 'Aprobación de facturas de concesionarios y gestión operativa de Kinto Share, a cargo del analista Junior de Kinto Administration 1 — a confirmar con el gerente si debe explicitarse en la visión de sector.'"
+        },
+        {
+          "process": "Connected Systems Development & Testing",
+          "bottom_up_positions": [
+            "Pl Analyst Connected"
+          ],
+          "reconciled_wording": "La visión de sector de Connected está enfocada en la introducción comercial del área nueva, sin mencionar desarrollo/testing de sistemas de gestión. Redacción propuesta: 'Desarrollo y testing de sistemas de gestión para Connected, en soporte a la implementación de la nueva área descripta por el gerente.'"
+        }
+      ],
+      "solo_top_down": [
+        {
+          "process": "AP/AR Contract Revision & New Project Implementation",
+          "top_down_evidence": "\"Contract conditions revision\", \"New project implementations\" (AP y AR org chart)",
+          "reconciled_wording": "Revisión de condiciones contractuales con proveedores/clientes y participación en la implementación de nuevos proyectos del área de AP/AR. El gerente lo espera a nivel Senior en ambos sectores, pero ninguna de las 13 posiciones relevadas lo declara — podría corresponder a un Coordinador de AP/AR aún sin PDF."
+        },
+        {
+          "process": "SVD/ARIBA Supplier System Management",
+          "top_down_evidence": "\"SVD/ARIBA management\" (AP org chart, Plain)",
+          "reconciled_wording": "Administración de las plataformas SVD/ARIBA para gestión de proveedores. No está en ninguna descripción de puesto disponible; a validar si corresponde al Pl Analyst Account Payable."
+        },
+        {
+          "process": "Price Difference Control (TDB Imports)",
+          "top_down_evidence": "\"Price difference (TDB)\" (AP org chart, Plain)",
+          "reconciled_wording": "Control de diferencias de precio en importaciones de TDB. No declarado en las posiciones disponibles; podría corresponder al Pl Analyst Account Payable de TDB (sin PDF propio todavía, ya que el actual es genérico TASA/TDB combinado)."
+        },
+        {
+          "process": "Concur Expense Management (Employee Advances)",
+          "top_down_evidence": "\"Concur mgt\", \"Employees advance payments\" (AP org chart)",
+          "reconciled_wording": "Gestión de adelantos y rendiciones de gastos de empleados vía Concur. Esperado por el gerente a nivel Senior de AP, sin cobertura en las posiciones relevadas."
+        },
+        {
+          "process": "AR Cash Flow Reporting",
+          "top_down_evidence": "\"Cash Flow report\" (AR org chart, Plain)",
+          "reconciled_wording": "Elaboración de reportes de flujo de caja de cobranzas. No aparece en ninguna posición de AR relevada; a confirmar si lo cubre el Pl Analyst Account Receivable - Web business o falta asignarlo."
+        },
+        {
+          "process": "Vehicles Certificates Management (AR)",
+          "top_down_evidence": "\"Vehicles certificates\" (AR org chart, Plain)",
+          "reconciled_wording": "Gestión de certificados de vehículos vinculados a la cobranza. No declarado por ninguna posición relevada de AR."
+        },
+        {
+          "process": "Kinto GTS Management",
+          "top_down_evidence": "\"GTS management\" (Kinto org chart, Senior)",
+          "reconciled_wording": "Gestión del sistema/proceso GTS de Kinto (sigla sin aclarar en el documento). No cubierto por ninguna posición de Kinto relevada — a validar alcance con el gerente antes de redactar definitivamente."
+        },
+        {
+          "process": "Kinto Systems & New Project Implementation",
+          "top_down_evidence": "\"System implementations\", \"New projects implementation\" (Kinto org chart, Senior)",
+          "reconciled_wording": "Participación en implementaciones de sistemas y nuevos proyectos de Kinto Administration. Esperado a nivel Senior por el gerente; no declarado en el Sr Analyst Kinto Administration actual — posible brecha real o falta de detalle en su PDF."
+        },
+        {
+          "process": "Kinto Maintenance & Spare Parts Control",
+          "top_down_evidence": "\"Maintenance & spare parts controller\" (Kinto org chart, Plain)",
+          "reconciled_wording": "Control de mantenimiento y repuestos de la flota Kinto. No aparece en el Pl Analyst Kinto Administration relevado."
+        },
+        {
+          "process": "Kinto CUP Follow-up",
+          "top_down_evidence": "\"CUP follow up\" (Kinto org chart, Plain)",
+          "reconciled_wording": "Seguimiento del proceso CUP de Kinto (sigla sin aclarar en el documento). No declarado por ninguna posición relevada."
+        },
+        {
+          "process": "Kinto New Client Registration",
+          "top_down_evidence": "\"Input new clients\", \"Clients registration\" (Kinto org chart)",
+          "reconciled_wording": "Alta y registro de nuevos clientes de Kinto. No aparece en las posiciones de Kinto relevadas."
+        }
+      ]
+    },
+    "Profit Planning": {
+      "source_doc": "data/vision-gerentes/Profit planning.pdf",
+      "note": "Este documento incluye una sección 'Second Wheel Business Manager' que es una gerencia distinta dentro de Finance Planning (sin PDFs de posición propios todavía) — se excluyó de este cruce, que se limita a la visión del Profit Planning Manager.",
+      "summary": {
+        "aligned": 14,
+        "solo_bottom_up": 0,
+        "solo_top_down": 6
+      },
+      "aligned": [
+        {
+          "process": "Financial Analysis of Profit Margins",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Financial analysis: Deeply analysis of financial statements to identify key factors that affect profit margins\" (JOB DESCRIPTION DETAIL, Company Profit planning consolidation)"
+        },
+        {
+          "process": "Financial Forecasting",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Forecasting: ...accurate financial forecasts, considering market trends, economic indicators...\" + Manager main activity #3 'Forecasting and Financial Modeling'"
+        },
+        {
+          "process": "Scenario Planning",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Scenario Planning: Evaluate potential scenarios and their impact on profitability...\" + Manager main activity #5 'Scenario and Sensitivity Analysis'"
+        },
+        {
+          "process": "Management Reporting & Dashboards",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Reporting: Generate regular reports and dashboards...\" + Manager main activity #6 'Performance Monitoring and Reporting'"
+        },
+        {
+          "process": "Monthly Financial Closing Process Oversight",
+          "bottom_up_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Closing Process Oversight: Monthly financial closing process, ensuring met deadlines with high report accuracy\""
+        },
+        {
+          "process": "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "bottom_up_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Financial Statement Preparation: Income statement and profit and lost by business unit analysis\""
+        },
+        {
+          "process": "Budget vs. Actual / Profitability Variance Analysis",
+          "bottom_up_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)",
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)",
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "top_down_evidence": "\"Variance Analysis: Budget versus actual & actual vs actual performance analysis...\""
+        },
+        {
+          "process": "Continuous Process Improvement",
+          "bottom_up_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)",
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "top_down_evidence": "Manager main activity #7 'Process Improvement and Systems Development: Continuously improve planning tools, processes, and systems...'"
+        },
+        {
+          "process": "Cross-functional Collaboration for Monthly Close",
+          "bottom_up_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "top_down_evidence": "Implícito en Manager main activity #7 (\"reinforcing...cross-functional collaboration\") y en el propósito general del rol"
+        },
+        {
+          "process": "Budgeting & Alignment with Profit Goals",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "Manager main activity #4 'Budget Oversight and Alignment: Coordinate the budgeting process across departments...'"
+        },
+        {
+          "process": "Financial Risk Management (Profit Planning)",
+          "bottom_up_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "top_down_evidence": "\"Risk Management: Evaluate financial risks associated with profit planning activities...\""
+        },
+        {
+          "process": "Profitability Analysis (Revenue/Cost/Margin)",
+          "bottom_up_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "top_down_evidence": "\"Profitability Analysis: Detailed analyses of revenue streams, cost structures, and profit margins...\" (OEM/Distrib. Profitability control)"
+        },
+        {
+          "process": "KPI Development & Monitoring (Profitability)",
+          "bottom_up_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "top_down_evidence": "\"Key Performance Indicators (KPIs): Develop, monitor, and report on key profitability indicators...\""
+        },
+        {
+          "process": "Product/Service Profitability Assessment",
+          "bottom_up_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "top_down_evidence": "\"Product/Service Profitability: Assess and compare the profitability of different products or services...\""
+        }
+      ],
+      "solo_bottom_up": [],
+      "solo_top_down": [
+        {
+          "process": "Team Management & Coordination of Profit Planning Analysts",
+          "top_down_evidence": "Manager main activity #2: \"Team Management and Coordination: Manage a team of analysts responsible for profit modeling, financial projections, and variance analysis...\"",
+          "reconciled_wording": "Gestión y coordinación del equipo de analistas de Profit Planning. Es una responsabilidad propia del rol de Manager (no se espera que aparezca en las descripciones de puesto de analistas) — se deja registrada como 'solo top-down' por completitud, no como brecha a cerrar en el staff."
+        },
+        {
+          "process": "Overall Company Profit Plan Cycle (STPP/MTPP, Consolidation, Variance Segregation, Report Construction)",
+          "top_down_evidence": "Task distribution map: \"MID & SHORT TERM: GPM/TOSHO/SHUSEI/QUARTERLY\", \"Consolidation: Profit planning P&L construction\", \"Comparative variance analyisis: Segregate impacts\", \"Conclusion: Remarks main variations\", \"Report construction: F&A/RBOD\"",
+          "reconciled_wording": "Ciclo completo de plan de utilidades de la compañía (corto y mediano plazo: TOSHO/SHUSEI/trimestral y MTPP a 5 años), con consolidación, segregación de variaciones y armado de reporte F&A/RBOD. No está en el nivel de detalle de ninguna descripción de puesto relevada (los 6 puestos disponibles describen el rol en términos generales, no este ciclo operativo específico) — candidato a incorporarse en el próximo relevamiento de Profit Planning Analyst/Monthly close analyst."
+        },
+        {
+          "process": "Monthly Process Deep-Dive (SAP Control, Volume, Revenue, Variable Cost, Trade Balance, Value Chain, IFEM, Main KPI ROS/BEP, FAFM)",
+          "top_down_evidence": "Task distribution map, sección 'MONTHLY PROCESS': \"MONTHLY CLOSE: SAP Control...\", \"Volume: Production and sales...\", \"Revenue: Invoicing/Freight/Commision/CCL/Fleet support/Export price\", \"Variable cost: Impot CBU/Parts/Labor/Taxes\", \"Trade balance...\", \"IFEM SUBMISSION: TMC Accounting screen\", \"MAIN KPI: ROS/BEP\", \"FAFM: Variation detailed explanation/Non OP result\"",
+          "reconciled_wording": "Detalle operativo del cierre mensual: control en SAP, análisis de volumen, revenue, costo variable, balanza comercial, submission a IFEM y KPIs ROS/BEP/FAFM. Es una desagregación mucho más granular de lo que hoy cubren 'Monthly Financial Closing Process Oversight' y 'Budget vs. Actual Variance Analysis' bottom-up — se sugiere, en la próxima ronda de descripciones de puesto, detallar estos sub-procesos explícitamente."
+        },
+        {
+          "process": "Regional Profit Consolidation & TMC Reporting (CCPV, TOM, Matsushita Report, Marginal Profit)",
+          "top_down_evidence": "Task distribution map, sección 'RECONCILIATION': \"REGIONAL PROFIT CONSOLIDATION: CCPV\", \"TOM: Top management meeting (Ar)\", \"TMC REPORT (Matsushita): Profit consolidation\", \"MARGINAL PROFIT: Actual vs actual/Actual vs theorical\"",
+          "reconciled_wording": "Consolidación regional de resultados (CCPV), reporte a TMC (Matsushita) y análisis de utilidad marginal, con reuniones de Top Management (TOM). Marcado únicamente en la columna de mayor seniority del task map — no aparece en ninguna descripción de puesto relevada; podría ser una responsabilidad concentrada en un Senior Analyst específico (TASA) a confirmar."
+        },
+        {
+          "process": "Value Chain & TLAC Business Profitability / Pricing Analysis (incl. FOB Intercompany, Price List, Kinto Ar Performance)",
+          "top_down_evidence": "Task distribution map, sección 'Profitability for control': \"VALUE CHAIN: Detailed analysis by business\", \"TLAC Business: SP/Acc/PPO/Conv./UC\", \"Kinto Ar: Performance analysis\", \"PRICE (Dom. MKT.): Discussion with commercial (Veh/SP/Kinto)\", \"FOB Intercompany revision\", \"Price list: Overall control of F&A input in SAP\"",
+          "reconciled_wording": "Análisis detallado de rentabilidad por línea de negocio de TLAC (Spare Parts, Accesorios, PPO, Conversión, Usados) y de Kinto Argentina, más discusión de precios con el área comercial, revisión de FOB intercompañía y control de lista de precios en SAP. No está cubierto por 'Profitability Analysis' ni 'Product/Service Profitability Assessment' bottom-up en este nivel de detalle — se sugiere evaluar si corresponde a una posición separada (Value Chain, que ya tiene su propia gerencia en la jerarquía) antes de asignarlo a Profit Planning."
+        },
+        {
+          "process": "Intercompany FOB Setting & GI Follow-up (Vehicles/Spare Parts/Accessories)",
+          "top_down_evidence": "Org chart: \"Intercompany FOB Setting (Vehicles)\", \"GI Follow up (Veh / SP / Accessories)\"",
+          "reconciled_wording": "Definición del FOB intercompañía y seguimiento de GI (Gross Income) para vehículos, repuestos y accesorios. No aparece en ninguna descripción de puesto relevada de Profit Planning."
+        }
+      ]
+    }
+  }
+}
