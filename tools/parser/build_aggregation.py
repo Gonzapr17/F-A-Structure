@@ -32,7 +32,58 @@ STAFF_LEVELS = ["Analyst Jr", "Analyst", "Analyst Senior", "Administrative"]
 DEPARTMENT_TO_PROCESSED_GERENCIA = {
     "Accounting": "Accounting",
     "AP & AR": "AP & AR",
+    "Kinto": "AP & AR",
     "Profit Planning": "Profit Planning",
+}
+
+# Impacto declarado por el gerente ("Importance": High/Mid) leído a mano de
+# data/vision-gerentes/{Accounting,"Profit planning"}.pdf — son las únicas dos
+# gerencias cuyo documento trae esa columna. AP & AR usa otro formato
+# (organigrama + bullets por seniority, sin rating de impacto), así que no
+# hay dato para sus procesos: se reporta como "Sin dato", no se inventa un
+# valor neutro, para no penalizar a esa gerencia por un problema de formato
+# del documento fuente (ver discusión con Gonzalo). Este indicador se muestra
+# aparte de "complejidad" — no se mezcla en el score por la misma razón.
+DECLARED_IMPACT = {
+    "Accounting": {
+        "Annual Legal Financial Statements Preparation": "High",
+        "Monthly Closing Reporting via Conets": "High",
+        "Monthly Accounting Package to TMC": "High",
+        "SOX Control Matrix & Internal Procedures": "High",
+        "Inflation Adjustment of Non-Monetary Assets": "High",
+        "Non-Operating Results Determination & Budget Follow-up": "High",
+        "USD Position Forecast & Follow-up": "High",
+        "TPA Units Accounting & Intercompany Control": "High",
+        "Monthly Balance Sheet Account Reconciliations": "High",
+        "Fixed Assets / Vehicles Impairment Testing": "Mid",
+        "Dividend / IOE Payment Calculation": "High",
+        "Finished Goods Inventory Taking & Booking": "High",
+        "Monthly Tax Credit Reversal": "High",
+        "Government Bloco K Inventory Reporting (Brazil)": "High",
+        "Inventory in Transit / Importation Tracking": "High",
+        "Fixed Assets Inventory Taking & Disposal Management": "High",
+        "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)": "Mid",
+        "Bank Reconciliation & Loans Follow-up": "High",
+        "Invoicing Dashboard Control & Credit Notes": "High",
+    },
+    "Profit Planning": {
+        "Financial Analysis of Profit Margins": "High",
+        "Financial Forecasting": "High",
+        "Scenario Planning": "High",
+        "Management Reporting & Dashboards": "High",
+        "Monthly Financial Closing Process Oversight": "High",
+        "Financial Statement Preparation & P&L Analysis by Business Unit": "High",
+        "Budget vs. Actual / Profitability Variance Analysis": "High",
+        "Profitability Analysis (Revenue/Cost/Margin)": "High",
+        "KPI Development & Monitoring (Profitability)": "High",
+        "Product/Service Profitability Assessment": "High",
+        # Sin rating explícito en la tabla "Importance" del documento:
+        "Continuous Process Improvement": None,
+        "Cross-functional Collaboration for Monthly Close": None,
+        "Budgeting & Alignment with Profit Goals": None,
+        "Financial Risk Management (Profit Planning)": None,
+    },
+    # AP & AR: el documento no tiene columna de Importance -> sin datos.
 }
 
 # Buckets temáticos para detectar concentración de procesos en un nodo.
@@ -139,6 +190,94 @@ def seniority_distribution(node_code, by_code, descendants):
     return {level: hist.get(level, 0) for level in STAFF_LEVELS}, len(staff)
 
 
+def declared_impact_summary(procesos):
+    """Impacto declarado por el gerente (Importance: High/Mid del PDF de
+    visión), reportado APARTE de la complejidad — no se mezcla en el score
+    porque solo 2 de las 3 gerencias con datos tienen esa columna en su
+    documento (ver DECLARED_IMPACT), y mezclarlo penalizaría a la gerencia
+    cuyo documento no la incluye, no a sus procesos en sí."""
+    if not procesos:
+        return {"distribution": {}, "share_alto_pct": None, "cobertura_impacto_pct": None, "note": "Sin procesos para este nodo."}
+    dist = Counter()
+    rated = 0
+    unrated_gerencias = set()
+    for p in procesos:
+        impact = DECLARED_IMPACT.get(p["gerencia"], {}).get(p["process"])
+        dist[impact or "Sin dato"] += 1
+        if impact:
+            rated += 1
+        else:
+            unrated_gerencias.add(p["gerencia"])
+    total = len(procesos)
+    note = None
+    if rated < total:
+        if "AP & AR" in unrated_gerencias:
+            note = (
+                "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, "
+                "así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+            )
+        else:
+            note = (
+                f"Cobertura parcial: {total - rated} de {total} procesos no tienen un rating de "
+                "Importance explícito en la tabla del documento de visión (no figuran en esa sección, "
+                "no es que tengan bajo impacto)."
+            )
+    return {
+        "distribution": dict(dist),
+        "share_alto_pct": round(dist.get("High", 0) / total * 100, 1),
+        "cobertura_impacto_pct": round(rated / total * 100, 1),
+        "note": note,
+    }
+
+
+def data_coverage(gerencias_fuente, node_type, staff_count, parsed_counts_by_gerencia, gerencia_staff_totals):
+    """% de la nómina real (staff) que ya tiene PDF de posición parseado.
+
+    Reporta dos números distintos porque conflan cosas distintas:
+      - pct_cobertura_gerencias_con_datos: de las gerencias que sí tienen
+        algún proceso relevado bajo este nodo, qué fracción de SU staff está
+        parseada. Siempre es exacto y comparable.
+      - pct_cobertura_total_nodo: de TODO el staff real bajo este nodo
+        (incluyendo gerencias sin ningún PDF, ej. Cost/Treasury/Budget/TAX),
+        qué fracción está parseada. Sólo tiene sentido para nodos cuyo
+        staff_count local abarca la organización completa bajo ellos
+        (Gerencia General / Dirección) o coincide 1:1 con una gerencia
+        (Gerencia) — NO para Jefatura, porque su staff_count local es sólo
+        una fracción de la gerencia y el numerador (PDFs parseados) no se
+        puede atribuir a un Coordinador específico; usar el staff local ahí
+        da coberturas de +100% sin sentido. Para Jefatura sólo se informa el
+        primer número, con nota explícita de que es el de la Gerencia padre.
+    """
+    parsed = sum(parsed_counts_by_gerencia.get(g, 0) for g in gerencias_fuente)
+    total_gerencias = sum(gerencia_staff_totals.get(g, 0) for g in gerencias_fuente)
+    pct_within_scope = round(parsed / total_gerencias * 100, 1) if total_gerencias else None
+
+    pct_total_nodo = None
+    if node_type != "Jefatura":
+        pct_total_nodo = round(parsed / staff_count * 100, 1) if staff_count else None
+
+    notes = []
+    if node_type == "Jefatura" and gerencias_fuente:
+        notes.append(
+            "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador "
+            "con los datos actuales)."
+        )
+    if pct_within_scope is None or pct_within_scope < 100:
+        notes.append(
+            "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida "
+            "que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+        )
+
+    return {
+        "puestos_parseados": parsed,
+        "staff_real_total_gerencias_con_datos": total_gerencias,
+        "pct_cobertura_gerencias_con_datos": pct_within_scope,
+        "staff_real_total_nodo": staff_count,
+        "pct_cobertura_total_nodo": pct_total_nodo,
+        "note": " ".join(notes) or None,
+    }
+
+
 def calc_complexity(process_diversity, seniority_dispersion, has_process_data):
     """complejidad = 0.6 * diversidad_normalizada(procesos) + 0.4 * dispersion_normalizada(seniority)
 
@@ -153,9 +292,36 @@ def calc_complexity(process_diversity, seniority_dispersion, has_process_data):
     return {"process_diversity": process_diversity, "seniority_dispersion": round(seniority_dispersion, 3)}
 
 
+def parsed_position_counts_by_gerencia():
+    """Cuántos PDFs de posición (processed/posiciones.json) hay por gerencia,
+    con el mismo mapeo Department->Gerencia usado en Fase 2/3 (Kinto/Connected
+    bajo AP & AR)."""
+    positions = load_json("processed/posiciones.json")["positions"]
+    counts = Counter()
+    for p in positions:
+        gerencia = DEPARTMENT_TO_PROCESSED_GERENCIA.get(p["department"], p["department"])
+        counts[gerencia] += 1
+    return counts
+
+
+def gerencia_staff_totals_from_hierarchy(hierarchy):
+    """Total de staff (Analyst Jr/Analyst/Analyst Senior/Administrative) por
+    gerencia procesada, contando TODA la jerarquía (no sólo bajo un nodo
+    puntual) — es el denominador correcto para la cobertura de datos."""
+    totals = Counter()
+    for p in hierarchy["positions"]:
+        if p["hierarchical_level"] in STAFF_LEVELS:
+            gerencia = DEPARTMENT_TO_PROCESSED_GERENCIA.get(p["department"])
+            if gerencia:
+                totals[gerencia] += 1
+    return totals
+
+
 def main():
     hierarchy = load_json("processed/jerarquia.json")
     canonical = load_json("processed/procesos-canonicos.json")["by_gerencia"]
+    parsed_counts = parsed_position_counts_by_gerencia()
+    gerencia_staff_totals = gerencia_staff_totals_from_hierarchy(hierarchy)
 
     by_code, descendants = build_indices(hierarchy)
     org_nodes = [p for p in hierarchy["positions"] if p["is_org_node"]]
@@ -250,6 +416,10 @@ def main():
                 ["Sin datos de puestos parseados todavía para esta gerencia."]
             ),
             "dimensiones_destacadas": detect_thematic_concentration(procesos),
+            "impacto_declarado": declared_impact_summary(procesos),
+            "cobertura_datos": data_coverage(
+                v["gerencias_fuente"], node["node_type"], v["staff_count"], parsed_counts, gerencia_staff_totals
+            ),
             "nomina_dependiente_total": v["n_descendants"],
             "seniority_distribution": v["seniority_dist"],
             "staff_count": v["staff_count"],

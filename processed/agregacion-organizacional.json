@@ -93,6 +93,24 @@
         "Annual Legal Financial Statements Preparation"
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {
+          "Sin dato": 26,
+          "High": 27,
+          "Mid": 2
+        },
+        "share_alto_pct": 49.1,
+        "cobertura_impacto_pct": 52.7,
+        "note": "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 38,
+        "staff_real_total_gerencias_con_datos": 57,
+        "pct_cobertura_gerencias_con_datos": 66.7,
+        "staff_real_total_nodo": 135,
+        "pct_cobertura_total_nodo": 28.1,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 162,
       "seniority_distribution": {
         "Analyst Jr": 27,
@@ -188,6 +206,23 @@
           "share_pct": 28.6
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 10,
+          "Sin dato": 4
+        },
+        "share_alto_pct": 71.4,
+        "cobertura_impacto_pct": 71.4,
+        "note": "Cobertura parcial: 4 de 14 procesos no tienen un rating de Importance explícito en la tabla del documento de visión (no figuran en esa sección, no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 6,
+        "staff_real_total_gerencias_con_datos": 6,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 32,
+        "pct_cobertura_total_nodo": 18.8,
+        "note": null
+      },
       "nomina_dependiente_total": 42,
       "seniority_distribution": {
         "Analyst Jr": 2,
@@ -312,6 +347,24 @@
         "Annual Legal Financial Statements Preparation"
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {
+          "Sin dato": 22,
+          "High": 17,
+          "Mid": 2
+        },
+        "share_alto_pct": 41.5,
+        "cobertura_impacto_pct": 46.3,
+        "note": "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 32,
+        "staff_real_total_gerencias_con_datos": 51,
+        "pct_cobertura_gerencias_con_datos": 62.7,
+        "staff_real_total_nodo": 96,
+        "pct_cobertura_total_nodo": 33.3,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 110,
       "seniority_distribution": {
         "Analyst Jr": 24,
@@ -388,6 +441,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 14,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 17,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -502,6 +569,23 @@
           "share_pct": 28.6
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 10,
+          "Sin dato": 4
+        },
+        "share_alto_pct": 71.4,
+        "cobertura_impacto_pct": 71.4,
+        "note": "Cobertura parcial: 4 de 14 procesos no tienen un rating de Importance explícito en la tabla del documento de visión (no figuran en esa sección, no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 6,
+        "staff_real_total_gerencias_con_datos": 6,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 6,
+        "pct_cobertura_total_nodo": 100.0,
+        "note": null
+      },
       "nomina_dependiente_total": 8,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -563,6 +647,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 8,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 9,
       "seniority_distribution": {
         "Analyst Jr": 2,
@@ -644,6 +742,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 4,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 4,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -716,6 +828,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 12,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 14,
       "seniority_distribution": {
         "Analyst Jr": 2,
@@ -807,6 +933,23 @@
           "share_pct": 26.3
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 17,
+          "Mid": 2
+        },
+        "share_alto_pct": 89.5,
+        "cobertura_impacto_pct": 100.0,
+        "note": null
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 19,
+        "staff_real_total_gerencias_con_datos": 19,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 19,
+        "pct_cobertura_total_nodo": 100.0,
+        "note": null
+      },
       "nomina_dependiente_total": 21,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -926,6 +1069,22 @@
           "share_pct": 31.8
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "Sin dato": 22
+        },
+        "share_alto_pct": 0.0,
+        "cobertura_impacto_pct": 0.0,
+        "note": "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 13,
+        "staff_real_total_gerencias_con_datos": 32,
+        "pct_cobertura_gerencias_con_datos": 40.6,
+        "staff_real_total_nodo": 32,
+        "pct_cobertura_total_nodo": 40.6,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 34,
       "seniority_distribution": {
         "Analyst Jr": 10,
@@ -1126,6 +1285,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 33,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 37,
       "seniority_distribution": {
         "Analyst Jr": 12,
@@ -1203,6 +1376,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 7,
+        "pct_cobertura_total_nodo": 0.0,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 7,
       "seniority_distribution": {
         "Analyst Jr": 1,
@@ -1298,6 +1485,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 4,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 4,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1372,6 +1573,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 4,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 4,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1445,6 +1660,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 3,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 3,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1539,6 +1768,23 @@
           "share_pct": 28.6
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 10,
+          "Sin dato": 4
+        },
+        "share_alto_pct": 71.4,
+        "cobertura_impacto_pct": 71.4,
+        "note": "Cobertura parcial: 4 de 14 procesos no tienen un rating de Importance explícito en la tabla del documento de visión (no figuran en esa sección, no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 6,
+        "staff_real_total_gerencias_con_datos": 6,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 3,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales)."
+      },
       "nomina_dependiente_total": 3,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1633,6 +1879,23 @@
           "share_pct": 28.6
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 10,
+          "Sin dato": 4
+        },
+        "share_alto_pct": 71.4,
+        "cobertura_impacto_pct": 71.4,
+        "note": "Cobertura parcial: 4 de 14 procesos no tienen un rating de Importance explícito en la tabla del documento de visión (no figuran en esa sección, no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 6,
+        "staff_real_total_gerencias_con_datos": 6,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 3,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales)."
+      },
       "nomina_dependiente_total": 3,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1700,6 +1963,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 4,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 4,
       "seniority_distribution": {
         "Analyst Jr": 1,
@@ -1774,6 +2051,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 4,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 4,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -1852,6 +2143,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 8,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 8,
       "seniority_distribution": {
         "Analyst Jr": 2,
@@ -1995,6 +2300,23 @@
           "share_pct": 26.3
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 17,
+          "Mid": 2
+        },
+        "share_alto_pct": 89.5,
+        "cobertura_impacto_pct": 100.0,
+        "note": null
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 19,
+        "staff_real_total_gerencias_con_datos": 19,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 12,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales)."
+      },
       "nomina_dependiente_total": 12,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -2161,6 +2483,23 @@
           "share_pct": 26.3
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "High": 17,
+          "Mid": 2
+        },
+        "share_alto_pct": 89.5,
+        "cobertura_impacto_pct": 100.0,
+        "note": null
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 19,
+        "staff_real_total_gerencias_con_datos": 19,
+        "pct_cobertura_gerencias_con_datos": 100.0,
+        "staff_real_total_nodo": 7,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales)."
+      },
       "nomina_dependiente_total": 7,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -2296,6 +2635,22 @@
           "share_pct": 31.8
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "Sin dato": 22
+        },
+        "share_alto_pct": 0.0,
+        "cobertura_impacto_pct": 0.0,
+        "note": "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 13,
+        "staff_real_total_gerencias_con_datos": 32,
+        "pct_cobertura_gerencias_con_datos": 40.6,
+        "staff_real_total_nodo": 3,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales). Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 3,
       "seniority_distribution": {
         "Analyst Jr": 1,
@@ -2409,6 +2764,22 @@
           "share_pct": 31.8
         }
       ],
+      "impacto_declarado": {
+        "distribution": {
+          "Sin dato": 22
+        },
+        "share_alto_pct": 0.0,
+        "cobertura_impacto_pct": 0.0,
+        "note": "Cobertura parcial: el PDF de visión de AP & AR no trae columna de Importance, así que sus procesos quedan como 'Sin dato' (no es que tengan bajo impacto)."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 13,
+        "staff_real_total_gerencias_con_datos": 32,
+        "pct_cobertura_gerencias_con_datos": 40.6,
+        "staff_real_total_nodo": 9,
+        "pct_cobertura_total_nodo": null,
+        "note": "Corresponde a la Gerencia padre completa (no se puede desagregar por Jefatura/Coordinador con los datos actuales). Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 9,
       "seniority_distribution": {
         "Analyst Jr": 3,
@@ -2519,6 +2890,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 5,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 5,
       "seniority_distribution": {
         "Analyst Jr": 0,
@@ -2603,6 +2988,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 7,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 7,
       "seniority_distribution": {
         "Analyst Jr": 1,
@@ -2715,6 +3114,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 21,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 21,
       "seniority_distribution": {
         "Analyst Jr": 11,
@@ -2903,6 +3316,20 @@
         "Sin datos de puestos parseados todavía para esta gerencia."
       ],
       "dimensiones_destacadas": [],
+      "impacto_declarado": {
+        "distribution": {},
+        "share_alto_pct": null,
+        "cobertura_impacto_pct": null,
+        "note": "Sin procesos para este nodo."
+      },
+      "cobertura_datos": {
+        "puestos_parseados": 0,
+        "staff_real_total_gerencias_con_datos": 0,
+        "pct_cobertura_gerencias_con_datos": null,
+        "staff_real_total_nodo": 0,
+        "pct_cobertura_total_nodo": null,
+        "note": "Score de complejidad/impacto de este nodo es provisorio: se recalcula a medida que se cargan más descripciones de puesto (ver Etapa 5 de la spec)."
+      },
       "nomina_dependiente_total": 0,
       "seniority_distribution": {
         "Analyst Jr": 0,
