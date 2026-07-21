@@ -1,0 +1,1399 @@
+{
+  "by_gerencia": {
+    "Accounting": {
+      "position_count": 19,
+      "positions": [
+        "TASA Accounting Invoicing analyst (CG)",
+        "TASA Accounting Stock & Fixed assets analyst (EV)",
+        "TASA Accounting Stock & Fixed assets analyst (MC)",
+        "TASA Accounting Stock analyst (AN)",
+        "TASA Accounting bank reconciliatin analyst (BT)",
+        "TASA Accounting reporting analyst  (NG)",
+        "TASA Accounting reporting analyst 1 (VT)",
+        "TDB Accounting Bank reconcillation analyst",
+        "TDB Accounting Fixed assets analyst (PFZ)",
+        "TDB Accounting Fixed assets analyst (SOR I)",
+        "TDB Accounting Fixed assets analyst (SORII)",
+        "TDB Accounting Fixed assets analyst (reporting)",
+        "TDB Accounting Reporting 1 analyst",
+        "TDB Accounting Reporting 2 analyst",
+        "TDB Accounting Stock analyst (Importation)",
+        "TDB Accounting Stock analyst (PFZ)",
+        "TDB Accounting Stock analyst (SOR I)",
+        "TDB Accounting Stock analyst (SOR II)",
+        "TDB Accounting Stock analyst (reporting)"
+      ],
+      "canonical_processes": [
+        {
+          "process": "SOX Control Matrix & Internal Procedures",
+          "source_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Invoicing analyst (CG)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting bank reconciliatin analyst (BT)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Perform/update SOX control matrix and perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Perform/update SOX control matrix & perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (PFZ)",
+              "task": "Perform/update SOX control matrix - Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SOR I)",
+              "task": "Perform/update SOX control matrix - Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SORII)",
+              "task": "Perform/update SOX control matrix - Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (reporting)",
+              "task": "Perform/update SOX control matrix - Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Perform/update SOX control matrix - Perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Perform/update SOX control matrix - Perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (Importation)",
+              "task": "Perform/update SOX control matrix / Perfomr/update interal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (PFZ)",
+              "task": "Perform/update SOX control matrix / Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR I)",
+              "task": "Perform/update SOX control matrix / Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR II)",
+              "task": "Perform/update SOX control matrix / Perfomr/update internal procedures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Perform/update SOX control matrix / Perfomr/update interal procedures"
+            }
+          ]
+        },
+        {
+          "process": "Monthly Balance Sheet Account Reconciliations",
+          "source_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Invoicing analyst (CG)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting bank reconciliatin analyst (BT)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Make monthly account reconliations (AP,AR, Other credits, liabilities, Stock, FA)"
+            }
+          ]
+        },
+        {
+          "process": "Accounting Information for External Surveys & Reports (INDEC/Sustainability/Press)",
+          "source_positions": [
+            "TASA Accounting Invoicing analyst (CG)",
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Invoicing analyst (CG)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TASA Accounting bank reconciliatin analyst (BT)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Prepare accounting information for surveys (INDEC), for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (PFZ)",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SOR I)",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SORII)",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (reporting)",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Prepare accounting information for surveys, for Company reports (Sustaintability), for press media"
+            }
+          ]
+        },
+        {
+          "process": "Bank Reconciliation & Loans Follow-up",
+          "source_positions": [
+            "TASA Accounting bank reconciliatin analyst (BT)",
+            "TDB Accounting Bank reconcillation analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting bank reconciliatin analyst (BT)",
+              "task": "Perform monthly bank account reconliciation, reporting and follow up of pending points / Loans valuation"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Perform monthly bank account reconliciation, reporting and follow up of pending points / Loans valuation"
+            }
+          ]
+        },
+        {
+          "process": "Annual Legal Financial Statements Preparation",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Prepare full package of annual legal Financial Statements"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Prepare full package of annual legal Financial Statements"
+            }
+          ]
+        },
+        {
+          "process": "Monthly Closing Reporting via Conets",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (Importation)",
+              "task": "Report by Conets each accounting closing figures"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Report by Conets each accounting closing figures"
+            }
+          ]
+        },
+        {
+          "process": "Monthly Accounting Package to TMC",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Bank reconcillation analyst",
+            "TDB Accounting Reporting 1 analyst",
+            "TDB Accounting Reporting 2 analyst",
+            "TDB Accounting Stock analyst (Importation)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Bank reconcillation analyst",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 2 analyst",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (Importation)",
+              "task": "Prepare monthly accounting package to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Prepare monthly accounting package to TMC"
+            }
+          ]
+        },
+        {
+          "process": "Fixed Assets / Vehicles Impairment Testing",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Perform Fixed asset impairment test & Vehicles impairment test"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Perform Fixed asset impairment test & Vehicles impairment test"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Perform Fixed asset impairment test & Vehicles impairment test"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SOR I)",
+              "task": "Perform Fixed asset impairment test"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SORII)",
+              "task": "Perform Fixed asset impairment test"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (reporting)",
+              "task": "Perform Fixed asset impairment test"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Perform Vehicles impairment test"
+            }
+          ]
+        },
+        {
+          "process": "Fixed Assets Inventory Taking & Disposal Management",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (EV)",
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TDB Accounting Fixed assets analyst (PFZ)",
+            "TDB Accounting Fixed assets analyst (SOR I)",
+            "TDB Accounting Fixed assets analyst (SORII)",
+            "TDB Accounting Fixed assets analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (EV)",
+              "task": "Coordinate Fixed assets inventory taking / analyse inventory diferencies / Approve fixed assets disposals (scrap, action, stolen, etc) / Approve fixed assets transference"
+            },
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Coordinate Fixed assets inventory taking / analyse inventory diferencies / Approve fixed assets disposals (scrap, action, stolen, etc) / Approve fixed assets transference"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (PFZ)",
+              "task": "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for PFZ))"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SOR I)",
+              "task": "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for SOR I)"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (SORII)",
+              "task": "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference (all for SOR II)"
+            },
+            {
+              "position_id": "TDB Accounting Fixed assets analyst (reporting)",
+              "task": "Coordinate Fixed assets inventory taking - Analyse inventory diferencies - Approve fixed assets disposals (scrap, action, stolen, etc) - Approve fixed assets transference"
+            }
+          ]
+        },
+        {
+          "process": "Inflation Adjustment of Non-Monetary Assets",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting reporting analyst 1 (VT)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Adjust by inflation non monetary assets in AR$"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Adjust by inflation non monetary assets in AR$"
+            }
+          ]
+        },
+        {
+          "process": "Finished Goods Inventory Taking & Booking",
+          "source_positions": [
+            "TASA Accounting Stock & Fixed assets analyst (MC)",
+            "TASA Accounting Stock analyst (AN)",
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Stock & Fixed assets analyst (MC)",
+              "task": "Perfom Finished good (vehicules, spare parts, materials)inventory taking / Analyse inventory diferencies and book them if necessary"
+            },
+            {
+              "position_id": "TASA Accounting Stock analyst (AN)",
+              "task": "Perfom Finished good (vehicules, spare parts, materials)inventory taking & Analyse inventory diferencies and book them if necessary"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (PFZ)",
+              "task": "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR I)",
+              "task": "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR II)",
+              "task": "Perfom Finished good (vehicules, spare parts, materials)inventory taking - analyse inventory diferencies and book them if necessary"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Perfom Finished good (vehicules, spara parts, materials)inventory taking - To analyse inventory diferencies and book them if necessary"
+            }
+          ]
+        },
+        {
+          "process": "Non-Operating Results Determination & Budget Follow-up",
+          "source_positions": [
+            "TASA Accounting reporting analyst  (NG)",
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting reporting analyst  (NG)",
+              "task": "Determine Non Operating results for budget & follow up"
+            },
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Determine Non Operating results for budget & follow up"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Determine Non Operating results for budget & follow up"
+            }
+          ]
+        },
+        {
+          "process": "USD Position Forecast & Follow-up",
+          "source_positions": [
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Determine USD position forecast & follow up"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Determine USD position forecast & follow up by actual USD Position"
+            }
+          ]
+        },
+        {
+          "process": "TPA Units Accounting & Intercompany Control",
+          "source_positions": [
+            "TASA Accounting reporting analyst 1 (VT)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "TPA operation accounting booking -> Units, valuation and expousure of Units Liabilities - Penaltties and contingencies control -Intercompany control"
+            }
+          ]
+        },
+        {
+          "process": "Dividend / IOE Payment Calculation",
+          "source_positions": [
+            "TASA Accounting reporting analyst 1 (VT)",
+            "TDB Accounting Reporting 1 analyst"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting reporting analyst 1 (VT)",
+              "task": "Calculate dividend payment to TMC"
+            },
+            {
+              "position_id": "TDB Accounting Reporting 1 analyst",
+              "task": "Calculate dividend and IOE (excl.TDB) payment"
+            }
+          ]
+        },
+        {
+          "process": "Invoicing Dashboard Control & Credit Notes",
+          "source_positions": [
+            "TASA Accounting Invoicing analyst (CG)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TASA Accounting Invoicing analyst (CG)",
+              "task": "Follow up and controlling of Invoicing Dashboard -Invoice Monthly Closing and Reporting -Analysis, control and making of Credit Notes"
+            }
+          ]
+        },
+        {
+          "process": "Inventory in Transit / Importation Tracking",
+          "source_positions": [
+            "TDB Accounting Stock analyst (Importation)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TDB Accounting Stock analyst (Importation)",
+              "task": "Inventories importation in progress"
+            }
+          ]
+        },
+        {
+          "process": "Monthly Tax Credit Reversal",
+          "source_positions": [
+            "TDB Accounting Stock analyst (PFZ)",
+            "TDB Accounting Stock analyst (SOR I)",
+            "TDB Accounting Stock analyst (SOR II)",
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TDB Accounting Stock analyst (PFZ)",
+              "task": "Reversal of the Tax credit of the month"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR I)",
+              "task": "Reversal of the Tax credit of the month"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (SOR II)",
+              "task": "Reversal of the Tax credit of the month"
+            },
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Reversal of the Tax credit of the month"
+            }
+          ]
+        },
+        {
+          "process": "Government Bloco K Inventory Reporting (Brazil)",
+          "source_positions": [
+            "TDB Accounting Stock analyst (reporting)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "TDB Accounting Stock analyst (reporting)",
+              "task": "Information for the inventory movement to Goverment Bloco K (TDB)"
+            }
+          ]
+        }
+      ],
+      "unmatched_tasks": []
+    },
+    "AP & AR": {
+      "position_count": 13,
+      "positions": [
+        "Jr Analyst Accounts Payable",
+        "Jr Analyst Accounts Receivable",
+        "Jr Analyst Kinto Administration - 1",
+        "Jr Analyst Kinto Administration - 2",
+        "Pl Analyst Account Payable",
+        "Pl Analyst Account Receivable - Expo & Others",
+        "Pl Analyst Account Receivable - Web business",
+        "Pl Analyst Connected",
+        "Pl Analyst Kinto Administration",
+        "Sr Analyst Accounts Payable",
+        "Sr Analyst Kinto Administration",
+        "Sr Analyst Receivable - Dealers",
+        "Sr Analyst Receivable - Kinto One & Services"
+      ],
+      "canonical_processes": [
+        {
+          "process": "AP Invoice/Document Analysis & Posting (Dealers, Suppliers, Auto Parts, Foreign)",
+          "source_positions": [
+            "Jr Analyst Accounts Payable",
+            "Pl Analyst Account Payable",
+            "Sr Analyst Accounts Payable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Accounts Payable",
+              "task": "Analysis and Accounting of Dealer Documents"
+            },
+            {
+              "position_id": "Jr Analyst Accounts Payable",
+              "task": "Analysis and Posting of Service Documents"
+            },
+            {
+              "position_id": "Pl Analyst Account Payable",
+              "task": "Analysis and Posting of Auto Parts Suppliers' Documents"
+            },
+            {
+              "position_id": "Pl Analyst Account Payable",
+              "task": "Analysis and Posting of Non-PO Invoices"
+            },
+            {
+              "position_id": "Sr Analyst Accounts Payable",
+              "task": "Analysis and Accounting of Auto Parts Suppliers"
+            },
+            {
+              "position_id": "Sr Analyst Accounts Payable",
+              "task": "Analysis and Accounting of Foreign Suppliers"
+            }
+          ]
+        },
+        {
+          "process": "Payment Proposal Preparation & Review",
+          "source_positions": [
+            "Pl Analyst Account Payable",
+            "Sr Analyst Accounts Payable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Account Payable",
+              "task": "Payment Proposal Preparation"
+            },
+            {
+              "position_id": "Sr Analyst Accounts Payable",
+              "task": "Review of Payment Proposals"
+            }
+          ]
+        },
+        {
+          "process": "Supplier & Internal User Support (AP queries)",
+          "source_positions": [
+            "Jr Analyst Accounts Payable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Accounts Payable",
+              "task": "Support for Suppliers and Internal Users"
+            }
+          ]
+        },
+        {
+          "process": "Internal / External Audit Support",
+          "source_positions": [
+            "Sr Analyst Accounts Payable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Sr Analyst Accounts Payable",
+              "task": "Support for Internal and External Audits"
+            }
+          ]
+        },
+        {
+          "process": "TPA / Lexus / Insurance Collections Follow-up",
+          "source_positions": [
+            "Jr Analyst Accounts Receivable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Accounts Receivable",
+              "task": "TPA / Lexus / Insurance Collections Follow-up"
+            }
+          ]
+        },
+        {
+          "process": "Receipts & Tax Certificate Upload",
+          "source_positions": [
+            "Jr Analyst Accounts Receivable"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Accounts Receivable",
+              "task": "Upload of Receipts and Tax Certificate"
+            }
+          ]
+        },
+        {
+          "process": "Aging Report Preparation & Collections Forecast",
+          "source_positions": [
+            "Jr Analyst Accounts Receivable",
+            "Sr Analyst Accounts Payable",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Accounts Receivable",
+              "task": "Support in Aging Report Preparation"
+            },
+            {
+              "position_id": "Sr Analyst Accounts Payable",
+              "task": "Preparation and Presentation of Aging Reports"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Dealers",
+              "task": "Aging Report and Collections Forecast"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Kinto One & Services",
+              "task": "Aging Report"
+            }
+          ]
+        },
+        {
+          "process": "Customer/Dealer Portfolio Management & Due-Date Follow-up",
+          "source_positions": [
+            "Pl Analyst Account Receivable - Expo & Others",
+            "Pl Analyst Account Receivable - Web business",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Account Receivable - Expo & Others",
+              "task": "Customer Portfolio Management and Follow-up"
+            },
+            {
+              "position_id": "Pl Analyst Account Receivable - Expo & Others",
+              "task": "Monitoring and Management of Due Dates"
+            },
+            {
+              "position_id": "Pl Analyst Account Receivable - Web business",
+              "task": "Debt Recovery Follow-up"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Dealers",
+              "task": "Dealer Portfolio Management and Follow-up"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Dealers",
+              "task": "Due Date Monitoring and Management"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Kinto One & Services",
+              "task": "Customer Portfolio Management and Follow-up"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Kinto One & Services",
+              "task": "Due Date Monitoring and Management"
+            }
+          ]
+        },
+        {
+          "process": "Receipt/Invoice & Collections Reconciliation",
+          "source_positions": [
+            "Pl Analyst Account Receivable - Expo & Others",
+            "Pl Analyst Account Receivable - Web business",
+            "Sr Analyst Receivable - Dealers",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Account Receivable - Expo & Others",
+              "task": "Receipt and Invoice Reconciliation"
+            },
+            {
+              "position_id": "Pl Analyst Account Receivable - Web business",
+              "task": "Invoice and Credit Card Collection Reconciliation"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Dealers",
+              "task": "Receipt and Invoice Reconciliation"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Kinto One & Services",
+              "task": "Receipt and Invoice Reconciliation"
+            }
+          ]
+        },
+        {
+          "process": "Accounting/Account Integrity Assurance",
+          "source_positions": [
+            "Pl Analyst Account Receivable - Web business",
+            "Pl Analyst Connected"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Account Receivable - Web business",
+              "task": "Responsible for Ensuring Account Integrity"
+            },
+            {
+              "position_id": "Pl Analyst Connected",
+              "task": "Responsible for the Integrity of Accounting Information"
+            }
+          ]
+        },
+        {
+          "process": "Credit & Business Risk Assessment",
+          "source_positions": [
+            "Sr Analyst Kinto Administration",
+            "Sr Analyst Receivable - Kinto One & Services"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Sr Analyst Kinto Administration",
+              "task": "Business Risk Assessment"
+            },
+            {
+              "position_id": "Sr Analyst Receivable - Kinto One & Services",
+              "task": "Credit Risk Analysis"
+            }
+          ]
+        },
+        {
+          "process": "Kinto Dealer Invoice Approval & Share Operations Management",
+          "source_positions": [
+            "Jr Analyst Kinto Administration - 1"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Kinto Administration - 1",
+              "task": "Dealer Invoice Approval"
+            },
+            {
+              "position_id": "Jr Analyst Kinto Administration - 1",
+              "task": "Kinto Share Operations Management"
+            }
+          ]
+        },
+        {
+          "process": "Additional Services Control & Billing",
+          "source_positions": [
+            "Jr Analyst Kinto Administration - 1",
+            "Pl Analyst Kinto Administration"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Kinto Administration - 1",
+              "task": "Additional Services Control"
+            },
+            {
+              "position_id": "Pl Analyst Kinto Administration",
+              "task": "Control and Billing of Additional Services"
+            }
+          ]
+        },
+        {
+          "process": "Kinto Fine Management & Commission Settlement",
+          "source_positions": [
+            "Jr Analyst Kinto Administration - 2"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Kinto Administration - 2",
+              "task": "Kinto Fine Management"
+            },
+            {
+              "position_id": "Jr Analyst Kinto Administration - 2",
+              "task": "Commission Settlement"
+            }
+          ]
+        },
+        {
+          "process": "Overdue Kinto Share Accounts Monitoring",
+          "source_positions": [
+            "Jr Analyst Kinto Administration - 2"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Jr Analyst Kinto Administration - 2",
+              "task": "Monitoring and Follow-up of Overdue Kinto Share Accounts"
+            }
+          ]
+        },
+        {
+          "process": "Kinto One Billing, Control & Revenue/Expense Analysis",
+          "source_positions": [
+            "Pl Analyst Kinto Administration"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Kinto Administration",
+              "task": "Kinto One Billing and Control"
+            },
+            {
+              "position_id": "Pl Analyst Kinto Administration",
+              "task": "Revenue and Expense Account Analysis"
+            }
+          ]
+        },
+        {
+          "process": "Kinto One Customer Support",
+          "source_positions": [
+            "Pl Analyst Kinto Administration"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Kinto Administration",
+              "task": "Kinto One Customer Support"
+            }
+          ]
+        },
+        {
+          "process": "Kinto Investment, Pricing & Residual Value Management",
+          "source_positions": [
+            "Sr Analyst Kinto Administration"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Sr Analyst Kinto Administration",
+              "task": "Preparation and Monitoring of Investments"
+            },
+            {
+              "position_id": "Sr Analyst Kinto Administration",
+              "task": "Pricing Control and Analysis"
+            },
+            {
+              "position_id": "Sr Analyst Kinto Administration",
+              "task": "Residual Value Control and Monitoring"
+            }
+          ]
+        },
+        {
+          "process": "Kinto Business Performance Analysis",
+          "source_positions": [
+            "Sr Analyst Kinto Administration"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Sr Analyst Kinto Administration",
+              "task": "Business Performance Analysis"
+            }
+          ]
+        },
+        {
+          "process": "Connected Services Billing (Local & Regional)",
+          "source_positions": [
+            "Pl Analyst Connected"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Connected",
+              "task": "Local Billing for Connected Services"
+            },
+            {
+              "position_id": "Pl Analyst Connected",
+              "task": "Regional Billing for Connected Services"
+            }
+          ]
+        },
+        {
+          "process": "Connected Systems Development & Testing",
+          "source_positions": [
+            "Pl Analyst Connected"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Connected",
+              "task": "Development and Testing of Management Systems"
+            }
+          ]
+        },
+        {
+          "process": "Connected Controller",
+          "source_positions": [
+            "Pl Analyst Connected"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Pl Analyst Connected",
+              "task": "Connected Controller"
+            }
+          ]
+        }
+      ],
+      "unmatched_tasks": []
+    },
+    "Profit Planning": {
+      "position_count": 6,
+      "positions": [
+        "Monthly close analyst (TASA)",
+        "Monthly close analyst (TDB)",
+        "Profit Planning Analyst (TASA)",
+        "Profit Planning Analyst (TDB)",
+        "Profitability controller (TASA)",
+        "Profitability controller (TDB)"
+      ],
+      "canonical_processes": [
+        {
+          "process": "Monthly Financial Closing Process Oversight",
+          "source_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Monthly close analyst (TASA)",
+              "task": "Closing Process Oversight: Lead and manage the monthly financial closing process, ensure that deadlines are met and maintain high accuracy infinancialreporting."
+            },
+            {
+              "position_id": "Monthly close analyst (TDB)",
+              "task": "Closing Process Oversight: Lead and manage the monthly financial closing process, ensure that deadlines are met and maintain high accuracyinfinancialreporting"
+            }
+          ]
+        },
+        {
+          "process": "Financial Statement Preparation & P&L Analysis by Business Unit",
+          "source_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Monthly close analyst (TASA)",
+              "task": "Financial Statement Preparation: Prepare and analyze income statement and profit and lost by business unit to provide a comprehensive overview oftheorganization's financial position."
+            },
+            {
+              "position_id": "Monthly close analyst (TDB)",
+              "task": "Financial Statement Preparation: Prepare and analyze income statement and profit and lost by business unit to provide a comprehensive overviewoftheorganization's financial position"
+            }
+          ]
+        },
+        {
+          "process": "Budget vs. Actual / Profitability Variance Analysis",
+          "source_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)",
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)",
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Monthly close analyst (TASA)",
+              "task": "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders."
+            },
+            {
+              "position_id": "Monthly close analyst (TDB)",
+              "task": "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Variance Analysis: Monitor and analyze budget versus actual performance, identifying and explaining any variances to key stakeholders."
+            },
+            {
+              "position_id": "Profitability controller (TASA)",
+              "task": "Variance Analysis: Analyze and interpret variances in profitability metrics, investigating the root causes and providing actionable insights to management."
+            },
+            {
+              "position_id": "Profitability controller (TDB)",
+              "task": "Variance Analysis: Analyze and interpret variances in profitability metrics, investigating the root causes and providing actionable insights to management."
+            }
+          ]
+        },
+        {
+          "process": "Continuous Process Improvement",
+          "source_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)",
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Monthly close analyst (TASA)",
+              "task": "Process Improvement: Continuously assess and enhance the monthly close process, implementing efficiencies and best practices to streamline operations."
+            },
+            {
+              "position_id": "Monthly close analyst (TDB)",
+              "task": "Process Improvement: Continuously assess and enhance the monthly close process, implementing efficiencies and best practices to streamline operations."
+            },
+            {
+              "position_id": "Profitability controller (TASA)",
+              "task": "Continuous Improvement: Identify opportunities for process improvement and efficiency gains, contributing to the ongoing enhancement ofprofitabilitycontrol mechanisms."
+            },
+            {
+              "position_id": "Profitability controller (TDB)",
+              "task": "Continuous Improvement: Identify opportunities for process improvement and efficiency gains, contributing to the ongoing enhancement ofprofitabilitycontrolmechanisms."
+            }
+          ]
+        },
+        {
+          "process": "Cross-functional Collaboration for Monthly Close",
+          "source_positions": [
+            "Monthly close analyst (TASA)",
+            "Monthly close analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Monthly close analyst (TASA)",
+              "task": "Cross-functional Collaboration: Work closely with finance, accounting, and other relevant departments to obtain necessary information and resolveissuesrelated to the monthly close."
+            },
+            {
+              "position_id": "Monthly close analyst (TDB)",
+              "task": "Cross-functional Collaboration: Work closely with finance, accounting, and other relevant departments to obtain necessary information andresolveissuesrelated to the monthly close"
+            }
+          ]
+        },
+        {
+          "process": "Financial Analysis of Profit Margins",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Financial Analysis: Deeply analysis of financial statements to identify key factors that affect profit margins."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Financial Analysis: Deeply analysis of financial statements to identify key factors that affect profit margins."
+            }
+          ]
+        },
+        {
+          "process": "Financial Forecasting",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Forecasting: Collaborate with cross-functional teams to develop accurate financial forecasts, considering market trends, economic indicators, andinternalvariables."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Forecasting: Collaborate with cross-functional teams to develop accurate financial forecasts, considering market trends, economic indicators,andinternalvariables."
+            }
+          ]
+        },
+        {
+          "process": "Budgeting & Alignment with Profit Goals",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Budgeting: Work closely with department heads to establish and manage budgets, ensuring alignment with overall profit goals and organizationalobjectives."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Budgeting: Work closely with department heads to establish and manage budgets, ensuring alignment with overall profit goals and organizationalobjectives."
+            }
+          ]
+        },
+        {
+          "process": "Scenario Planning",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Scenario Planning: Evaluate potential scenarios and their impact on profitability, providing insights to support strategic decision-making."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Scenario Planning: Evaluate potential scenarios and their impact on profitability, providing insights to support strategic decision-making."
+            }
+          ]
+        },
+        {
+          "process": "Financial Risk Management (Profit Planning)",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Risk Management: Evaluate financial risks associated with profit planning activities, proposing mitigation strategies to keep the organization'sfinancialhealth."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Risk Management: Evaluate financial risks associated with profit planning activities, proposing mitigation strategies to keep theorganization'sfinancialhealth."
+            }
+          ]
+        },
+        {
+          "process": "Management Reporting & Dashboards",
+          "source_positions": [
+            "Profit Planning Analyst (TASA)",
+            "Profit Planning Analyst (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profit Planning Analyst (TASA)",
+              "task": "Reporting: Generate regular reports and dashboards to communicate financial performance and key indicators to management, enabling informed decision- making."
+            },
+            {
+              "position_id": "Profit Planning Analyst (TDB)",
+              "task": "Reporting: Generate regular reports and dashboards to communicate financial performance and key indicators to management, enabling informed decision- making."
+            }
+          ]
+        },
+        {
+          "process": "Profitability Analysis (Revenue/Cost/Margin)",
+          "source_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profitability controller (TASA)",
+              "task": "Profitability Analysis: Conduct detailed analyses of revenue streams, cost structures, and profit margins to identify areas for improvement and optimization."
+            },
+            {
+              "position_id": "Profitability controller (TDB)",
+              "task": "Profitability Analysis: Conduct detailed analyses of revenue streams, cost structures, and profit margins to identify areas for improvement and optimization."
+            }
+          ]
+        },
+        {
+          "process": "KPI Development & Monitoring (Profitability)",
+          "source_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profitability controller (TASA)",
+              "task": "Key Performance Indicators (KPIs): Develop, monitor, and report on key profitability indicators, providing insights into the financial health of variousbusinessunits."
+            },
+            {
+              "position_id": "Profitability controller (TDB)",
+              "task": "Key Performance Indicators (KPIs): Develop, monitor, and report on key profitability indicators, providing insights into the financial health ofvariousbusinessunits."
+            }
+          ]
+        },
+        {
+          "process": "Product/Service Profitability Assessment",
+          "source_positions": [
+            "Profitability controller (TASA)",
+            "Profitability controller (TDB)"
+          ],
+          "traced_tasks": [
+            {
+              "position_id": "Profitability controller (TASA)",
+              "task": "Product/Service Profitability: Assess and compare the profitability of different products or services, offering recommendations for adjustmentsorenhancements to maximize returns."
+            },
+            {
+              "position_id": "Profitability controller (TDB)",
+              "task": "Product/Service Profitability: Assess and compare the profitability of different products or services, offering recommendations foradjustmentsorenhancements to maximize returns."
+            }
+          ]
+        }
+      ],
+      "unmatched_tasks": []
+    }
+  }
+}
